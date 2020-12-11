@@ -25,6 +25,405 @@
 		"oAP": "/common-header.php",
 		"oF": 0
 		},
+	"/common-section-demo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/common-section-demo.php",
+		"oF": 0
+		},
+	"/fonts/McQueenDisplay-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/McQueenDisplay-Regular.woff",
+		"oF": 0
+		},
+	"/fonts/Roboto-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Roboto-Bold.ttf",
+		"oF": 0
+		},
+	"/fonts/Roboto-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Roboto-Regular.ttf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Italic 2.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Italic 2.otf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Italic 2.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Italic 2.ttf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Italic 2.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Italic 2.woff",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Italic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Italic.otf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Italic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Italic.ttf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Italic.woff",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Reg.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Reg.woff",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Regular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Regular.otf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Regular.ttf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Swashes.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Swashes.otf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Swashes.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Swashes.ttf",
+		"oF": 0
+		},
+	"/fonts/Shellana-Elegant-Signature-Font/Shellana Swashes.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Elegant-Signature-Font/Shellana Swashes.woff",
+		"oF": 0
+		},
+	"/fonts/Shellana-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Shellana-Regular.ttf",
+		"oF": 0
+		},
+	"/img/common/arrow-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/arrow-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/common-section-demo/illu-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/common-section-demo/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/underline/underline-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/underline/underline-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/underline/underline-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/underline/underline-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/underline/underline-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/underline/underline-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/common/underline/underline-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/common/underline/underline-4.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-cover/illu-screen-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-1.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-cover/illu-screen-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-2.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-cover/illu-screen-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-3.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-cover/illu-screen-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-4.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-features/illu-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-features/illu-1.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-features/illu-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-features/illu-2.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/home/section-link/img-1.png": {
+		"ft": 32768,
+		"iS": 525745,
+		"oA": 0,
+		"oAP": "/img/home/section-link/img-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-link/img-2.png": {
+		"ft": 32768,
+		"iS": 698936,
+		"oA": 0,
+		"oAP": "/img/home/section-link/img-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-link/img-3.png": {
+		"ft": 32768,
+		"iS": 319390,
+		"oA": 0,
+		"oAP": "/img/home/section-link/img-3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-partners/partners-1.png": {
+		"ft": 32768,
+		"iS": 330154,
+		"oA": 0,
+		"oAP": "/img/home/section-partners/partners-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-partners/partners-2.png": {
+		"ft": 32768,
+		"iS": 177946,
+		"oA": 0,
+		"oAP": "/img/home/section-partners/partners-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-partners/partners-3.png": {
+		"ft": 32768,
+		"iS": 227578,
+		"oA": 0,
+		"oAP": "/img/home/section-partners/partners-3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-quote/pp-1.png": {
+		"ft": 32768,
+		"iS": 429774,
+		"oA": 0,
+		"oAP": "/img/home/section-quote/pp-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-quote/pp-2.png": {
+		"ft": 32768,
+		"iS": 353408,
+		"oA": 0,
+		"oAP": "/img/home/section-quote/pp-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-quote/pp-3.png": {
+		"ft": 32768,
+		"iS": 400101,
+		"oA": 0,
+		"oAP": "/img/home/section-quote/pp-3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-quote/pp-4.png": {
+		"ft": 32768,
+		"iS": 694584,
+		"oA": 0,
+		"oAP": "/img/home/section-quote/pp-4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-quote/pp-5.png": {
+		"ft": 32768,
+		"iS": 477043,
+		"oA": 0,
+		"oAP": "/img/home/section-quote/pp-5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/img-test/background-1.jpg": {
 		"ft": 16384,
 		"iS": 1065333,
@@ -131,6 +530,28 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/jquery.parallax-scroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/script/minify/jquery.parallax-scroll-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/js/smooth-parallax-scroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/smooth-parallax-scroll-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/common-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -230,8 +651,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 561315058.37998199,
-	"displayValue": "Front",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Yaago",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 0
 	},
