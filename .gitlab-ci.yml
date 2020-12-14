@@ -11,7 +11,7 @@ ng-build:
   - composer install
   artifacts:
     paths:
-    - **
+    - .
 
 docker-package:
   stage: package
