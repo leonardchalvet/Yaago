@@ -1,0 +1,32 @@
+stages:
+- build
+- package
+- deploy
+- manual-deploy
+
+ng-build:
+  stage: build
+  image: composer:2
+  script:
+  - composer install
+  artifacts:
+    paths:
+    - **
+
+docker-package:
+  stage: package
+  image: gcr.io/kaniko-project/executor:debug-v1.0.0
+  script:
+  - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+  - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+
+k8s-deploy-staging:
+  stage: deploy
+  image: google/cloud-sdk:alpine
+  script:
+  - gcloud components install kubectl
+  - echo "$GCP_KEY" > key.json
+  - gcloud auth activate-service-account --key-file key.json
+  - gcloud config set project guru4all
+  - gcloud container clusters get-credentials guru4all-app-eu-west1 --region europe-west1 --internal-ip
+  - kubectl set image deployment website website=$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA --namespace=yaago-website
