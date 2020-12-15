@@ -1,5 +1,6 @@
 FROM php
 
+RUN mkdir -p /usr/src/yaago-website
 COPY app /usr/src/yaago-website
 COPY public /usr/src/yaago-website
 COPY Front /usr/src/yaago-website
