@@ -8,10 +8,10 @@ ng-build:
   stage: build
   image: composer:2
   script:
-  - composer install
+  - composer update
   artifacts:
     paths:
-    - .
+    - vendor
 
 docker-package:
   stage: package
