@@ -1,9 +1,8 @@
 FROM php
 
-RUN mkdir -p /usr/src/yaago-website
-COPY app /usr/src/yaago-website
-COPY public /usr/src/yaago-website
-COPY Front /usr/src/yaago-website
+COPY app /usr/src/yaago-website/app
+COPY public /usr/src/yaago-website/public
+COPY Front /usr/src/yaago-website/Front
 COPY config.php /usr/src/yaago-website
 
 WORKDIR /usr/src/yaago-website/public
