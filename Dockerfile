@@ -8,5 +8,5 @@ COPY config.php /usr/src/yaago-website
 COPY composer.json /usr/src/yaago-website
 COPY composer.lock /usr/src/yaago-website
 
-WORKDIR /usr/src/yaago-website/public
+WORKDIR /usr/src/yaago-website/Front
 CMD [ "php", "-S", "0.0.0.0:8000" ]
