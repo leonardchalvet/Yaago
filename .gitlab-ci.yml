@@ -12,6 +12,7 @@ ng-build:
   artifacts:
     paths:
     - vendor
+    - composer.lock
 
 docker-package:
   stage: package
