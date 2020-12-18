@@ -1,0 +1,40 @@
+@import 'common.scss';
+
+
+
+/*===============================
+=            PAGE 404           =
+===============================*/
+
+
+.section-404{
+	padding-top: 167px;
+	.wrapper{
+		@include styleGrid1;
+	}
+	.container-title{
+		max-width: 263px;
+		margin: auto;
+		text-align: center;
+		h1{
+			@include styleH1;
+		}
+		p{
+			margin-top: 8px;
+			@include styleParagraphBig;
+		}
+		a{
+			margin-top: 26px;
+			@include styleLink;
+		}
+	}
+	.illu-1{
+		width: 100%;
+	}
+}
+
+
+/*===================================
+=            END PAGE 404           =
+===================================*/
+

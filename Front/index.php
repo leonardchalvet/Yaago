@@ -1,7 +1,7 @@
 <html>
 	<head>
 
-		<title>Title</title>
+		<title>Home</title>
 
 		<meta name="description" content="" />
 
