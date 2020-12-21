@@ -36,7 +36,7 @@
 							</p>
 						</div>
 						<div class="container-form">
-							<form action="">
+							<form onSubmit="return false;">
 								<div class="container-input">
 									<div class="input">
 										<div class="head">
@@ -87,9 +87,9 @@
 								
 
 								<div class="container-btn">
-									<a href="" class="btn">
+									<button href="" class="btn">
 										<span class="btn-text">Envoyer</span>
-									</a>
+									</button>
 								</div>
 							</form>
 						</div>

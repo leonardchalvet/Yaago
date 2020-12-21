@@ -97,12 +97,18 @@
 								display: block;
 							}
 						}
+						input,
+						textarea {
+							border-color: $colorMain_1;
+						}
 					}
 				}
 				.container-btn{
 					margin-top: 21px;
 					.btn{
 						@include styleButton("medium", "1");
+						outline: none;
+						border: none;
 					}
 				}
 			}
