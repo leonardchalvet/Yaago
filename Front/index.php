@@ -46,7 +46,7 @@
 						<h2>
 							N’ayez qu’un seul objectif: 
 							<span class="underline">
-								<span>la meilleure note !</span>
+								<em>la meilleure note !</em>
 								<img class="obj" src="img/common/underline/underline-1.svg" alt="">
 							</span>
 						</h2>
@@ -154,7 +154,7 @@
 						<h2>
 							Tout ce dont vous avez besoin
 							<span class="underline">
-								<span>au même endroit !</span>
+								<em>au même endroit !</em>
 								<img class="obj" src="img/common/underline/underline-2.svg" alt="">
 							</span>
 						</h2>
@@ -201,7 +201,7 @@
 						<h2>
 							Des services à votre 
 							<span class="underline">
-								<span>mesure</span>
+								<em>mesure</em>
 								<img class="obj" src="img/common/underline/underline-2.svg" alt="">
 							</span>
 						</h2>
@@ -272,7 +272,7 @@
 						<h2>
 							Un autre service à nous
 							<span class="underline">
-								<span>proposer ?</span>
+								<em>proposer ?</em>
 								<img class="obj" src="img/common/underline/underline-3.svg" alt="">
 							</span>
 						</h2>

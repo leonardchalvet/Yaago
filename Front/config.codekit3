@@ -17,6 +17,14 @@
 		"oAP": "/404.php",
 		"oF": 0
 		},
+	"/about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.php",
+		"oF": 0
+		},
 	"/common-footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -182,6 +190,157 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/404/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/about/section-cover/Image 1.jpg": {
+		"ft": 16384,
+		"iS": 1144560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image 1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-cover/Image-1.jpg": {
+		"ft": 16384,
+		"iS": 1232614,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-cover/Image-2.jpg": {
+		"ft": 16384,
+		"iS": 455040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-cover/Image-3.jpg": {
+		"ft": 16384,
+		"iS": 378836,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-cover/Image-4.jpg": {
+		"ft": 16384,
+		"iS": 352439,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-cover/Image-5.jpg": {
+		"ft": 16384,
+		"iS": 382351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-cover/Image.jpg": {
+		"ft": 16384,
+		"iS": 1469638,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/section-cover/Image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/about/section-value/illu-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/about/section-value/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/about/section-value/illu-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/about/section-value/illu-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/about/section-value/illu-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/about/section-value/illu-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/about/section-value/illu-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/about/section-value/illu-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/about/section-value/illu-5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/about/section-value/illu-5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/about/section-value/illu-6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/about/section-value/illu-6.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 4010962575359,
@@ -554,6 +713,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/about.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/about-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/common.js": {
 		"bF": 0,
 		"ft": 64,
@@ -631,6 +801,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/about-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/about-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/common-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -674,6 +855,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style/css/about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/about-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style/css/contact.css": {
 		"aP": 1,
 		"bl": 0,
@@ -711,6 +902,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/404.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/about.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/about.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1
