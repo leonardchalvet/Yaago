@@ -366,6 +366,16 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/common/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/common/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/common/underline/underline-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -425,6 +435,105 @@
 		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
+		},
+	"/img/footer/icn-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/icn-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/icn-earth.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/icn-earth.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/icn-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/icn-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/icn-instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/icn-instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/icn-linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/icn-linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/icn-send.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/footer/icn-send.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/footer/logo-ft.png": {
+		"ft": 32768,
+		"iS": 4884,
+		"oA": 0,
+		"oAP": "/img/footer/logo-ft.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/footer/logo-normandie.png": {
+		"ft": 32768,
+		"iS": 7327,
+		"oA": 0,
+		"oAP": "/img/footer/logo-normandie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/footer/logo-vca.png": {
+		"ft": 32768,
+		"iS": 4255,
+		"oA": 0,
+		"oAP": "/img/footer/logo-vca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/home/section-cover/illu-screen-1.svg": {
 		"ft": 2097152,
