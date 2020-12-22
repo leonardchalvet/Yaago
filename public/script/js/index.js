@@ -1,6 +1,6 @@
 // @codekit-prepend 'common.js'
 // @codekit-prepend 'jquery.parallax-scroll.js'
-$window = $(window);
+
 ParallaxScroll.init();
 
 $(window).on('load', function() {
