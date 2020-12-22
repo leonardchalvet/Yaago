@@ -1,0 +1,360 @@
+@import 'common.scss';
+
+
+
+/*============================
+=            ABOUT           =
+============================*/
+
+.section-cover{
+	position: relative;
+	padding-top: 116px;
+	&:before{
+		content:'';
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: calc(100% - 163px);
+		background-color: $colorMain_6;
+	}
+	.container-path{
+		position: relative;
+		margin-left: 62px;
+		z-index: 1;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		.path{
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			text-decoration: none;
+			.text{
+				@include styleParagraphSmall;
+			}
+			.arrow{
+				margin: 0px 15px 0px 15px;
+				@include styleParagraphSmall;
+			}
+
+			&:last-child{
+				.text{
+					text-decoration: underline;
+					color: $colorMain_5;
+				}
+				.arrow{
+					display: none;
+				}
+			}
+		}
+	}
+	.wrapper{
+		position: relative;
+		z-index: 1;
+		@include styleGrid1;
+	}
+	.container-text{
+		position: relative;
+		z-index: 1;
+		max-width: 700px;
+		text-align: center;
+		margin: auto;
+		h1{
+			@include styleH1;
+			.underline{
+				@include styleUnderline;
+			}
+		}
+		p{
+			margin-top: 16px;
+			@include styleParagraphMedium;
+		}
+	}
+	.container-slider{
+		position: relative;
+		z-index: 1;
+		margin-top: 100px;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		padding-left: calc((100vw - #{$grid_desktop_1}) / 2);
+		padding-right: calc((100vw - #{$grid_desktop_1}) / 2);
+		.slider{
+			height: 480px;
+			display: inline-flex;
+			flex-wrap: nowrap;
+			align-items: flex-start;
+			img{
+				height: 100%;
+				border-radius: 16px;
+				&:not(:last-child){
+					margin-right: 20px;
+				}
+			}
+		}
+	}
+}
+
+.section-story{
+	margin-top: 148px;
+	.wrapper{
+		@include styleGrid3;
+	}
+	.container-title{
+		max-width: 490px;
+		h2{
+			@include styleH2;
+			.underline{
+				@include styleUnderline;
+			}
+		}
+	}
+	.container-text{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding-right: 70px;
+		margin-top: 80px;
+		.col{
+			width: 410px;
+			.text{
+				&:not(:last-child){
+					margin-bottom: 40px;
+				}
+				h3{
+					@include styleH4;
+				}
+				p{
+					margin-top: 16px;
+					@include styleParagraphMedium;
+				}
+			}
+		}
+	}
+}
+
+.section-value{
+	margin-top: 120px;
+	.wrapper{
+		@include styleGrid1;
+		padding-top: 120px;
+		border-top: 1px solid $colorMain_9;
+	}
+	.container-title{
+		text-align: center;
+		max-width: 705px;
+		margin: auto;
+		h2{
+			@include styleH2;
+			.underline{
+				@include styleUnderline;
+			}
+		}
+		p{
+			margin-top: 8px;
+			@include styleParagraphBig;
+		}
+	}
+	.container-value{
+		margin-top: 80px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		.value{
+			border-radius: 16px;
+			width: calc(100% / 3 - 11px);
+			margin-bottom: 16px;
+			border: 1px solid transparent;
+			&:nth-child(1){
+				background-color: $colorMain_2;
+				.text{
+					h3{
+						color: #FFF;
+					}
+					p{
+						color: rgba(255, 255, 255, 0.7);
+					}
+				}
+			}
+			&:nth-child(2){
+				border-color: $colorMain_10;
+			}
+			&:nth-child(3){
+				background-color: $colorMain_1;
+				.text{
+					h3{
+						color: #FFF;
+					}
+					p{
+						color: rgba(255, 255, 255, 0.7);
+					}
+				}
+			}
+			&:nth-child(4){
+				background-color: #E2EFF2;
+			}
+			&:nth-child(5){
+				background-color: $colorMain_6;
+			}
+			&:nth-child(6){
+				background-color: $colorMain_4;
+				.text{
+					h3{
+						color: #FFF;
+					}
+					p{
+						color: rgba(255, 255, 255, 0.7);
+					}
+				}
+			}
+
+			.illu{
+				height: 310px;
+				position: relative;
+				img{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+			}
+			.text{
+				padding: 0px 43px 43px 43px;
+				h3{
+					@include styleH4;
+				}
+				p{
+					margin-top: 16px;
+					@include styleParagraphMedium;
+				}
+			}
+		}
+
+	}
+}
+
+.section-team{
+	margin-top: 120px;
+	margin-bottom: 120px;
+	background-color: $colorMain_2;
+	padding: 125px 0px 120px 0px;
+	.wrapper{
+		@include styleGrid3;
+	}
+	.container-title{
+		max-width: 430px;
+		margin: auto;
+		text-align: center;
+		h2{
+			@include styleH2;
+			color: #FFF;
+			.underline{
+				@include styleUnderline;
+			}
+		}
+		p{
+			margin-top: 10px;
+			@include styleParagraphMedium;
+			color: rgba(255, 255, 255, 0.7);
+		}
+	}
+	.container-team{
+		margin-top: 90px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		.team{
+			.pp{
+				position: relative;
+				img{
+					height: 100%;
+					width: 100%;
+					border-radius: 200px;
+					object-fit: cover;
+				}
+				.name{
+					position: absolute;
+					bottom: 24px;
+					left: 0px;
+					width: 100%;
+					text-align: center;
+					font-family: $font_3_regular;
+					font-size: 28px;
+					line-height: 28px;
+					color: $colorMain_11;
+				}
+			}
+			.text{
+				margin-top: 18px;
+				text-align: center;
+				.name{
+					@include styleH4;
+					color: #FFF;
+				}
+				.job{
+					@include styleParagraphMedium;
+					color: rgba(255, 255, 255, 0.7);
+				}
+			}
+
+			&:nth-child(1){
+				width: 260px;
+				margin-top: 200px;
+				margin-right: 50px;
+				.pp{
+					height: 260px;
+				}
+			}
+
+			&:nth-child(2){
+				width: 342px;
+				margin-right: 50px;
+				.pp{
+					height: 342px;
+				}
+			}
+
+			&:nth-child(3){
+				width: 294px;
+				margin-top: 160px;
+				.pp{
+					height: 294px;
+				}
+			}
+
+			&:nth-child(4){
+				width: 294px;
+				margin-right: 80px;
+				.pp{
+					height: 294px;
+				}
+			}
+
+			&:nth-child(5){
+				width: 260px;
+				.pp{
+					height: 260px;
+				}
+			}
+
+			&:nth-child(6){
+				width: 100%;
+				text-align: center;
+				.pp{
+					border-radius: 50px;
+					margin: auto;
+					width: 100px;
+					height: 100px;
+					background-color: $colorMain_6;
+				}
+				.link{
+					@include styleLink;
+				}
+			}
+		}
+	}
+}
+
+/*================================
+=            END ABOUT           =
+================================*/
