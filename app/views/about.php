@@ -112,7 +112,7 @@ $document = $WPGLOBAL['document']->data;
 							</div>
 							<div class="text">
 								<div class="name"><?= RichText::asText($document->team_question); ?></div>
-								<a href="<?= checkUrl($document->team_btnlink); ?>" class="link">
+								<a href="<?php checkUrl($document->team_btnlink); ?>" class="link">
 									<span class="link-text"><?= RichText::asText($document->team_btntext); ?></span>
 								</a>
 							</div>

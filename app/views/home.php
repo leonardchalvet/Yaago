@@ -35,7 +35,7 @@ $document = $WPGLOBAL['document']->data;
                 <?= RichText::asText($document->cover_title2); ?>
               </span>
             </h1>
-            <a href="<?= checkUrl($document->cover_btnlink); ?>">
+            <a href="<?php checkUrl($document->cover_btnlink); ?>">
               <span class="btn-text"><?= RichText::asText($document->cover_btntext); ?></span>
               <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
                 <use xlink:href="/img/common/arrow-1.svg#content"></use>
@@ -60,7 +60,7 @@ $document = $WPGLOBAL['document']->data;
           <div class="container-cdr">
             <?= RichText::asHtml($document->description_boxtitle); ?>
             <?= RichText::asHtml($document->description_boxtext); ?>
-            <a href="<?= checkUrl($document->description_boxbtnlink); ?>">
+            <a href="<?php checkUrl($document->description_boxbtnlink); ?>">
               <span class="link-text"><?= RichText::asText($document->description_boxbtntext); ?></span>
               <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
                 <use xlink:href="/img/common/arrow-1.svg#content"></use>
@@ -166,7 +166,7 @@ $document = $WPGLOBAL['document']->data;
               <div class="raw">
                 <div class="partners">
                   <?php echo(returnPatern($p)); ?>
-                  <a href="<?= checkUrl($document->partners_btnlinkuc); ?>">
+                  <a href="<?php checkUrl($document->partners_btnlinkuc); ?>">
                     <span class="link-text"><?= RichText::asText($document->partners_btntextuc); ?></span>
                   </a>
                 </div>
@@ -180,7 +180,7 @@ $document = $WPGLOBAL['document']->data;
           </div> 
           <div class="banner">
             <?= RichText::asHtml($document->partners_question); ?>
-            <a href="<?= checkUrl($document->partners_btnlink); ?>" class="btn">
+            <a href="<?php checkUrl($document->partners_btnlink); ?>" class="btn">
               <span class="btn-text">
                 <?= RichText::asText($document->partners_btntext); ?>
               </span>

@@ -31,7 +31,7 @@ $document = $WPGLOBAL['document']->data;
 					<div class="container-title">
 						<?= RichText::asHtml($document->content_title); ?>
 						<?= RichText::asHtml($document->content_text); ?>
-						<a href="<?php echo(checkUrl($document->content_btnlink)); ?>">
+						<a href="<?php checkUrl($document->content_btnlink); ?>">
 							<span class="link-text"><?= RichText::asText($document->content_btntext); ?></span> 
 						</a>
 					</div>
