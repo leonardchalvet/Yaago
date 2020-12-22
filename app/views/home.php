@@ -166,7 +166,7 @@ $document = $WPGLOBAL['document']->data;
               <div class="raw">
                 <div class="partners">
                   <?php echo(returnPatern($p)); ?>
-                  <a href="<?= $document->partners_btnlinkuc->url; ?>">
+                  <a href="<?= checkUrl($document->partners_btnlinkuc); ?>">
                     <span class="link-text"><?= RichText::asText($document->partners_btntextuc); ?></span>
                   </a>
                 </div>
@@ -180,7 +180,7 @@ $document = $WPGLOBAL['document']->data;
           </div> 
           <div class="banner">
             <?= RichText::asHtml($document->partners_question); ?>
-            <a href="<?= $document->partners_btnlink->url; ?>" class="btn">
+            <a href="<?= checkUrl($document->partners_btnlink); ?>" class="btn">
               <span class="btn-text">
                 <?= RichText::asText($document->partners_btntext); ?>
               </span>
@@ -220,7 +220,7 @@ $document = $WPGLOBAL['document']->data;
       </section>
 
       <?php 
-      include('common/common-section-demo.php')
+      include('common/common-section-demo.php');
       ?>
       
     </main>
