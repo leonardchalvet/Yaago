@@ -535,6 +535,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/home/section-cover/illu-screen-1-img.png": {
+		"ft": 32768,
+		"iS": 241096,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-1-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/home/section-cover/illu-screen-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -544,6 +557,19 @@
 		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
+		},
+	"/img/home/section-cover/illu-screen-2-img.png": {
+		"ft": 32768,
+		"iS": 273154,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-2-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/home/section-cover/illu-screen-2.svg": {
 		"ft": 2097152,
@@ -555,6 +581,19 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/home/section-cover/illu-screen-3-img.png": {
+		"ft": 32768,
+		"iS": 441272,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-3-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/home/section-cover/illu-screen-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -565,6 +604,19 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/home/section-cover/illu-screen-4-img.png": {
+		"ft": 32768,
+		"iS": 30958,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-4-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/home/section-cover/illu-screen-4.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -574,6 +626,66 @@
 		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
+		},
+	"/img/home/section-cover/Illustration.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/Illustration.zip",
+		"oF": 0
+		},
+	"/img/home/section-cover/Illustration/Avion.png": {
+		"ft": 32768,
+		"iS": 22167,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/Illustration/Avion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-cover/Illustration/Plan 1.png": {
+		"ft": 32768,
+		"iS": 604017,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/Illustration/Plan 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-cover/Illustration/Plan 2 -40px.png": {
+		"ft": 32768,
+		"iS": 314019,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/Illustration/Plan 2 -40px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-cover/Illustration/Plan 3 -60px.png": {
+		"ft": 32768,
+		"iS": 782312,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/Illustration/Plan 3 -60px.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/img/home/section-features/illu-1.svg": {
 		"ft": 2097152,
