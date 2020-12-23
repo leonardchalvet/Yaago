@@ -32,7 +32,8 @@
 		}
 	}
 	.illu-1{
-		width: 100%;
+		display: block;
+		@include styleGrid1;
 	}
 }
 

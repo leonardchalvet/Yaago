@@ -84,7 +84,7 @@
 		padding-top: 152px;
 		.container-img{
 			position: relative;
-			left: initial;
+			left: 50px;
 			top: initial;
 			height: 380px;
 			&:after{
@@ -96,6 +96,8 @@
 			}
 		}
 	}
+}
+@media screen and (max-width: 380px){
 }
 
 .section-desc{
