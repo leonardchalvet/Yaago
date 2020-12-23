@@ -109,8 +109,11 @@
 		max-width: 512px;
 		h2{
 			@include styleH2;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-1.svg);
+				}
 			}
 		}
 		p{
@@ -360,8 +363,11 @@
 			margin: auto;
 			@include styleH2;
 			color: #FFF;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-2.svg);
+				}
 			}
 		}
 	}
@@ -474,8 +480,11 @@
 		margin: auto;
 		h2{
 			@include styleH2;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-2.svg);
+				}
 			}
 		}
 		p{
@@ -583,8 +592,11 @@
 		justify-content: space-around;
 		h2{
 			@include styleH3;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-3.svg);
+				}
 			}
 		}
 		.btn{
@@ -686,8 +698,11 @@
 				h2{
 					text-align: center;
 					@include styleH2;
-					.underline{
+					em{
 						@include styleUnderline;
+						&:after{
+							content:url(../../img/common/underline/underline-3.svg);
+						}
 					}
 				}
 			}
