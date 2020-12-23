@@ -6,7 +6,7 @@
 =            CONTACT           =
 ==============================*/
 
-.section-404{
+.section-contact{
 	padding-top: 168px;
 	padding-bottom: 120px;
 	.wrapper{
@@ -122,6 +122,7 @@
 	}
 	.container-send{
 		position: fixed;
+		z-index: 20;
 		left: 50%;
 		top: 110px;
 		transform: translateX(-50%) translateY(-100%);
@@ -131,6 +132,7 @@
 		background-color: $colorMain_2;
 		display: flex;
 		flex-flow: row wrap;
+
 		align-items: center;
 		opacity: 0;
 		visibility: hidden;
@@ -140,6 +142,7 @@
 			margin-right: 13px;
 		}
 		.text{
+			flex: 1;
 			@include styleParagraphMedium;
 			color: #FFF;
 		}
@@ -151,7 +154,37 @@
 		}
 	}
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+	.section-contact{
+		.illu-1{
+			display: none;
+		}
+		.container-contact{
+			width: 100%;
+		}
+	}
+}
 @media screen and (max-width: $breakPoint_mobile){
+	.section-contact{
+		padding-top: 120px;
+		padding-bottom: 0px;
+		.illu-1{
+			display: none;
+		}
+		.container-contact{
+			width: 100%;
+			.container-form{
+				form{
+					.input{
+						&:not(:last-child){
+							width: 100%;
+							margin-bottom: 21px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 /*==================================

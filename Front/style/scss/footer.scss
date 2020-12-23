@@ -196,3 +196,49 @@ footer{
 		}
 	}
 }
+
+@media screen and (max-width: $breakPoint_mobile){
+	footer{
+		margin-top: 45px;
+		padding-top: 45px;
+		.content{
+			.container-logo{
+				width: 100%;
+			}
+			.container-newsletter{
+				width: 100%;
+				margin-top: 30px;
+			}
+			.container-link{
+				width: 100%;
+				margin-top: 30px;
+				ul{
+					width: 100%;
+					li{
+						width: calc(100% / 3);
+					}
+				}
+			}
+			.container-sponsors{
+				width: 100%;
+				margin-top: 30px;
+				.container-img{
+					justify-content: space-between;
+					img{
+						&:not(:last-child){
+							margin-right: 0px;
+						}
+					}
+				}
+			}
+
+		}
+		.foot{
+			.pld{
+				width: 100%;
+				margin-top: 30px;
+				text-align: center;
+			}
+		}
+	}
+}
