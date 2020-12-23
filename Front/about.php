@@ -28,12 +28,7 @@
 				<div class="wrapper">
 					<div class="container-text">
 						<h1>
-							L’équipe Yaago, des
-							<span class="underline">
-								<em>propriétaires</em>
-								<img class="obj" src="img/common/underline/underline-2.svg" alt="">
-							</span> 
-							avant tout!
+							L’équipe Yaago, des <em>propriétaires</em> avant tout!
 						</h1>
 						<p>
 							Une solution créée par et pour des propriétaires
@@ -58,11 +53,7 @@
 				<div class="wrapper">
 					<div class="container-title">
 						<h2>
-							Notre histoire, c’est celle d’un
-							<span class="underline">
-								<em>challenge...</em>
-								<img class="obj" src="img/common/underline/underline-1.svg" alt="">
-							</span> 
+							Notre histoire, c’est celle d’un <em>challenge...</em>
 						</h2>
 					</div>
 					<div class="container-text">
@@ -107,11 +98,7 @@
 				<div class="wrapper">
 					<div class="container-title">
 						<h2>
-							Totale transparence sur nos valeurs et ce qui nous 
-							<span class="underline">
-								<em>anime.</em>
-								<img class="obj" src="img/common/underline/underline-3.svg" alt="">
-							</span> 
+							Totale transparence sur nos valeurs et ce qui nous <em>anime.</em>
 						</h2>
 						<p>
 							Ces valeurs nous inspirent chaque jour afin de faire ressortir le meilleur de nous-mêmes.
@@ -192,11 +179,7 @@
 				<div class="wrapper">
 					<div class="container-title">
 						<h2>
-							Yaago
-							<span class="underline">
-								<em>Team</em>
-								<img class="obj" src="img/common/underline/underline-3.svg" alt="">
-							</span> 
+							Yaago <em>Team</em>
 						</h2>
 						<p>
 							Un mot d’ordre : l’humain ! Nous sommes une équipe ambitieuse et diversifiée avec plus de 5 nationalités différentes !
