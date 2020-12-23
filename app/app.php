@@ -31,19 +31,17 @@ function getUrl() {
 }
 
 function checkUrl($el) {
-    $url = getUrl();   
+    $url = getUrl();
 
     if($el->url) echo $el->url;
     else {
-        if($el->type ="home") echo $url;
+        if($el->type == "home") echo $url;
         else echo $url.$el->uid;
     }
 }
 
 use Prismic\Api;
 use Prismic\Predicates;
-    
-use Prismic\LinkResolver;
 use Prismic\Dom\RichText;
 use Prismic\Dom\Link;
 
@@ -97,23 +95,19 @@ $app->get('/', function ($request, $response) use ($app, $prismic) {
 });
 
 $app->get('/preview', function ($request, $response) use ($app, $prismic) {
-  $token = $request->getParam('token');
-  setcookie(Prismic\PREVIEW_COOKIE, $token, time() + 1800, '/', null, false, false);
-  $url = $prismic->get_api()->previewSession($token, $prismic->linkResolver, '/');
-  
-  /* MORE */
   $api = $prismic->get_api();
+  
   $document = $api->getByID($_GET['documentId']);
   $lang = $document->lang;
   $namePage = $document->uid;
-  
+
   if(!empty($namePage) && !empty($lang)) {
     $lang = substr($lang, 0, 2);
     $url = '/'.$lang.'/'.$namePage;
   }
-  /* END MORE */
 
-  return $response->withStatus(302)->withHeader('Location', $url);
+  header('Location: '.$url);
+  exit;
 });
 
 $app->get('/{location}', function ($request, $response, $args) use ($app, $prismic) {
@@ -165,16 +159,6 @@ $app->map(['GET', 'POST'], '/{lg}/{uid}', function ($request, $response, $args) 
 
 function renderPage($request, $response, $args, $app, $prismic) {
 
-    if (isset($_SERVER['HTTP_COOKIE'])) {
-     $cookies = explode(';', $_SERVER['HTTP_COOKIE']);
-     foreach($cookies as $cookie) {
-         $parts = explode('=', $cookie);
-         $name = trim($parts[0]);
-         setcookie($name, '', time()-1000);
-         setcookie($name, '', time()-1000, '/');
-     }
-    }
-
     $api = $prismic->get_api(); // PART 1 - Call api
 
     //PART 2 - Select languages
@@ -203,8 +187,8 @@ function renderPage($request, $response, $args, $app, $prismic) {
     //PART 4 - Call current page
     $document = NULL;
     $nType = 0;
-    $arrayTypes = [ 'home', 'p404', 'contact' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
-    $arrayView  = [ 'home', 'p404', 'contact' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
+    $arrayTypes = [ 'home', 'p404', 'contact', 'about' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
+    $arrayView  = [ 'home', 'p404', 'contact', 'about' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
     foreach ($arrayTypes as $type) {
         $document = $api->getByUID($type, $args['uid'], $options);
 

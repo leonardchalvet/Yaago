@@ -1,6 +1,6 @@
 // @codekit-prepend 'common.js'
 
-$('.section-404 form button').on('click', function() {
+$('.section-contact form button').on('click', function() {
 
 	let returnF = true;
 	$(this).parent().parent().find('input, textarea').each(function(){
@@ -29,7 +29,7 @@ $('.section-404 form button').on('click', function() {
 			type : 'POST',
 			data : form.serialize(),
 			success : function(code, statut){
-				$('.section-404 .container-send').addClass('style-active');
+				$('.section-contact .container-send').addClass('style-active');
 			}
 		});
 	}

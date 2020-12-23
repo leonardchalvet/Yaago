@@ -25,7 +25,7 @@ $document = $WPGLOBAL['document']->data;
 
 		<main>
 
-			<section class="section-404">
+			<section class="section-contact">
 				<div class="container-send">
 					<img src="/img/contact/check.svg" alt="">
 					<div class="text"><?= RichText::asText($document->content_send); ?></div>

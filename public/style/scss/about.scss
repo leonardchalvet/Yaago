@@ -65,8 +65,11 @@
 		margin: auto;
 		h1{
 			@include styleH1;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-2.svg);
+				}
 			}
 		}
 		p{
@@ -122,8 +125,11 @@
 		max-width: 490px;
 		h2{
 			@include styleH2;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-2.svg);
+				}
 			}
 		}
 	}
@@ -178,8 +184,11 @@
 		margin: auto;
 		h2{
 			@include styleH2;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-3.svg);
+				}
 			}
 		}
 		p{
@@ -297,8 +306,11 @@
 		h2{
 			@include styleH2;
 			color: #FFF;
-			.underline{
+			em{
 				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-4.svg);
+				}
 			}
 		}
 		p{
