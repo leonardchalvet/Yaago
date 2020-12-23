@@ -1,6 +1,15 @@
 // @codekit-prepend 'jQuery.3.3.1.js'
 $window = $(window);
 
+function isEmpty(el){
+	return !$.trim(el.val());
+}
+
+function verifEmail(c) {
+	let regex = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
+	return regex.test(c.val());
+}
+
 /* FOOTER */
 $('footer .foot .container-lg .lg .text').click(function(){
 	$('footer .foot .container-lg .dropdown').toggleClass('style-show');
@@ -19,4 +28,34 @@ $window.scroll(function() {
 $('header .head .head-mobile .burger').click(function(){
 	$('header').toggleClass('style-open');
 	$('body').toggleClass('no-scroll');
+})
+
+$('footer form button').on('click', function() {
+
+	let returnF = true;
+	$(this).parent().parent().find('input, textarea').each(function(){
+		
+		if( isEmpty($(this)) ) {
+			returnF = false;
+			$(this).parent().addClass('style-error');
+		}
+		else {
+			$(this).parent().removeClass('style-error');
+		}
+
+		if($(this).attr("name") == 'email') {
+			let returnV = verifEmail($(this));
+			if(!returnV) {
+				returnF = false;
+				$(this).parent().addClass('style-error');
+			}
+		}
+	})
+
+	if(returnF) {
+		return true;
+	}
+	else {
+		return false;
+	}
 })

@@ -19,12 +19,15 @@
 		background-color: $colorMain_6;
 	}
 	.container-path{
+
 		position: relative;
 		margin-left: 62px;
 		z-index: 1;
 		display: flex;
 		flex-flow: row wrap;
 		align-items: center;
+
+		display: none;
 		.path{
 			display: flex;
 			flex-flow: row wrap;
@@ -95,6 +98,21 @@
 	}
 }
 
+@media screen and (max-width: $breakPoint_mobile){
+	.section-cover{
+		.container-path{
+			display: none;
+		}
+		.container-slider{
+			margin-top: 32px;
+			padding: 0px 25px 0px 25px;
+			.slider{
+				height: 380px;
+			}
+		}
+	}
+}
+
 .section-story{
 	margin-top: 148px;
 	.wrapper{
@@ -127,6 +145,20 @@
 				p{
 					margin-top: 16px;
 					@include styleParagraphMedium;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-story{
+		margin-top: 95px;
+		.container-text{
+			margin-top: 20px;
+			padding-right: 0px;
+			.col{
+				&:not(:last-child){
+					margin-bottom: 40px;
 				}
 			}
 		}
@@ -230,6 +262,23 @@
 			}
 		}
 
+	}
+}
+
+@media screen and (max-width: $breakPoint_mobile){
+	.section-value{
+		margin-top: 80px;
+		.wrapper{
+			padding-top: 80px;
+		}
+		.container-title{
+			text-align: left;
+		}
+		.container-value{
+			.value{
+				width: 100%;
+			}
+		}
 	}
 }
 
@@ -350,6 +399,60 @@
 				.link{
 					@include styleLink;
 				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $breakPoint_mobile){
+	.section-team{
+		margin-top: 80px;
+		padding-top: 80px;
+		padding-bottom: 45px;
+		margin-bottom: 45px;
+		.container-title{
+			text-align: left;
+		}
+		.container-team{
+			margin-top: 80px;
+			.team{
+				.pp{
+					margin: auto;
+					.name{
+						font-size: 13px;
+						line-height: 13px;
+					}
+				}
+				
+				&:nth-child(1),
+				&:nth-child(3),
+				&:nth-child(4),
+				&:nth-child(7){
+					margin-top: 30px;
+					margin-right: 0px;
+					width: 50%;
+					.pp{
+						margin: auto;
+						width: 160px;
+						height: 160px;
+					}
+				}
+				&:nth-child(1){
+					width: 100%;
+				}
+				&:nth-child(2),
+				&:nth-child(5),
+				&:nth-child(6){
+					margin-top: 110px;
+					margin-right: 0px;
+					width: 50%;
+					.pp{
+						width: 100px;
+						height: 100px;
+					}
+				}
+
+				
 			}
 		}
 	}

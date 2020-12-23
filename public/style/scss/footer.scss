@@ -58,6 +58,16 @@ footer{
 				width: 100%;
 				height: 50px;
 				position: relative;
+				.head{
+					position: absolute;
+					top: -20px;
+					right: 24px;
+					.error{
+						display: none;
+						@include styleParagraphTiny;
+						color: $colorMain_1;
+					}
+				}
 				input{
 					width: 100%;
 					height: 100%;
@@ -68,6 +78,8 @@ footer{
 					outline: none;
 				}
 				.send{
+					border: none;
+					background: transparent;
 					cursor: pointer;
 					height: 17px;
 					width: 17px;
@@ -77,6 +89,17 @@ footer{
 					transform: translateY(-50%);
 					img{
 						width: 100%;
+					}
+				}
+				&.style-error{
+					.head{
+						.error{
+							display: block;
+						}
+					}
+					input,
+					textarea {
+						border-color: $colorMain_1;
 					}
 				}
 			}
@@ -193,6 +216,52 @@ footer{
 		.pld{
 			@include styleParagraphTiny;
 			color: #FFF;
+		}
+	}
+}
+
+@media screen and (max-width: $breakPoint_mobile){
+	footer{
+		margin-top: 45px;
+		padding-top: 45px;
+		.content{
+			.container-logo{
+				width: 100%;
+			}
+			.container-newsletter{
+				width: 100%;
+				margin-top: 30px;
+			}
+			.container-link{
+				width: 100%;
+				margin-top: 30px;
+				ul{
+					width: 100%;
+					li{
+						width: calc(100% / 3);
+					}
+				}
+			}
+			.container-sponsors{
+				width: 100%;
+				margin-top: 30px;
+				.container-img{
+					justify-content: space-between;
+					img{
+						&:not(:last-child){
+							margin-right: 0px;
+						}
+					}
+				}
+			}
+
+		}
+		.foot{
+			.pld{
+				width: 100%;
+				margin-top: 30px;
+				text-align: center;
+			}
 		}
 	}
 }

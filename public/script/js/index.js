@@ -13,9 +13,9 @@ $(window).on('load', function() {
 		$('.section-cover .wrapper .container-img img:nth-child(4)').attr('data-parallax', '{"y": 320, "x": -320, "smoothness": 15}');
 	} else {
 		$('.section-cover .wrapper .container-img img:nth-child(1)').attr('data-parallax', '{"y": 5, "smoothness": 10}');
-		$('.section-cover .wrapper .container-img img:nth-child(2)').attr('data-parallax', '{"y": 30, "smoothness": 15}');
-		$('.section-cover .wrapper .container-img img:nth-child(3)').attr('data-parallax', '{"y": 50, "smoothness": 20}');
-		$('.section-cover .wrapper .container-img img:nth-child(4)').attr('data-parallax', '{"y": 160, "x": -160, "smoothness": 15}');
+		$('.section-cover .wrapper .container-img img:nth-child(2)').attr('data-parallax', '{"y": 20, "smoothness": 15}');
+		$('.section-cover .wrapper .container-img img:nth-child(3)').attr('data-parallax', '{"y": 40, "smoothness": 20}');
+		$('.section-cover .wrapper .container-img img:nth-child(4)').attr('data-parallax', '{"y": 60, "x": -60, "smoothness": 15}');
 	}
 
 

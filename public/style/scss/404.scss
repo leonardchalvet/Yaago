@@ -26,6 +26,9 @@
 		a{
 			margin-top: 26px;
 			@include styleLink;
+			.link-text{
+				text-decoration: underline;
+			}
 		}
 	}
 	.illu-1{
