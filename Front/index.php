@@ -32,10 +32,10 @@
 						</a>
 					</div>
 					<div class="container-img">
-						<img src="img/home/section-cover/illu-screen-1.svg" alt="">
-						<img src="img/home/section-cover/illu-screen-2.svg" alt="">
-						<img src="img/home/section-cover/illu-screen-3.svg" alt="">
-						<img src="img/home/section-cover/illu-screen-4.svg" alt="">
+						<img src="img/home/section-cover/illu-screen-1.png" alt="">
+						<img src="img/home/section-cover/illu-screen-2.png" alt="">
+						<img src="img/home/section-cover/illu-screen-3.png" alt="">
+						<img src="img/home/section-cover/illu-screen-4.png" alt="">
 					</div>
 				</div>
 			</section>
