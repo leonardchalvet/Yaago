@@ -45,10 +45,8 @@
 					<div class="container-text">
 						<h2>
 							N’ayez qu’un seul objectif: 
-							<span class="underline">
-								<em>la meilleure note !</em>
-								<img class="obj" src="img/common/underline/underline-1.svg" alt="">
-							</span>
+							<em>la meilleure note !</em>
+							
 						</h2>
 						<p>
 							Que vous soyez un particulier ou un professionnel de la location courte durée, le succès de votre hébergement repose sur l’expérience unique que vous faîtes vivre à vos voyageurs.
@@ -152,11 +150,7 @@
 				<div class="wrapper">
 					<div class="container-title">
 						<h2>
-							Tout ce dont vous avez besoin
-							<span class="underline">
-								<em>au même endroit !</em>
-								<img class="obj" src="img/common/underline/underline-2.svg" alt="">
-							</span>
+							Tout ce dont vous avez besoin au <em>même endroit !</em>
 						</h2>
 					</div>
 					<div class="content">
@@ -199,11 +193,7 @@
 				<div class="wrapper">
 					<div class="container-title">
 						<h2>
-							Des services à votre 
-							<span class="underline">
-								<em>mesure</em>
-								<img class="obj" src="img/common/underline/underline-2.svg" alt="">
-							</span>
+							Des services à votre <em>mesure</em>
 						</h2>
 						<p>
 							Chez Yaago nous accordons une attention particulière à la satisfaction. Nous avons sélectionné des partenaires essentiels pour améliorer votre qualité d’hébergement.
@@ -270,11 +260,7 @@
 					</div> 
 					<div class="banner">
 						<h2>
-							Un autre service à nous
-							<span class="underline">
-								<em>proposer ?</em>
-								<img class="obj" src="img/common/underline/underline-3.svg" alt="">
-							</span>
+							Un autre service à nous <em>proposer ?</em>
 						</h2>
 						<a href="" class="btn">
 							<span class="btn-text">
@@ -293,10 +279,7 @@
 								<h2>
 									Ils 
 									<br>
-									<span class="underline">
-										<span>témoignent</span>
-										<img class="obj" src="img/common/underline/underline-3.svg" alt="">
-									</span>
+									<em>témoignent</em>
 								</h2>
 							</div>
 							<div class="container-quote">
