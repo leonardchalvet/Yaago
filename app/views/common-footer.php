@@ -30,7 +30,7 @@ $footer = $WPGLOBAL['footer']->data;
 					<div class="input">
 						<div class="head">
 							<div class="error">
-								Ce champ comporte une erreur 
+								<?= RichText::asText($footer->newsletter_error); ?>
 							</div>
 						</div>
 						<input type="email" name="email" placeholder="<?= RichText::asText($footer->newsletter_emailp); ?>">
