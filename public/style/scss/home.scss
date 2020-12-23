@@ -23,6 +23,7 @@
 				&:nth-child(2){
 					z-index: 1;
 					@include styleHx1;
+					padding-left: 2px;
 				}
 			}
 		}
@@ -328,6 +329,7 @@
 				padding: 0px 25px 0px 25px;
 				display: inline-flex;
 				flex-wrap: nowrap;
+				margin-top: 25px;
 				.el{
 					width: 220px;
 					&:not(:last-child){
@@ -413,7 +415,13 @@
 			padding-left: 400px;
 		}
 		.container-illu{
-
+			height: initial;
+			width: 900px;
+			right: 45%;
+			img{
+				width: 100%;
+				height: initial;
+			}
 		}
 	}
 }
@@ -422,6 +430,9 @@
 		margin-top: 56px;
 		padding-top: 70px;
 		padding-bottom: 0px;
+		.container-title{
+			text-align: left;
+		}
 		.content{
 			margin-top: 54px;
 			padding-left: 0px;

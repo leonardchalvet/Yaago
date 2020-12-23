@@ -23,19 +23,9 @@ $document = $WPGLOBAL['document']->data;
 		<main>
 
 			<section class="section-cover">
-				<div class="container-path">
-					<a href="<?php echo(getUrl()); ?>" class="path">
-						<span class="text"><?= RichText::asText($document->cover_path1); ?></span>
-						<span class="arrow"> > </span>
-					</a>
-					<a class="path">
-						<span class="text"><?= RichText::asText($document->cover_path2); ?></span>
-					</a>
-				</div>
 				<div class="wrapper">
 					<div class="container-text">
 						<?= RichText::asHtml($document->cover_title); ?>
-						<?= RichText::asHtml($document->cover_text); ?>
 					</div>
 				</div>
 				<div class="container-slider">

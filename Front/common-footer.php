@@ -23,12 +23,19 @@
 			</div>
 			<div class="container-newsletter">
 				<h2>Newsletter</h2>
-				<div class="input">
-					<input type="text" placeholder="Votre adresse mail">
-					<div class="send">
-						<img src="img/footer/icn-send.svg" alt="">
+				<form action="test.php">
+					<div class="input">
+						<div class="head">
+							<div class="error">
+								Ce champ comporte une erreur 
+							</div>
+						</div>
+						<input type="text" placeholder="Votre adresse mail">
+						<button class="send">
+							<img src="img/footer/icn-send.svg" alt="">
+						</button>
 					</div>
-				</div>
+				</form>
 			</div>
 
 			<div class="container-link">

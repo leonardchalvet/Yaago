@@ -24,14 +24,21 @@ $footer = $WPGLOBAL['footer']->data;
 			</div>
 			<div class="container-newsletter">
 				<h2><?= RichText::asText($footer->newsletter_text); ?></h2>
-				<input type="text" name="sendby" value="" style="visibility: hidden;">
-				<input type="text" name="goto" value="" style="visibility: hidden;">
-				<div class="input">
-					<input type="email" name="email" placeholder="<?= RichText::asText($footer->newsletter_emailp); ?>">
-					<div class="send">
-						<img src="/img/footer/icn-send.svg" alt="icon send">
+				<form action="/sendMail/footer.php" method="POST">
+					<input type="text" name="sendto" value="<?= RichText::asText($footer->newsletter_sendto); ?>" style="visibility: hidden;">
+					<input type="text" name="goto" value="<?php echo(getUrl()); ?>" style="visibility: hidden;">
+					<div class="input">
+						<div class="head">
+							<div class="error">
+								Ce champ comporte une erreur 
+							</div>
+						</div>
+						<input type="email" name="email" placeholder="<?= RichText::asText($footer->newsletter_emailp); ?>">
+						<button class="send">
+							<img src="/img/footer/icn-send.svg" alt="icon send">
+						</button>
 					</div>
-				</div>
+				</form>
 			</div>
 
 			<div class="container-link">

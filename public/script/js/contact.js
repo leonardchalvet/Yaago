@@ -1,14 +1,5 @@
 // @codekit-prepend 'common.js'
 
-function isEmpty(el){
-	return !$.trim(el.val());
-}
-
-function verifEmail(c) {
-	let regex = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
-	return regex.test(c.val());
-}
-
 $('.section-404 form button').on('click', function() {
 
 	let returnF = true;
