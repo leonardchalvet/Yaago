@@ -1,4 +1,4 @@
-FROM php
+FROM php:7
 
 COPY app /usr/src/yaago-website/app
 COPY public /usr/src/yaago-website/public
