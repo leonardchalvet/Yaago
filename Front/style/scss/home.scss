@@ -347,6 +347,13 @@
 @media screen and (max-width: $breakPoint_mobile){
 	.section-link{
 		margin-top: 80px;
+		.container-title{
+			h2{
+				.title{
+					margin-right: 28px;
+				}
+			}
+		}
 		.slider{
 			width: calc(100% + 50px);
 			margin-left: -25px;
