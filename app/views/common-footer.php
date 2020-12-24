@@ -4,6 +4,11 @@ $footer = $WPGLOBAL['footer']->data;
 ?>
 
 <footer>
+
+	<div class="container-send">
+		<img src="/img/contact/check.svg" alt="">
+		<div class="text"><?= RichText::asText($footer->newsletter_send); ?></div>
+	</div>
 	
 	<div class="content">
 		<div class="wrapper">
@@ -24,7 +29,7 @@ $footer = $WPGLOBAL['footer']->data;
 			</div>
 			<div class="container-newsletter">
 				<h2><?= RichText::asText($footer->newsletter_text); ?></h2>
-				<form action="/sendMail/footer.php" method="POST">
+				<form onSubmit="return false;">
 					<input type="text" name="sendto" value="<?= RichText::asText($footer->newsletter_sendto); ?>" style="display: none;">
 					<input type="text" name="object" value="<?= RichText::asText($footer->newsletter_object); ?>" style="display: none;">
 					<input type="text" name="goto" value="<?php echo(getUrl()); ?>" style="display: none;">
