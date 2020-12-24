@@ -24,51 +24,53 @@ $document = $WPGLOBAL['document']->data;
 
     <main>
 
-      <section class="section-cover">
-        <div class="wrapper">
-          <div class="container-title">
-            <h1>
-              <span>
-                <?= RichText::asText($document->cover_title1); ?>
-              </span>
-              <span>
-                <?= RichText::asText($document->cover_title2); ?>
-              </span>
-            </h1>
-            <a href="<?php checkUrl($document->cover_btnlink); ?>" style="display: none;">
-              <span class="btn-text"><?= RichText::asText($document->cover_btntext); ?></span>
-              <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
-                <use xlink:href="/img/common/arrow-1.svg#content"></use>
-              </svg>
-            </a>
+      <div class="container">
+        <section class="section-cover">
+          <div class="wrapper">
+            <div class="container-title">
+              <h1>
+                <span>
+                  <?= RichText::asText($document->cover_title1); ?>
+                </span>
+                <span>
+                  <?= RichText::asText($document->cover_title2); ?>
+                </span>
+              </h1>
+              <a href="<?php checkUrl($document->cover_btnlink); ?>">
+                <span class="btn-text"><?= RichText::asText($document->cover_btntext); ?></span>
+                <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
+                  <use xlink:href="/img/common/arrow-1.svg#content"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="container-img">
+              <img src="/img/home/section-cover/illu-screen-1.png" alt="">
+              <img src="/img/home/section-cover/illu-screen-2.png" alt="">
+              <img src="/img/home/section-cover/illu-screen-3.png" alt="">
+              <img src="/img/home/section-cover/illu-screen-4.png" alt="">
+            </div>
           </div>
-          <div class="container-img">
-            <img src="/img/home/section-cover/illu-screen-1.png" alt="">
-            <img src="/img/home/section-cover/illu-screen-2.png" alt="">
-            <img src="/img/home/section-cover/illu-screen-3.png" alt="">
-            <img src="/img/home/section-cover/illu-screen-4.png" alt="">
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="section-desc">
-        <div class="wrapper">
-          <div class="container-text">
-            <?= RichText::asHtml($document->description_title); ?>
-            <?= RichText::asHtml($document->description_text); ?>
+        <section class="section-desc">
+          <div class="wrapper">
+            <div class="container-text">
+              <?= RichText::asHtml($document->description_title); ?>
+              <?= RichText::asHtml($document->description_text); ?>
+            </div>
+            <div class="container-cdr">
+              <?= RichText::asHtml($document->description_boxtitle); ?>
+              <?= RichText::asHtml($document->description_boxtext); ?>
+              <a href="<?php checkUrl($document->description_boxbtnlink); ?>">
+                <span class="link-text"><?= RichText::asText($document->description_boxbtntext); ?></span>
+                <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
+                  <use xlink:href="/img/common/arrow-1.svg#content"></use>
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="container-cdr">
-            <?= RichText::asHtml($document->description_boxtitle); ?>
-            <?= RichText::asHtml($document->description_boxtext); ?>
-            <a href="<?php checkUrl($document->description_boxbtnlink); ?>">
-              <span class="link-text"><?= RichText::asText($document->description_boxbtntext); ?></span>
-              <svg class="link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
-                <use xlink:href="/img/common/arrow-1.svg#content"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <section class="section-link">
         <div class="wrapper">

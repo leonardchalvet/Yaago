@@ -16,7 +16,7 @@ $footer = $WPGLOBAL['footer']->data;
 				</p>
 				<div class="container-rs">
 					<?php foreach ($footer->logo_sn as $s) { ?>
-					<a href="<?php checkUrl($s->grp_link); ?>">
+					<a target="_blank" href="<?php checkUrl($s->grp_link); ?>">
 						<img src="<?= $s->grp_img->url; ?>" alt="<?= $s->grp_img->alt; ?>">
 					</a>
 					<?php } ?>
@@ -25,9 +25,9 @@ $footer = $WPGLOBAL['footer']->data;
 			<div class="container-newsletter">
 				<h2><?= RichText::asText($footer->newsletter_text); ?></h2>
 				<form action="/sendMail/footer.php" method="POST">
-					<input type="text" name="sendto" value="<?= RichText::asText($footer->newsletter_sendto); ?>" style="visibility: hidden;">
-					<input type="text" name="object" value="<?= RichText::asText($footer->newsletter_object); ?>" style="visibility: hidden;">
-					<input type="text" name="goto" value="<?php echo(getUrl()); ?>" style="visibility: hidden;">
+					<input type="text" name="sendto" value="<?= RichText::asText($footer->newsletter_sendto); ?>" style="display: none;">
+					<input type="text" name="object" value="<?= RichText::asText($footer->newsletter_object); ?>" style="display: none;">
+					<input type="text" name="goto" value="<?php echo(getUrl()); ?>" style="display: none;">
 					<div class="input">
 						<div class="head">
 							<div class="error">
