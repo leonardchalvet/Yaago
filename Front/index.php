@@ -13,6 +13,10 @@
 		<?php include('common-header.php') ?>
 
 		<main>
+
+			<div class="container">
+				
+			
 			<section class="section-cover">
 				<div class="wrapper">
 					<div class="container-title">
@@ -64,6 +68,8 @@
 					</div>
 				</div>
 			</section>
+
+			</div>
 
 			<section class="section-link">
 				<div class="wrapper">

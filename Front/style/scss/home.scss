@@ -5,6 +5,9 @@
 =            PAGE HOME           =
 ================================*/
 
+.container{
+	overflow: hidden;
+}
 .section-cover{
 	padding: 375px 0px 0px 0px;
 	position: relative;
@@ -84,7 +87,7 @@
 		padding-top: 152px;
 		.container-img{
 			position: relative;
-			left: 50px;
+			left: -50px;
 			top: initial;
 			height: 380px;
 			&:after{
@@ -102,6 +105,8 @@
 
 .section-desc{
 	margin-top: 150px;
+	position: relative;
+	z-index: 5;
 	.wrapper{
 		@include styleGrid3;
 		display: flex;
@@ -188,6 +193,7 @@
 				position: relative;
 				height: 54px;
 				.el{
+					padding-bottom: 15px;
 					position: absolute;
 					top: 0px;
 					left: 0px;
@@ -199,16 +205,21 @@
 						z-index: 1;
 						@include styleH2;
 						white-space: nowrap;
-						transition: transform 1000ms cubic-bezier(0.820, 0.000, 0.295, 1.000), opacity 1s ease;
+						transition: transform 750ms cubic-bezier(0.820, 0.000, 0.295, 1.000), opacity 1s ease;
 					}
 					.underline{
 						position: absolute;
 						bottom: 0px;
 						left: 0px;
 						width: 100%;
+						height: 30px;
+						overflow: hidden;
 						img{
 							width: 100%;
-
+							
+							position: absolute;
+							top: 50%;
+							transform: translateY(-50%) scaleY(3);
 						}
 						&:after{
 							content:'';
@@ -218,7 +229,7 @@
 							width: 100%;
 							height: 100%;
 							background-color: #FFF;
-							transition: all 500ms cubic-bezier(0.380, 0.000, 0.000, 1.000);
+							transition: all 1000ms cubic-bezier(0.380, 0.000, 0.000, 1.000);
 							transition-delay: 0.6s;
 						}
 					}
@@ -815,9 +826,15 @@
 .section-quotes{
 	position: relative;
 	padding: 120px 0px 120px 0px;
+	.wrapper{
+		position: sticky;
+		top: 25vh;
+		overflow: hidden;
+	}
 	.container-slider{
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
+		/*overflow: auto;
+		-webkit-overflow-scrolling: touch;*/
+
 		padding-left: calc((100vw - #{$grid_desktop_1}) / 2);
 		padding-right: calc((100vw - #{$grid_desktop_1}) / 2);
 		.slider{
@@ -898,6 +915,18 @@
 					}
 				}
 			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_tablet){
+	.section-quotes{
+		.wrapper{
+			position: initial;
+			overflow: initial;
+		}
+		.container-slider{
+			overflow: auto;
+			-webkit-overflow-scrolling: touch;
 		}
 	}
 }
