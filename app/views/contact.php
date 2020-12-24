@@ -42,6 +42,7 @@ $document = $WPGLOBAL['document']->data;
 						<div class="container-form">
 							<form onSubmit="return false;">
 								<input name="sendto" type="text" style="visibility: hidden;" value="<?= RichText::asText($document->content_sendto); ?>">
+								<input name="object" type="text" style="visibility: hidden;" value="<?= RichText::asText($document->content_object); ?>">
 								<div class="container-input">
 									<div class="input">
 										<div class="head">

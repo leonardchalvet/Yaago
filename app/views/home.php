@@ -35,7 +35,7 @@ $document = $WPGLOBAL['document']->data;
                 <?= RichText::asText($document->cover_title2); ?>
               </span>
             </h1>
-            <a href="<?php checkUrl($document->cover_btnlink); ?>">
+            <a href="<?php checkUrl($document->cover_btnlink); ?>" style="display: none;">
               <span class="btn-text"><?= RichText::asText($document->cover_btntext); ?></span>
               <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
                 <use xlink:href="/img/common/arrow-1.svg#content"></use>
