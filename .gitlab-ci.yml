@@ -28,6 +28,6 @@ k8s-deploy-staging:
   - gcloud components install kubectl
   - echo "$GCP_KEY" > key.json
   - gcloud auth activate-service-account --key-file key.json
-  - gcloud config set project guru4all
-  - gcloud container clusters get-credentials guru4all-app-eu-west1 --region europe-west1 --internal-ip
+  - gcloud config set project yaa-go
+  - gcloud container clusters get-credentials yaa-go-app-eu-west1 --region europe-west1 --internal-ip
   - kubectl set image deployment website website=$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA --namespace=yaago-website
