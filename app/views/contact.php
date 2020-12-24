@@ -45,49 +45,40 @@ $document = $WPGLOBAL['document']->data;
 								<input name="object" type="text" style="visibility: hidden;" value="<?= RichText::asText($document->content_object); ?>">
 								<div class="container-input">
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												<?= RichText::asText($document->content_fnt); ?>
-											</div>
-											<div class="error">
-												<?= RichText::asText($document->content_error); ?>
-											</div>
+										<div class="title">
+											<?= RichText::asText($document->content_fnt); ?>
 										</div>
 										<input name="firstname" type="text" placeholder="<?= RichText::asText($document->content_fnp); ?>">
+										<div class="error">
+											<?= RichText::asText($document->content_error); ?>
+										</div>
 									</div>
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												<?= RichText::asText($document->content_lnt); ?>
-											</div>
-											<div class="error">
-												<?= RichText::asText($document->content_error); ?>
-											</div>
+										<div class="title">
+											<?= RichText::asText($document->content_lnt); ?>
 										</div>
 										<input name="lastname" type="text" placeholder="<?= RichText::asText($document->content_lnp); ?>">
+										<div class="error">
+											<?= RichText::asText($document->content_error); ?>
+										</div>	
 									</div>
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												<?= RichText::asText($document->content_et); ?>
-											</div>
-											<div class="error">
-												<?= RichText::asText($document->content_error); ?>
-											</div>
+										<div class="title">
+											<?= RichText::asText($document->content_et); ?>
 										</div>
 										<input name="email" type="text" placeholder="<?= RichText::asText($document->content_ep); ?>">
+										<div class="error">
+											<?= RichText::asText($document->content_error); ?>
+										</div>
 									</div>
-
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												<?= RichText::asText($document->content_mt); ?>
-											</div>
-											<div class="error">
-												<?= RichText::asText($document->content_error); ?>
-											</div>
+										<div class="title">
+											<?= RichText::asText($document->content_mt); ?>
 										</div>
 										<textarea name="message" placeholder="<?= RichText::asText($document->content_mp); ?>"></textarea>
+										<div class="error">
+											<?= RichText::asText($document->content_error); ?>
+										</div>
 									</div>
 								</div>
 								
