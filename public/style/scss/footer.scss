@@ -61,8 +61,8 @@ footer{
 				position: relative;
 				.head{
 					position: absolute;
-					top: -20px;
-					right: 24px;
+					top: calc(100% + 5px);
+					left: 15px;
 					.error{
 						display: none;
 						@include styleParagraphTiny;
@@ -77,6 +77,9 @@ footer{
 					padding: 0px 24px 0px 24px;
 					@include styleParagraphMedium;
 					outline: none;
+					&:focus{
+						border-color: $colorMain_5;
+					}
 				}
 				.send{
 					border: none;
@@ -164,6 +167,8 @@ footer{
 			flex-flow: row wrap;
 			align-items: center;
 
+			display: none;
+
 			.lg{
 				display: flex;
 				flex-flow: row wrap;
@@ -231,6 +236,7 @@ footer{
 			}
 			.container-newsletter{
 				width: 100%;
+				margin: 0px;
 				margin-top: 30px;
 			}
 			.container-link{
@@ -258,10 +264,13 @@ footer{
 
 		}
 		.foot{
-			.pld{
+			.pld,
+			.cpr{
 				width: 100%;
-				margin-top: 30px;
 				text-align: center;
+			}
+			.pld{
+				margin-top: 30px;
 			}
 		}
 	}
