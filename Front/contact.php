@@ -39,49 +39,41 @@
 							<form onSubmit="return false;">
 								<div class="container-input">
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												Title
-											</div>
-											<div class="error">
-												Ce champ comporte une erreur 
-											</div>
+										<div class="title">
+											Title
 										</div>
 										<input type="text" placeholder="Title">
+										<div class="error">
+											Ce champ comporte une erreur 
+										</div>
 									</div>
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												Title
-											</div>
-											<div class="error">
-												Ce champ comporte une erreur 
-											</div>
+										<div class="title">
+											Title
 										</div>
 										<input type="text" placeholder="Title">
+										<div class="error">
+											Ce champ comporte une erreur 
+										</div>
 									</div>
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												Title
-											</div>
-											<div class="error">
-												Ce champ comporte une erreur 
-											</div>
+										<div class="title">
+											Title
 										</div>
 										<input type="text" placeholder="Title">
+										<div class="error">
+											Ce champ comporte une erreur 
+										</div>
 									</div>
 
 									<div class="input">
-										<div class="head">
-											<div class="title">
-												Title
-											</div>
-											<div class="error">
-												Ce champ comporte une erreur 
-											</div>
+										<div class="title">
+											Title
 										</div>
 										<textarea placeholder="Title"></textarea>
+										<div class="error">
+											Ce champ comporte une erreur 
+										</div>
 									</div>
 								</div>
 								

@@ -18,7 +18,7 @@ $('footer .foot .container-lg .lg .text').click(function(){
 
 /* HEADER */
 $window.scroll(function() {
-	if ( $window.scrollTop() >= 0 ) {
+	if ( $window.scrollTop() >= 1 ) {
         $('header').addClass('style-scroll');
     } else {
     	$('header').removeClass('style-scroll');
