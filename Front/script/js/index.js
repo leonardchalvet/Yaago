@@ -95,21 +95,6 @@ sectionHomeTitleCaroussel(
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(window).on('load', function() {
 
 	if (window.matchMedia("(min-width: 1250px)").matches) {
