@@ -9,7 +9,7 @@
 	overflow: hidden;
 }
 .section-cover{
-	padding: 375px 0px 0px 0px;
+	padding: 275px 0px 50px 0px;
 	position: relative;
 	.wrapper{
 		@include styleGrid1;
@@ -75,6 +75,9 @@
 }
 
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+	.section-cover{
+		padding-top: 200px;
+	}
 }
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
 	.section-cover{
@@ -84,7 +87,8 @@
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
-		padding-top: 152px;
+		padding-top: 122px;
+		padding-bottom: 0px;
 		.container-img{
 			position: relative;
 			left: -50px;
@@ -161,7 +165,7 @@
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-desc{
-		margin-top: 80px;
+		margin-top: 50px;
 		.container-text{
 			width: 100%;
 		}
