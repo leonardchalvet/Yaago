@@ -5,8 +5,9 @@ $lastname  = isset($_POST['lastname'])   ?  $_POST['lastname']  : null ;
 $email     = isset($_POST['email'])      ?  $_POST['email']     : null ;
 $message   = isset($_POST['message'])    ?  $_POST['message']   : null ;
 $sendto    = isset($_POST['sendto'])     ?  $_POST['sendto']    : null ;
+$object    = isset($_POST['object'])     ?  $_POST['object']    : null ;
 
-if($firstname != null && $lastname != null && $email != null && $message != null && $sendto != null ) {
+if($firstname != null && $lastname != null && $email != null && $message != null && $sendto != null && $object != null ) {
 	$header = "From: ".$email." \n";
 
 	$content =  "Firstname : " . "\n" . $firstname . "\n" . "\n".
@@ -14,5 +15,5 @@ if($firstname != null && $lastname != null && $email != null && $message != null
 				"Email : "     . "\n" . $email     . "\n" . "\n".
 				"Message : "   . "\n" . $message   . "\n" . "\n";
 
-	mail($sendto, 'CONTACT', $content, $header);
+	mail($sendto, $object, $content, $header);
 }

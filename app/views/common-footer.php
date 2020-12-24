@@ -26,6 +26,7 @@ $footer = $WPGLOBAL['footer']->data;
 				<h2><?= RichText::asText($footer->newsletter_text); ?></h2>
 				<form action="/sendMail/footer.php" method="POST">
 					<input type="text" name="sendto" value="<?= RichText::asText($footer->newsletter_sendto); ?>" style="visibility: hidden;">
+					<input type="text" name="object" value="<?= RichText::asText($footer->newsletter_object); ?>" style="visibility: hidden;">
 					<input type="text" name="goto" value="<?php echo(getUrl()); ?>" style="visibility: hidden;">
 					<div class="input">
 						<div class="head">
@@ -71,13 +72,17 @@ $footer = $WPGLOBAL['footer']->data;
 					<div class="text">
 						<?= RichText::asText($footer->foot_alllang[0]->grp_text); ?>
 					</div>
+					<!--
 					<img class="arrow" src="/img/footer/icn-arrow.svg" alt="icon arrow">
+					-->
 				</div>
+				<!--
 				<div class="dropdown">
 					<?php foreach ($footer->foot_alllang as $l) { ?>
 						<div class="el"><?= RichText::asText($l->grp_text); ?></div>
 					<?php } ?>
 				</div>
+				-->
 			</div>
 
 			<p class="cpr">

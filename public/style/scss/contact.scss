@@ -57,23 +57,12 @@
 						}
 					}
 					margin-bottom: 8px;
-					.head{
+					.title{
+						@include styleParagraphTiny;
+						font-family: $font_1_bold;
+						color: $colorMain_7;
 						padding-left: 15px;
 						margin-bottom: 4px;
-						display: flex;
-						flex-flow: row wrap;
-						align-items: center;
-						justify-content: space-between;
-						.title{
-							@include styleParagraphTiny;
-							font-family: $font_1_bold;
-							color: $colorMain_7;
-						}
-						.error{
-							display: none;
-							@include styleParagraphTiny;
-							color: $colorMain_1;
-						}
 					}
 					input,
 					textarea{
@@ -91,11 +80,19 @@
 							border-color: $colorMain_5;
 						}
 					}
+					.error{
+						margin-top: 4px;
+						visibility: hidden;
+						opacity: 0;
+						@include styleParagraphTiny;
+						color: $colorMain_1;
+						padding-left: 15px;
+						transition: all 0.25s ease;
+					}
 					&.style-error{
-						.head{
-							.error{
-								display: block;
-							}
+						.error{
+							visibility: visible;
+							opacity: 1;
 						}
 						input,
 						textarea {
@@ -185,7 +182,7 @@
 					.input{
 						&:not(:last-child){
 							width: 100%;
-							margin-bottom: 21px;
+							margin-bottom: 10px;
 						}
 					}
 				}
