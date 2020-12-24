@@ -30,6 +30,9 @@ $('.section-contact form button').on('click', function() {
 			data : form.serialize(),
 			success : function(code, statut){
 				$('.section-contact .container-send').addClass('style-active');
+				setTimeout(function(){
+					$('.section-contact .container-send').removeClass('style-active');
+				}, 3000);
 			}
 		});
 	}
