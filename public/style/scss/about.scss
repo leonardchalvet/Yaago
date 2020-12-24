@@ -585,6 +585,9 @@
 						margin: auto;
 						width: 160px;
 						height: 160px;
+						.name{
+							bottom: 18px;
+						}
 					}
 				}
 				&:nth-child(1){
@@ -598,6 +601,9 @@
 					.pp{
 						width: 100px;
 						height: 100px;
+						.name{
+							bottom: 13px;
+						}
 					}
 				}
 				&:nth-child(6){

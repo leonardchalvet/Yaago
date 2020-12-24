@@ -630,12 +630,13 @@
 				}
 			}
 			&:nth-child(3){
-				margin-top: -150px;
+				margin-top: -50px;
 				display: flex;
 				flex-flow: row wrap;
 				justify-content: center;
 				.partners{
 					.img{
+						display: none;
 						height: 100px;
 						width: 100px;
 						border-radius: 50px;
