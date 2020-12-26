@@ -7,6 +7,7 @@ COPY vendor /usr/src/yaago-website/vendor
 COPY config.php /usr/src/yaago-website
 COPY composer.json /usr/src/yaago-website
 COPY composer.lock /usr/src/yaago-website
+COPY email.ini /usr/local/etc/php/conf.d
 
 WORKDIR /usr/src/yaago-website/public
 CMD [ "php", "-S", "0.0.0.0:8000" ]
