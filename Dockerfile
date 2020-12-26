@@ -1,5 +1,7 @@
 FROM php:7
 
+RUN apt-get update && apt-get install -y sendmail && rm -rf /var/lib/apt/lists/*
+
 COPY app /usr/src/yaago-website/app
 COPY public /usr/src/yaago-website/public
 COPY Front /usr/src/yaago-website/Front
