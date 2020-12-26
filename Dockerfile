@@ -7,8 +7,8 @@ RUN echo "root=contact@infine.io" >> /etc/ssmtp/ssmtp.conf
 
 # Here is the gmail configuration (or change it to your private smtp server)
 RUN echo "mailhub=smtp.postmarkapp.com:587" >> /etc/ssmtp/ssmtp.conf
-RUN echo "7f834d0b-5979-4e61-9dea-36606ada7cb2" >> /etc/ssmtp/ssmtp.conf
-RUN echo "7f834d0b-5979-4e61-9dea-36606ada7cb2" >> /etc/ssmtp/ssmtp.conf
+RUN echo "AuthUser=7f834d0b-5979-4e61-9dea-36606ada7cb2" >> /etc/ssmtp/ssmtp.conf
+RUN echo "AuthPass=7f834d0b-5979-4e61-9dea-36606ada7cb2" >> /etc/ssmtp/ssmtp.conf
 
 RUN echo "UseTLS=YES" >> /etc/ssmtp/ssmtp.conf
 RUN echo "UseSTARTTLS=YES" >> /etc/ssmtp/ssmtp.conf
