@@ -1,6 +1,6 @@
 FROM php:7
 
-RUN apt-get install -q -y ssmtp mailutils
+RUN apt-get update && apt-get install -q -y ssmtp mailutils
 
 # root is the person who gets all mail for userids < 1000
 RUN echo "root=contact@infine.io" >> /etc/ssmtp/ssmtp.conf
