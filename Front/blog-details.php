@@ -35,9 +35,7 @@
 						<img src="img/img-test/background-1.jpg" alt="">
 					</div>
 				</div>
-
 			</section>
-
 
 			<section class="section-blog">
 				<div class="wrapper">
