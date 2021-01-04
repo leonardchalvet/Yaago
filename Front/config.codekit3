@@ -474,6 +474,118 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/favicon/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 7072,
+		"oA": 0,
+		"oAP": "/img/favicon/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/favicon/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 20041,
+		"oA": 0,
+		"oAP": "/img/favicon/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/favicon/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 6682,
+		"oA": 0,
+		"oAP": "/img/favicon/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/favicon/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/favicon/browserconfig.xml",
+		"oF": 0
+		},
+	"/img/favicon/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 704,
+		"oA": 0,
+		"oAP": "/img/favicon/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/favicon/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1090,
+		"oA": 0,
+		"oAP": "/img/favicon/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/favicon/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/favicon/favicon.ico",
+		"oF": 0
+		},
+	"/img/favicon/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 5405,
+		"oA": 0,
+		"oAP": "/img/favicon/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/favicon/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/favicon/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/favicon/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/img/favicon/site.webmanifest",
+		"oF": 0
+		},
 	"/img/footer/icn-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1035,6 +1147,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/blog-details.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/blog-details-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/common.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1327,7 +1450,7 @@
 	"creationDate": 561315058.37998199,
 	"displayValue": "Yaago",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ariel",
+	"iconImageName": "/img/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
