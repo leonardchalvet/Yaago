@@ -147,6 +147,11 @@ h1, h2, h3, h4, h5, h6, i, em
 		$paragraphTiny_textsize_mobile: 11px;
 
 
+	/*----------  QUOTE  ----------*/
+		$quote_textsize_desktop: 24px;
+		$quote_textsize_mobile: 20px;
+
+
 	/*----------  LINK  ----------*/
 		$linkBig_textsize_desktop: 18px;
 		$linkMedium_textsize_desktop: 16px;
@@ -339,6 +344,22 @@ h1, h2, h3, h4, h5, h6, i, em
 			@media screen and (max-width: $breakPoint_mobile){
 				font-size: $paragraphTiny_textsize_mobile;
 				$lineHeight: $paragraphTiny_textsize_mobile * 1.5;
+				line-height: $lineHeight;
+			}
+		}
+
+		/*----------  QUOTE  ----------*/
+		@mixin styleQuote{
+			font-family: $font_2_regular;
+		  	color: $colorMain_7;
+			@media screen and (min-width: $breakPoint_mobile){
+				font-size: $quote_textsize_desktop;
+				$lineHeight: $quote_textsize_desktop * 1.5;
+				line-height: $lineHeight;
+			}
+			@media screen and (max-width: $breakPoint_mobile){
+				font-size: $quote_textsize_mobile;
+				$lineHeight: $quote_textsize_mobile * 1.5;
 				line-height: $lineHeight;
 			}
 		}
