@@ -13,7 +13,7 @@ $footer = $WPGLOBAL['footer']->data;
 	<div class="content">
 		<div class="wrapper">
 			<div class="container-logo">
-				<a href="" class="logo">
+				<a href="<?php checkUrl($footer->logo_link); ?>" class="logo">
 					<img src="/img/common/logo.svg" alt="icon logo">
 				</a>
 				<p>
