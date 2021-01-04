@@ -25,6 +25,14 @@
 		"oAP": "/about.php",
 		"oF": 0
 		},
+	"/blog-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/blog-details.php",
+		"oF": 0
+		},
 	"/common-footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -346,6 +354,36 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/blog-details/section-blog/icn-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/blog-details/section-blog/icn-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/blog-details/section-blog/icn-quote.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/blog-details/section-blog/icn-quote.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/blog-details/section-blog/icn-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/blog-details/section-blog/icn-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/common/arrow-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -548,6 +586,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/home/section-cover/illu-screen-1.png": {
+		"ft": 32768,
+		"iS": 291562,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/home/section-cover/illu-screen-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -563,6 +614,19 @@
 		"iS": 273154,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-2-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-cover/illu-screen-2.png": {
+		"ft": 32768,
+		"iS": 104125,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -594,6 +658,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/home/section-cover/illu-screen-3.png": {
+		"ft": 32768,
+		"iS": 305259,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/img/home/section-cover/illu-screen-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -609,6 +686,19 @@
 		"iS": 30958,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-4-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/home/section-cover/illu-screen-4.png": {
+		"ft": 32768,
+		"iS": 9145,
+		"oA": 0,
+		"oAP": "/img/home/section-cover/illu-screen-4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1086,6 +1176,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style/css/blog-details.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/blog-details-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style/css/contact.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1136,6 +1236,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/about.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/blog-details.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/blog-details.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1
