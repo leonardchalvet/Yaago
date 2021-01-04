@@ -53,9 +53,17 @@ $('footer form button').on('click', function() {
 	})
 
 	if(returnF) {
-		return true;
-	}
-	else {
-		return false;
+		let form = $(this).parent().parent();
+		$.ajax({
+			url : '/sendMail/footer.php',
+			type : 'POST',
+			data : form.serialize(),
+			success : function(code, statut){
+				$('footer .container-send').addClass('style-active');
+				setTimeout(function(){
+					$('footer .container-send').removeClass('style-active');
+				}, 3000);
+			}
+		});
 	}
 })

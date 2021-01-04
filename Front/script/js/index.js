@@ -132,16 +132,16 @@ $window.scroll(function() {
 		  'transform'         : 'translateX(-' + scrollTop + 'px' + ')'
 		});
 
-		d = $('.common-section-features').next().offset();
+		d = $('.section-quotes').next().offset();
 		e = d.top - a.top - ($window.height() * 1.25);
 
 		if (scrollTop >= e) {
-			if (!$('.common-section-features').hasClass('active')) {
-				$('.common-section-features').addClass('active');
+			if (!$('.section-quotes').hasClass('active')) {
+				$('.section-quotes').addClass('active');
 			}
 		} else {
-			if ($('.common-section-features').hasClass('active')) {
-				$('.common-section-features').removeClass('active');
+			if ($('.section-quotes').hasClass('active')) {
+				$('.section-quotes').removeClass('active');
 			}
 		}
 

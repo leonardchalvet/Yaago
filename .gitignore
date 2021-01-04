@@ -89,7 +89,7 @@ fabric.properties
 .nfs*
 
 ### macOS ###
-*.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -482,5 +482,6 @@ __pycache__/
 # By default, sensitive information, such as encrypted password
 # should be stored in the .pubxml.user file.
 
+config.codekit3
 
 # End of https://www.gitignore.io/api/vim,linux,macos,windows,composer,intellij,sublimetext,visualstudio,visualstudiocode

@@ -1,4 +1,9 @@
 <footer>
+
+	<div class="container-send">
+		<img src="img/contact/check.svg" alt="">
+		<div class="text">Message Envoyé</div>
+	</div>
 	
 	<div class="content">
 		<div class="wrapper">
@@ -23,7 +28,7 @@
 			</div>
 			<div class="container-newsletter">
 				<h2>Newsletter</h2>
-				<form action="test.php">
+				<form onSubmit="return false;">
 					<div class="input">
 						<div class="head">
 							<div class="error">
