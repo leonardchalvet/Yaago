@@ -435,6 +435,236 @@
 
 						</div>
 
+						<div class="raw">
+							
+							<div class="col">
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+
+							<div class="col">
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+
+							<div class="col">
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+
+						</div>
+
+						<div class="raw">
+							
+							<div class="col">
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+
+							<div class="col">
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+
+								<a href="" class="article">
+									<img src="img/img-test/background-1.jpg" alt="" class="cover">
+									<h3>
+										Lorem ipsum dolor sit amet non consequentur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorem similique dicta commodi, numquam aliquid laboriosam sed reprehenderit qui, iure suscipit ullam, nesciunt asperiores, id dignissimos fuga illum! Provident, cupiditate.
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id doloribus distinctio laudantium at aliquam itaque! Consectetur repellat dolore possimus neque cupiditate consequuntur ullam aliquam ut, atque tempore iure dolorum.	
+									</p>
+									<span class="author">
+										<span class="pp">
+											<img src="img/img-test/user.jpg" alt="">
+										</span>
+										<span class="text">
+											<span class="name">Albert Flores</span>
+											<span class="date">
+												Plume Yaago depuis 2016
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+
+
+
+						</div>
+
 					</div>
 
 					<div class="container-btn">
