@@ -25,6 +25,11 @@
  * END DEL COOCKIES
  */
 
+function getLang() {
+    $urlt = explode('/',(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+    return $urlt[3];
+}
+
 function getUrl() {
     $urlt = explode('/',(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
     return $urlt[0].'//'.$urlt[2].'/'.$urlt[3].'/';
@@ -187,8 +192,8 @@ function renderPage($request, $response, $args, $app, $prismic) {
     //PART 4 - Call current page
     $document = NULL;
     $nType = 0;
-    $arrayTypes = [ 'home', 'p404', 'contact', 'about' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
-    $arrayView  = [ 'home', 'p404', 'contact', 'about' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
+    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
+    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
     foreach ($arrayTypes as $type) {
         $document = $api->getByUID($type, $args['uid'], $options);
 
@@ -204,9 +209,16 @@ function renderPage($request, $response, $args, $app, $prismic) {
 
     //PART 5 - Call good view
     if($document != NULL) {
-        if($arrayView[$nType-1] == 'clients') {
-            $caseStudies = $api->query(Predicates::at('document.type', 'case_studies'), $options);
-            render($app, $arrayView[$nType-1], array('document' => $document, 'caseStudies' => $caseStudies, 'header' => $header, 'footer' => $footer));
+        if($arrayView[$nType-1] == 'articles') {
+
+            $author = $api->getByUID('author', $document->data->author->uid, $options);
+            $authors = $api->query(Predicates::at('document.type', 'author'), $options);
+
+            $options['pageSize'] = 4;
+            $options['orderings'] = '[document.first_publication_date desc]';
+            $articles = $api->query(Predicates::at('document.type', 'articles'), $options);
+
+            render($app, $arrayView[$nType-1], array('document' => $document, 'articles' => $articles, 'author' => $author, 'authors' => $authors, 'header' => $header, 'footer' => $footer));
         }
         else {
             render($app, $arrayView[$nType-1], array('document' => $document, 'header' => $header, 'footer' => $footer));
