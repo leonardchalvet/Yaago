@@ -192,8 +192,8 @@ function renderPage($request, $response, $args, $app, $prismic) {
     //PART 4 - Call current page
     $document = NULL;
     $nType = 0;
-    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
-    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
+    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
+    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
     foreach ($arrayTypes as $type) {
         $document = $api->getByUID($type, $args['uid'], $options);
 
@@ -219,6 +219,13 @@ function renderPage($request, $response, $args, $app, $prismic) {
             $articles = $api->query(Predicates::at('document.type', 'articles'), $options);
 
             render($app, $arrayView[$nType-1], array('document' => $document, 'articles' => $articles, 'author' => $author, 'authors' => $authors, 'header' => $header, 'footer' => $footer));
+        }
+        else if($arrayView[$nType-1] == 'blog') {
+          $authors = $api->query(Predicates::at('document.type', 'author'), $options);
+          $options['orderings'] = '[document.first_publication_date desc]';
+          $articles = $api->query(Predicates::at('document.type', 'articles'), $options);
+
+          render($app, $arrayView[$nType-1], array('document' => $document, 'articles' => $articles, 'authors' => $authors, 'header' => $header, 'footer' => $footer));
         }
         else {
             render($app, $arrayView[$nType-1], array('document' => $document, 'header' => $header, 'footer' => $footer));
