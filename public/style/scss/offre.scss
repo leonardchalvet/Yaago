@@ -175,6 +175,15 @@
 		}
 	}
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+
+}
+@media screen and (max-width: $breakPoint_mobile){
+	
+}
 
 .section-desc{
 	margin-top: 120px;

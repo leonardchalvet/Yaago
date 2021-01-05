@@ -44,6 +44,22 @@
 	}
 }
 
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-cover{
+		&:before{
+			height: 755px;
+		}
+		.container-img{
+			height: 200px;
+		}
+	}
+}
 
 .section-blog{
 	margin-top: 72px;
@@ -249,6 +265,74 @@
 		}
 	}
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-blog{
+		position: relative;
+		margin-top: 40px;
+		.wrapper{
+			display: block;
+		}
+		.container-share{
+			margin-left: 0px;
+			position: initial;
+			top: initial;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: flex-start;
+			margin-right: initial;
+			a{
+				width: initial;
+				height: 25px;
+				&:not(:last-child){
+					margin-bottom: 0px;
+					margin-right: 25px;
+				}
+				img{
+					width: initial;
+					height: 100%;
+				}
+			}
+		}
+		.container-blog{
+			width: 100%;
+			margin-top: 40px;
+			.container-quote{
+				padding: 37px;
+				display: block;
+				padding: 37px 20px 37px 20px;
+				.icn-quote{
+					margin-right: 0px;
+					margin-bottom: 12px;
+				}
+			}
+			.container-list{
+				ul{
+					li{
+						width: 100%;
+					}
+				}
+			}
+			.container-author{
+				.author{
+					align-items: flex-start;
+					.pp{
+						width: 70px;
+						height: 78px;
+						margin-right: 10px;
+					}
+				}
+				
+			}
+		}
+	}
+
+}
 
 .section-articles{
 	margin-top: 140px;
@@ -331,6 +415,29 @@
 						display: block;
 						@include styleParagraphSmall;
 					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-articles{
+		margin-top: 60px;
+		margin-bottom: 84px;
+		.wrapper{
+			padding-top: 60px;
+		}
+		.container-articles{
+			.article{
+				width: 100%;
+				&:not(:last-child){
+					margin-bottom: 52px;
 				}
 			}
 		}
