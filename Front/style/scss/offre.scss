@@ -1,0 +1,271 @@
+@import 'common.scss';
+
+
+/*=============================
+=            OFFRES           =
+=============================*/
+
+
+.section-cover{
+	position: relative;
+	padding-top: 167px;
+	.wrapper{
+		@include styleGrid3;
+	}
+	.container-title{
+		text-align: center;
+		h1{
+			@include styleH1;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-1.svg);
+				}
+			}
+		}
+		p{
+			margin-top: 16px;
+			@include styleParagraphBig;
+		}
+	}
+	.container-banner{
+		margin-top: 50px;
+		margin: 50px auto 0px auto;
+		border-radius: 16px;
+		width: 800px;
+		height: 120px;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+		background-color: $colorMain_2;
+		img{
+			width: 55px;
+			margin-right: 30px;
+		}
+		h3{
+			@include styleH4;
+			color: #FFF;
+			span{
+				color: $colorMain_6;
+			}
+		}
+	}
+	.container-offre{
+		margin-top: 100px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		.container-list{
+			width: 440px;
+			ul{
+				list-style: none;
+				li{
+					display: flex;
+					flex-flow: row wrap;
+					align-items: center;
+					&:not(:last-child){
+						margin-bottom: 40px;
+					}
+					img{
+						height: 20px;
+						margin-right: 20px;
+					}
+					h3{
+						flex: 1;
+						@include styleH4;
+					}
+				}
+			}
+		}
+		.container-price{
+			width: 425px;
+			.cdr-price{
+				position: relative;
+				width: 100%;
+				border: 1px solid $colorMain_9;
+				border-radius: 12px;
+				overflow: hidden;
+				.el-price{
+					position: relative;
+					
+					&:not(:last-child){
+						border-bottom: 1px solid $colorMain_9;
+					}
+					.bdg{
+						padding: 3px 0px 3px 0px;
+						background-color: $colorMain_11;
+						text-align: center;
+						p{
+							@include styleParagraphMedium;
+							color: $colorMain_5;
+						}
+					}
+					.container-text{
+						padding: 20px;
+						display: flex;
+						flex-flow: row wrap;
+						align-items: center;
+						justify-content: space-between;
+						.price{
+							h3{
+								@include styleH2;
+							}
+							span{
+								display: block;
+								margin-top: -10px;
+								@include styleParagraphSmall;
+								color: $colorMain_5;
+							}
+						}
+						.text{
+							@include styleParagraphSmall;
+						}
+					}
+				}
+				.rft{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					display: inline-flex;
+					border: 1px solid $colorMain_9;
+					border-radius: 3px;
+					padding: 3px 14px;
+					background-color: #FFF;
+					transform: translate(-50%, -50%);
+					span{
+						@include styleParagraphTiny;
+						color: $colorMain_1;
+					}
+				}
+			}
+			.btn{
+				margin-top: 26px;
+				width: 100%;
+				@include styleButton("big", "1");
+			}
+			ul{
+				margin-top: 42px;
+				list-style: none;
+				li{
+					@include styleParagraphBig;
+					color: $colorMain_5;
+					&:before{
+						content:'';
+						height: 10px;
+						width: 10px;
+						border-radius: 5px;
+						background-color: $colorMain_7;
+						display: inline-block;
+						vertical-align: middle;
+						margin-right: 12px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.section-desc{
+	margin-top: 120px;
+	padding: 94px 0px 116px 0px;
+	background-color: $colorMain_6;
+	.wrapper{
+		width: 800px;
+		margin: auto;
+	}
+	.container-title{
+		h2{
+			@include styleH2;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-1.svg);
+				}
+			}
+		}
+	}
+	.container-col{
+		margin-top: 46px;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+		.col{
+			width: 340px;
+			p{
+				@include styleParagraphBig;
+			}
+		}
+		.btn{
+			margin-top: 76px;
+			@include styleButton("medium", "2");
+		}
+	}
+}
+
+.section-faq{
+	padding-top: 140px;
+	.wrapper{
+		@include styleGrid1;
+	}
+	.container-title{
+		text-align: center;
+		h2{
+			@include styleH2;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-3.svg);
+				}
+			}
+		}
+	}
+	.container-faq{
+		width: 600px;
+		margin: 64px auto 0px auto;
+		ul{
+			list-style: none;
+			li{
+				&:not(:last-child){
+					margin-bottom: 60px;
+				}
+				.title{
+					cursor: pointer;
+					display: flex;
+					flex-flow: row wrap;
+					align-items: center;
+					h3{
+						flex: 1;
+						@include styleH3;
+					}
+					.arrow{
+						position: relative;
+						width: 16px;
+						height: 16px;
+						img{
+							position: absolute;
+							top: 50%;
+							left: 0px;
+							transform: translateY(-50%);
+							width: 100%;
+						}
+					}
+				}
+				p{
+					display: none;
+					padding-top: 24px;
+					@include styleParagraphMedium;
+				}
+				&.style-open{
+					p{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+/*=================================
+=            END OFFRES           =
+=================================*/

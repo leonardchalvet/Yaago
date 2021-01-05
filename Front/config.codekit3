@@ -33,6 +33,14 @@
 		"oAP": "/blog-details.php",
 		"oF": 0
 		},
+	"/blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/blog.php",
+		"oF": 0
+		},
 	"/common-footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1117,12 +1125,50 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/offre/section-cover/icn-check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/offre/section-cover/icn-check.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/offre/section-cover/illu-parachutiste.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/offre/section-cover/illu-parachutiste.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/offre/section-faq/icn-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/offre/section-faq/icn-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/offre.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/offre.php",
 		"oF": 0
 		},
 	"/script/js/404.js": {
@@ -1154,6 +1200,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/blog-details-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/js/blog.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/blog-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1213,6 +1270,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/offre.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/offre-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/smooth-parallax-scroll.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1242,6 +1310,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/about-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/minify/blog-details-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/blog-details-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1279,6 +1358,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/offre-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/offre-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/style/css/404.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1309,6 +1399,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style/css/blog.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/blog-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style/css/contact.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1336,6 +1436,16 @@
 		"oA": 0,
 		"oAP": "/style/css/home.css.map",
 		"oF": 0
+		},
+	"/style/css/offre.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/offre-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/style/scss/404.scss": {
 		"aP": 1,
@@ -1372,6 +1482,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/blog-details.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/blog.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/blog.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1
@@ -1438,6 +1561,19 @@
 		"oA": 0,
 		"oAP": "/style/css/home.css",
 		"oF": 2,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/offre.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/offre.css",
+		"oF": 0,
 		"oS": 3,
 		"sct": 1
 		}
