@@ -8,7 +8,17 @@
 .section-cover{
 	position: relative;
 	padding-top: 167px;
+	&:before{
+		content:'';
+		width: 100%;
+		height: 420px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background: linear-gradient(180deg, #F4D8CD 0%, rgba(250, 250, 250, 0) 100%);
+	}
 	.wrapper{
+		position: relative;
 		@include styleGrid4;
 	}
 	.container-title{
@@ -52,11 +62,16 @@
 			display: block;
 			text-decoration: none;
 			width: 25px;
+			transition: all 0.25s ease;
 			&:not(:last-child){
 				margin-bottom: 24px;
 			}
 			img{
 				width: 100%;
+			}
+
+			&:hover{
+				opacity: 0.8;
 			}
 		}
 	}
@@ -263,6 +278,12 @@
 				display: block;
 				width: 100%;
 				border-radius: 16px;
+				transition: all 0.35s ease;
+			}
+			&:hover{
+				.cover{
+					opacity: 0.8;
+				}
 			}
 			h3{
 				margin-top: 16px;

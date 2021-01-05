@@ -379,6 +379,7 @@ h1, h2, h3, h4, h5, h6, i, em
 
 		/*----------  BUTTON  ----------*/
 		@mixin styleButton($size, $style){
+			background-color: transparent;
 			text-decoration: none;
 			display: inline-flex;
 			align-items: center;
