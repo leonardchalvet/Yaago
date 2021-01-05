@@ -5,6 +5,7 @@ $author   = $WPGLOBAL['author'];
 $authors  = $WPGLOBAL['authors'];
 $articles = $WPGLOBAL['articles'];
 
+$uid = $WPGLOBAL['document']->uid;
 $firstpublish = date_create($WPGLOBAL['document']->first_publication_date);
 $lastpublish  = date_create($WPGLOBAL['document']->last_publication_date);
 
@@ -179,36 +180,37 @@ else {
             <h2><?= RichText::asText($document->lastarticles_title); ?></h2>
           </div>
           <div class="container-articles">
-            <?php 
+            <?php $i = 0; 
             foreach ($articles->results as $a) {
               $thisauthor = null;
               foreach ($authors->results as $b) { 
-                if($b->uid == $a->data->author->uid && $b->uid != $author->uid) { 
+                if($b->uid == $a->data->author->uid && $a->uid != $uid) { 
                   $thisauthor = $b;
                 }
               }
-              if($thisauthor != null) { ?>
-                <a href="<?php echo(getUrl()); ?><?= $a->uid; ?>" class="article">
-                  <img src="<?= $a->data->cover_img->url; ?>" alt="<?= $a->data->cover_img->alt; ?>" class="cover">
-                  <h3>
-                    <?= RichText::asText($a->data->cover_title); ?>
-                  </h3>
-                  <p>  
-                    <?= RichText::asText($a->data->cover_text); ?>
-                  </p>
-                  <span class="author">
-                    <span class="pp">
-                      <img src="<?= $thisauthor->data->content_img->url; ?>" alt="<?= $thisauthor->data->content_img->alt; ?>">
-                    </span>
-                    <span class="text">
-                      <span class="name"><?= RichText::asText($thisauthor->data->content_name); ?></span>
-                      <span class="date">
-                        <?= RichText::asText($thisauthor->data->content_under); ?>
+              if($thisauthor != null) { 
+                if($i < 3) { ?>
+                  <a href="<?php echo(getUrl()); ?><?= $a->uid; ?>" class="article">
+                    <img src="<?= $a->data->cover_img->url; ?>" alt="<?= $a->data->cover_img->alt; ?>" class="cover">
+                    <h3>
+                      <?= RichText::asText($a->data->cover_title); ?>
+                    </h3>
+                    <p>  
+                      <?= RichText::asText($a->data->cover_text); ?>
+                    </p>
+                    <span class="author">
+                      <span class="pp">
+                        <img src="<?= $thisauthor->data->content_img->url; ?>" alt="<?= $thisauthor->data->content_img->alt; ?>">
+                      </span>
+                      <span class="text">
+                        <span class="name"><?= RichText::asText($thisauthor->data->content_name); ?></span>
+                        <span class="date">
+                          <?= RichText::asText($thisauthor->data->content_under); ?>
+                        </span>
                       </span>
                     </span>
-                  </span>
-                </a>
-            <?php } } ?>
+                  </a>
+            <?php } $i++; } } ?>
           </div>
         </div>
       </section>
