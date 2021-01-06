@@ -23,7 +23,7 @@
 				<div class="wrapper">
 					<div class="container-title">
 						<h1>
-							Enfin une tarification<br>simple et <em>transparente</em>
+							Enfin une tarification<br> simple et <em>transparente</em>
 						</h1>
 						<p>
 							Nous vous proposons un tarif dégressif, sans frais d’installation et sans formation payante.
