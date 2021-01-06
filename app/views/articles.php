@@ -66,6 +66,10 @@ else {
       <section class="section-blog">
         <div class="wrapper">
           <div class="container-share">
+            <!--
+            TW = https://twitter.com/intent/tweet?url=LIEN_A_PARTAGER
+            FB = https://www.facebook.com/sharer/sharer.php?u=LIEN_A_PARTAGER
+            -->
             <?php foreach ($document->social_network as $sn) { ?>
             <a href="<?= $sn->link->url; ?>">
               <img src="<?= $sn->logo->url; ?>" alt="<?= $sn->logo->alt; ?>">
