@@ -179,7 +179,19 @@
 
 }
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
-
+	.section-cover{
+		.container-banner{
+			width: 100%;
+		}
+		.container-offre{
+			.container-list{
+				width: 100%;
+			}
+			.container-price{
+				margin: 72px auto 0px auto;
+			}
+		}
+	}
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
@@ -259,6 +271,18 @@
 
 }
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+	.section-desc{
+		margin-top: 72px;
+		padding:72px 0px 72px 0px;
+		.wrapper{
+			@include styleGrid1;
+		}
+		.container-col{
+			.col{
+				width: 100%;
+			}
+		}
+	}
 
 }
 @media screen and (max-width: $breakPoint_mobile){
@@ -269,6 +293,9 @@
 			@include styleGrid1;
 		}
 		.container-col{
+			.col{
+				width: 100%;
+			}
 			.btn{
 				width: 100%;
 			}
@@ -315,6 +342,7 @@
 						position: relative;
 						width: 16px;
 						height: 16px;
+						transition: all 0.25s ease;
 						img{
 							position: absolute;
 							top: 50%;
@@ -330,6 +358,11 @@
 					@include styleParagraphMedium;
 				}
 				&.style-open{
+					.title{
+						.arrow{
+							transform: rotate(180deg);
+						}
+					}
 					p{
 						display: block;
 					}
