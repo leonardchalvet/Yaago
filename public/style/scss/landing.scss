@@ -1,0 +1,155 @@
+@import 'common.scss';
+
+
+/*===================================
+=            PAGE LANDING           =
+===================================*/
+
+
+.section-cover{
+	padding-top: 230px;
+	.wrapper{
+		@include styleGrid1;
+		position: relative;
+	}
+	.container-illu{
+		position: absolute;
+		right: 450px;
+		width: 900px;
+		top: -30px;
+	}
+	.container-title{
+		margin-left: auto;
+		width: 408px;
+		h1{
+			span{
+				&:nth-child(1){
+					@include styleH1;
+				}
+				&:nth-child(2){
+					z-index: 1;
+					@include styleHx1;
+					padding-left: 2px;
+				}
+			}
+		}
+		.container-input{
+			margin-top: 40px;
+			border: 1px solid $colorMain_9;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			border-radius: 60px;
+			input{
+
+				border: none;
+				padding-left: 20px;
+				@include styleParagraphMedium;
+				color: $colorMain_5;
+				background-color: transparent;
+				outline: none;
+				&::placeholder{
+					color: $colorMain_7;
+				}
+			}
+			.btn{
+				@include styleButton("medium", "1");
+			}
+		}
+	}
+}
+
+.section-solutions{
+	margin-top: 158px;
+	.wrapper{
+		@include styleGrid1;
+	}
+	.container-title{
+		text-align: center;
+		h2{
+			@include styleH2;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-1.svg);
+				}
+			}
+		}
+		p{
+			margin-top: 6px;
+			@include styleParagraphBig;
+		}
+	}
+	.container-el{
+		margin-top: 92px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		.el{
+			width: 345px;
+			.illu{
+				height: 280px;
+				img{
+					height: 100%;
+				}
+			}
+			h3{
+				@include styleH4;
+			}
+			p{
+				margin-top: 16px;
+				@include styleParagraphBig;
+			}
+		}
+	}
+	.container-btn{
+		margin-top: 98px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		.btn{
+			@include styleButton("medium", "2");
+		}
+	}
+}
+
+.section-tarif{
+	background-color: $colorMain_2;
+	padding: 180px 0px 180px 0px;
+	position: relative;
+	.wrapper{
+		@include styleGrid1;
+	}
+	.illu{
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+	}
+	.container-text{
+		margin-left: auto;
+		width: 490px;
+		h2{
+			@include styleH2;
+			color: #FFF;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-2.svg);
+				}
+			}
+		}
+		p{
+			margin-top: 24px;
+			@include styleParagraphBig;
+			color: rgba(255, 255, 255, 0.7);
+		}
+		.btn{
+			margin-top: 50px;
+			@include styleButton("big", "1");
+		}
+	}
+}
+
+/*=======================================
+=            END PAGE LANDING           =
+=======================================*/
