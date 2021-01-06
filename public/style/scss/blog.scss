@@ -38,9 +38,13 @@
 	.container-articles{
 		margin-top: 116px;
 		.raw{
+			
+			&.hide {
+				display: none;
+			}
+			
 			display: flex;
 			flex-flow: row wrap;
-			
 			
 			@media screen and (min-width: $breakPoint_tablet){
 				.col{
@@ -481,10 +485,16 @@
 	}
 
 	.container-btn{
+
+		&.hide {
+			display: none;
+		}
+
 		margin-top: 63px;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
+
 		.btn{
 			@include styleButton("medium", "2");
 		}
