@@ -48,7 +48,7 @@
 			
 			@media screen and (min-width: $breakPoint_tablet){
 				.col{
-					height: 700px;
+					//height: 700px;
 					&:last-child{
 						border-right: 1px solid transparent;
 					}
@@ -221,8 +221,8 @@
 					}
 				}
 				.article{
-					padding-top: 18px;
-					padding-bottom: 18px;
+					padding-top: 20px;
+					padding-bottom: 20px;
 				}
 				&:nth-child(3n+1){
 					.col{
@@ -400,7 +400,7 @@
 					padding-left: 0px;
 					padding-right: 0px;
 					&:not(:last-child){
-						margin-bottom: 18px;
+						margin-bottom: 20px;
 					}
 				}
 			}	
@@ -416,7 +416,7 @@
 			display: block;
 			width: 100%;
 			text-decoration: none;
-			padding-bottom: 34px;
+			padding-bottom: 20px;
 			border-bottom: 1px solid rgba($colorMain_5, 0.1);
 			padding-left: 18px;
 			padding-right: 18px;
