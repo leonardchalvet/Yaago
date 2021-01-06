@@ -104,9 +104,11 @@ $app->get('/preview', function ($request, $response) use ($app, $prismic) {
   
   $document = $api->getByID($_GET['documentId']);
   $lang = $document->lang;
+  $type = $document->type;
   $namePage = $document->uid;
+  if($type == 'home') $namePage = "";
 
-  if(!empty($namePage) && !empty($lang)) {
+  if( ( !empty($namePage) || $type == 'home' ) && !empty($lang)) {
     $lang = substr($lang, 0, 2);
     $url = '/'.$lang.'/'.$namePage;
   }
