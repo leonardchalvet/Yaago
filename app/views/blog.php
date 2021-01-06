@@ -42,13 +42,11 @@ $articles = $WPGLOBAL['articles'];
           </div>
 
           <div class="container-articles">
-
             <?php 
               $nb = 0;
               $col = true;
+              $raw = -1;
               foreach ($articles->results as $a) {
-
-                if($nb < 17) {
 
                   foreach ($authors->results as $b) { 
                     if($b->uid == $a->data->author->uid) { 
@@ -59,7 +57,7 @@ $articles = $WPGLOBAL['articles'];
                   <?php if($nb % 6 == 0) {
                     if($nb != 0) { ?> </div> <?php } ?>
                     <div class="raw">
-                  <?php } ?>
+                  <?php $raw++; } ?>
                   
                   <?php if($col) { ?>
                     <div class="col">
@@ -93,13 +91,13 @@ $articles = $WPGLOBAL['articles'];
                   <?php if($col) { $col = false; }
                   else { $col = true; } ?>
 
-            <?php } else { $nb = 5; } $nb++; }
+            <?php $nb++; }
 
             if(!$col) { echo('</div>'); }
-            if( ($nb % 1 == 0 || $nb % 2 == 0) && $nb % 3 != 0 && $nb % 4 != 0 && $nb % 5 != 0 && $nb % 6 != 0) { 
+            if( $raw * 6 == ($nb - 1) || $raw * 6 + 1 == ($nb - 1) ) {
               echo('<div class="col"></div><div class="col"></div>');
-            }
-            if( ($nb % 3 == 0 || $nb % 4 == 0) && $nb % 5 != 0 && $nb % 6 != 0) {
+            } 
+            if( $raw * 6 + 2 == ($nb - 1) || $raw * 6 + 3 == ($nb - 1) ) {
               echo('<div class="col"></div>');
             } ?>
 
