@@ -110,6 +110,9 @@ footer{
 					padding: 0px 24px 0px 24px;
 					@include styleParagraphMedium;
 					outline: none;
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
 					&:focus{
 						border-color: $colorMain_5;
 					}
