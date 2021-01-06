@@ -106,6 +106,75 @@
 				</div>
 			</section>
 
+
+			<section class="section-fondateurs">
+				<div class="wrapper">
+					<div class="container-text">
+						<h2>
+							Les <em>fondateurs</em>
+						</h2>
+						<p>
+							Hôtes parisien et rouennais depuis plusieurs années, David et Rémi connaissent bien les problématiques liées à la location saisonnière. Profondément convaincus de l'intérêt de savoir accueillir, ils ont créé Yaago avec Édouard pour répondre aux attentes des propriétaires et de leurs voyageurs lorsqu’ils ont réalisé qu’ils n'étaient pas les seuls à éprouver des difficultés de gestion.
+						</p>
+					</div>
+					<div class="container-fondateurs">
+						<div class="fondateur">
+							<div class="pp">
+								<img src="img/home/section-quote/pp-1.png" alt="">
+								<div class="name">
+									Jerome
+								</div>
+							</div>
+							<div class="text">
+								<div class="name">Jerome Bell</div>
+								<div class="job">CEO Co-founder</div>
+							</div>
+						</div>
+						<div class="fondateur">
+							<div class="pp">
+								<img src="img/home/section-quote/pp-1.png" alt="">
+								<div class="name">
+									Jerome
+								</div>
+							</div>
+							<div class="text">
+								<div class="name">Jerome Bell</div>
+								<div class="job">CEO Co-founder</div>
+							</div>
+						</div>
+						<div class="fondateur">
+							<div class="pp">
+								<img src="img/home/section-quote/pp-1.png" alt="">
+								<div class="name">
+									Jerome
+								</div>
+							</div>
+							<div class="text">
+								<div class="name">Jerome Bell</div>
+								<div class="job">CEO Co-founder</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-mission">
+				<div class="wrapper">
+					<div class="container-text">
+						<h2>Notre <em>mission</em> ?</h2>
+						<p>Vous offrir un outil de gestion simple de vos annonces ! </p>
+					</div>
+					<a href="" class="btn">
+						<span class="btn-text">
+							En savoir plus
+						</span>
+					</a>
+				</div>
+			</section>
+
+
+			<?php include('common-section-demo.php') ?>
+
 		</main>
 
 		<?php include('common-footer.php') ?>
