@@ -91,7 +91,12 @@
 					}
 				}
 				.btn{
-					@include styleButton("big", "2");
+					@include styleButton("medium", "2");
+					.btn-arrow{
+						display: block;
+						width: 10px;
+						margin-left: 9px;
+					}
 				}
 			}
 		}

@@ -175,32 +175,35 @@
 			}
 		}
 		.btn-1{
-			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			@include styleButton("big", "1");
 		}
 		.btn-2{
-			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			@include styleButton("medium", "2");
 		}
 		.btn-3{
-			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			@include styleButton("small", "2");
 		}
 		.link{
 			margin-top: 20px;
 			margin-bottom: 20px;
 			@include styleLink;
+			.link-text{
+				text-decoration: underline;
+			}
 		}
 		img{
 			width: 100%;
 			border-radius: 16px;
 		}
 		.container-quote{
-			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-top: 60px;
+			margin-bottom: 60px;
 			background-color: $colorMain_3;
 			display: flex;
 			flex-flow: row wrap;
@@ -218,6 +221,10 @@
 				flex: 1;
 				@include styleQuote;
 				color: $colorMain_5;
+				&:before,
+				&:after{
+					content:'';
+				}
 			}
 		}
 		.container-list{
@@ -335,12 +342,12 @@
 }
 
 .section-articles{
-	margin-top: 140px;
+	margin-top: 90px;
 	margin-bottom: 200px;
 	.wrapper{
 		border-top: 1px solid #D0D3D8;
 		@include styleGrid3;
-		padding-top: 93px;
+		padding-top: 90px;
 	}
 	.container-title{
 		text-align: center;

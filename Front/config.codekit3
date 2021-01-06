@@ -1125,6 +1125,65 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/img/landing/section-cover/illu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/landing/section-cover/illu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/landing/section-solutions/illu-1.png": {
+		"ft": 32768,
+		"iS": 64241,
+		"oA": 0,
+		"oAP": "/img/landing/section-solutions/illu-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/landing/section-solutions/illu-2.png": {
+		"ft": 32768,
+		"iS": 354815,
+		"oA": 0,
+		"oAP": "/img/landing/section-solutions/illu-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/landing/section-solutions/illu-3.png": {
+		"ft": 32768,
+		"iS": 103658,
+		"oA": 0,
+		"oAP": "/img/landing/section-solutions/illu-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/img/landing/section-tarif/illu-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/landing/section-tarif/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/offre/section-cover/icn-check.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1161,6 +1220,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/landing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/landing.php",
 		"oF": 0
 		},
 	"/offre.php": {
@@ -1270,6 +1337,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/landing.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/landing-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/offre.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1325,6 +1403,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/blog-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/blog-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/common-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1354,6 +1443,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/index-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/minify/landing-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/landing-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1436,6 +1536,16 @@
 		"oA": 0,
 		"oAP": "/style/css/home.css.map",
 		"oF": 0
+		},
+	"/style/css/landing.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/landing-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/style/css/offre.css": {
 		"aP": 1,
@@ -1561,6 +1671,19 @@
 		"oA": 0,
 		"oAP": "/style/css/home.css",
 		"oF": 2,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/landing.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/landing.css",
+		"oF": 0,
 		"oS": 3,
 		"sct": 1
 		},
