@@ -135,7 +135,7 @@
 						</a>
 						<br>
 						<a href="" class="link">
-							<span class="link-text">Testez</span>
+							<span class="link-text">Voir plus</span>
 						</a>
 
 						

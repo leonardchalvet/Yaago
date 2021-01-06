@@ -129,6 +129,8 @@
 			margin-bottom: 40px;
 			list-style: none;
 			li{
+				position: relative;
+				padding-left: 35px;
 				@include styleParagraphBig;
 				&:before{
 					content:'';
@@ -136,9 +138,9 @@
 					width: 10px;
 					border-radius: 5px;
 					background-color: $colorMain_1;
-					display: inline-block;
-					vertical-align: middle;
-					margin-right: 27px;
+					position: absolute;
+					left: 0px;
+					top: 7px;
 				}
 				&:not(:last-child){
 					margin-bottom: 18px;
@@ -150,14 +152,16 @@
 			margin-bottom: 40px;
 			list-style: none;
 			li{
+				position: relative;
+				padding-left: 35px;
 				@include styleParagraphBig;
 				counter-increment: counter;
 				&:before{
 					content: counter(counter) ' -';
 					color: $colorMain_1;
-					display: inline-block;
-					vertical-align: middle;
-					margin-right: 5px;
+					position: absolute;
+					left: 0px;
+					top: 0px;
 				}
 				&:not(:last-child){
 					margin-bottom: 18px;
@@ -326,12 +330,13 @@
 				}
 			}
 			.container-author{
+				margin-top: 80px;
 				.author{
 					align-items: flex-start;
 					.pp{
 						width: 70px;
 						height: 78px;
-						margin-right: 10px;
+						margin-right: 20px;
 					}
 				}
 				
@@ -345,7 +350,17 @@
 	margin-top: 90px;
 	margin-bottom: 200px;
 	.wrapper{
-		border-top: 1px solid #D0D3D8;
+		position: relative;
+		&:before{
+			content:'';
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 0px;
+			width: 100%;
+			height: 1px;
+			background-color: #D0D3D8;
+		}
 		@include styleGrid3;
 		padding-top: 90px;
 	}
@@ -439,6 +454,9 @@
 		margin-bottom: 84px;
 		.wrapper{
 			padding-top: 60px;
+			&:before{
+				width: calc(100% - 50px);
+			}
 		}
 		.container-articles{
 			.article{
