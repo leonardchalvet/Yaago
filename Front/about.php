@@ -246,16 +246,44 @@
 								<div class="job">CEO & Co-founder</div>
 							</div>
 						</div>
+
 						<div class="team">
 							<div class="pp">
+								<img src="img/home/section-quote/pp-1.png" alt="">
+								<div class="name">
+									Jerome
+								</div>
 							</div>
 							<div class="text">
 								<div class="name">Jerome Bell</div>
-								<div class="link">
-									<span class="link-text">Join us</span>
-								</div>
+								<div class="job">CEO & Co-founder</div>
 							</div>
 						</div>
+						<div class="team">
+							<div class="pp">
+								<img src="img/home/section-quote/pp-1.png" alt="">
+								<div class="name">
+									Jerome
+								</div>
+							</div>
+							<div class="text">
+								<div class="name">Jerome Bell</div>
+								<div class="job">CEO & Co-founder</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container-btn">
+						<button>
+							<span class="btn-text">See more people</span>
+						</button>
+					</div>
+
+					<div class="container-link">
+						<h3>Who’s next?</h3>
+						<a href="" class="link">
+							<span class="link-text">Join us</span>
+						</a>
 					</div>
 				</div>
 			</section>

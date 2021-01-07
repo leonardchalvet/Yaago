@@ -461,34 +461,63 @@
 			&:nth-child(4){
 				width: 294px;
 				margin-right: 80px;
+				margin-top: 80px;
 				.pp{
 					height: 294px;
 				}
 			}
 
 			&:nth-child(5){
+				margin-right: 120px;
 				width: 260px;
 				.pp{
 					height: 260px;
 				}
 			}
 
+			
 			&:nth-child(6){
+				margin-right: 180px;
+				width: 260px;
 				margin-top: 60px;
-				width: 100%;
-				text-align: center;
 				.pp{
-					display: none;
-					border-radius: 50px;
-					margin: auto;
-					width: 100px;
-					height: 100px;
-					background-color: $colorMain_6;
-				}
-				.link{
-					@include styleLink;
+					height: 260px;
 				}
 			}
+
+			&:nth-child(7){
+				width: 294px;
+				margin-right: 0px;
+				
+				.pp{
+					height: 294px;
+				}
+			}
+		}
+	}
+	.container-btn{
+		margin-top: 18px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		button{
+
+			@include styleButton("medium", "2");
+			border-color: #FFF;
+			.btn-text{
+				color: #FFF;
+			}
+		}
+	}
+	.container-link{
+		margin-top: 86px;
+		text-align: center;
+		h3{
+			@include styleH4;
+			color: #FFF;
+		}
+		.link{
+			@include styleLink;
 		}
 	}
 }
@@ -542,16 +571,11 @@
 						height: 130px;
 					}
 				}
-				&:nth-child(6){
-					margin-top: 30px;
-					.pp{
-						display: none;
-					}
-				}
 
 				
 			}
 		}
+
 	}
 }
 @media screen and (max-width: $breakPoint_mobile){
@@ -604,12 +628,6 @@
 						.name{
 							bottom: 13px;
 						}
-					}
-				}
-				&:nth-child(6){
-					margin-top: 30px;
-					.pp{
-						display: none;
 					}
 				}
 
