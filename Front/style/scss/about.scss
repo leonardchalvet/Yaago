@@ -562,7 +562,8 @@
 					width: 100%;
 				}
 				&:nth-child(2),
-				&:nth-child(5){
+				&:nth-child(5),
+				&:nth-child(6){
 					margin-top: 110px;
 					margin-right: 0px;
 					width: 50%;
@@ -618,7 +619,8 @@
 					width: 100%;
 				}
 				&:nth-child(2),
-				&:nth-child(5){
+				&:nth-child(5),
+				&:nth-child(6){
 					margin-top: 110px;
 					margin-right: 0px;
 					width: 50%;
@@ -633,6 +635,10 @@
 
 				
 			}
+		}
+
+		.container-btn{
+			margin-top: 36px;
 		}
 	}
 }
