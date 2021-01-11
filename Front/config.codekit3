@@ -1718,6 +1718,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style/css/faq.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/faq-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style/css/home.css": {
 		"aP": 1,
 		"bl": 0,
