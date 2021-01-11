@@ -106,16 +106,12 @@ $document = $WPGLOBAL['document']->data;
 							</div>
 						</div>
 						<?php } ?>
-						<div class="team">
-							<div class="pp">
-							</div>
-							<div class="text">
-								<div class="name"><?= RichText::asText($document->team_question); ?></div>
-								<a href="<?php checkUrl($document->team_btnlink); ?>" class="link">
-									<span class="link-text"><?= RichText::asText($document->team_btntext); ?></span>
-								</a>
-							</div>
-						</div>
+					</div>
+					<div class="container-link">
+						<h3><?= RichText::asText($document->team_question); ?></h3>
+						<a href="<?php checkUrl($document->team_btnlink); ?>" class="link">
+							<span class="link-text"><?= RichText::asText($document->team_btntext); ?></span>
+						</a>
 					</div>
 				</div>
 			</section>
