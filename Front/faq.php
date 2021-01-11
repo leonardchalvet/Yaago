@@ -22,25 +22,25 @@
 			<section class="section-title">
 				<div class="wrapper">
 					<div class="container-title">
-						<h1>
-							FAQ
-						</h1>
-						<p>
-							Besoin d’aide ? Une question ? On vous guide pas à pas 
-						</p>
+						<h1>FAQ</h1>
+						<p>Besoin d’aide ? Une question ?<br>On vous guide pas à pas</p>
 					</div>
 					<ul>
 						<li>
-							<a href="">All</a>
+							<a class="style-active" data-filter=".">All
+							</a>
 						</li>
 						<li>
-							<a href="" class="style-active">Login / Register</a>
+							<a data-filter="Login / Register">Login / Register 
+							</a>
 						</li>
 						<li>
-							<a href="">Recommendations</a>
+							<a data-filter="Recommendations">Recommendations 
+							</a>
 						</li>
 						<li>
-							<a href="">General / Settings</a>
+							<a data-filter="General / Settings">General / Settings 
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -161,6 +161,7 @@
 								</div>
 							</a>
 						</li>
+						<?php for($i=0;$i<10;$i++) { ?>
 						<li class="style-hide">
 							<a href="https://#" data-filter="General / Settings">
 								<div class="container-text">
@@ -177,6 +178,7 @@
 								</div>
 							</a>
 						</li>
+						<?php } ?>
 					</ul>
 					<div class="container-btn">
 						<a class="btn">

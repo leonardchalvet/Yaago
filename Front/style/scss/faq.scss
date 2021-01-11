@@ -37,6 +37,7 @@
 				margin-right: 64px;
 			}
 			a{
+				cursor: pointer;
 				text-decoration: none;
 				@include styleH4;
 				@include styleUnderline;
@@ -191,6 +192,7 @@
 		flex-flow: row wrap;
 		justify-content: center;
 		.btn{
+			cursor: pointer;
 			&.style-hide {
 				display: none;
 			}
