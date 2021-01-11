@@ -73,6 +73,14 @@
 		"oAP": "/contact.php",
 		"oF": 0
 		},
+	"/faq.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/faq.php",
+		"oF": 0
+		},
 	"/fonts/McQueenDisplay-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -477,6 +485,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/contact/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/faq/icn-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/faq/icn-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 4010962575359,
@@ -1463,6 +1481,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/faq.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/faq-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/index.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1591,6 +1620,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/contact-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/minify/faq-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/faq-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1790,6 +1830,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/contact.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/faq.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/faq.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1
