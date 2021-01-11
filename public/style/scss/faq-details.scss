@@ -1,0 +1,88 @@
+@import 'common.scss';
+
+
+/*=======================================
+=            PAGE FAQ DETAILS           =
+=======================================*/
+
+
+.section-cover{
+	padding: 170px 0px 100px 0px;
+	background-color: $colorMain_11;
+	.wrapper{
+		@include styleGrid1;
+		.container-title{
+			text-align: center;
+			h1{
+				@include styleH1;
+				em{
+					@include styleUnderline;
+					&:after{
+						content:url(../../img/common/underline/underline-2.svg);
+					}
+				}
+			}
+			p{
+				max-width: 587px;
+				margin: 16px auto 0px auto;
+				@include styleParagraphBig;
+			}
+		}
+	}
+}
+
+.section-details{
+	padding-top: 80px;
+	.wrapper{
+		@include styleGrid3;
+	}
+	.container-title{
+		max-width: 510px;
+		h2{
+			@include styleH2;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-2.svg);
+				}
+			}
+		}
+		p{
+			margin-top: 8px;
+			@include styleParagraphMedium;
+		}
+	}
+	.container-el{
+		margin-top: 80px;
+		.el{
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: space-between;
+			&:not(:last-child){
+				margin-bottom: 80px;
+			}
+			.text{
+				width: 500px;
+				margin-top: 8px;
+				h3{
+					@include styleH4;
+				}
+				p{
+					@include styleParagraphMedium;
+				}
+			}
+			img{
+				border-radius: 16px;
+				width: 410px;
+				height: 290px;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+
+/*===========================================
+=            END PAGE FAQ DETAILS           =
+===========================================*/
