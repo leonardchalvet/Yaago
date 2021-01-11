@@ -18,6 +18,7 @@
 		position: relative;
 		z-index: 6;
 		max-width: 384px;
+		min-height: 400px;
 		h1{
 			span{
 				&:nth-child(1){
@@ -83,12 +84,16 @@
 	.section-cover{
 		padding-top: 120px;
 		padding-bottom: 220px;
+
 	}
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
 		padding-top: 122px;
 		padding-bottom: 0px;
+		.container-title{
+			min-height: initial;
+		}
 		.container-img{
 			position: relative;
 			left: -50px;
