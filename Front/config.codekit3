@@ -1577,6 +1577,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/solution.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/solution-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/404-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1814,6 +1825,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style/css/solution.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/solution-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style/scss/404.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1979,6 +2000,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/offre.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/solution.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/solution.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1

@@ -1,0 +1,216 @@
+@import 'common.scss';
+
+
+/*====================================
+=            PAGE SOLUTION           =
+====================================*/
+
+
+.section-cover{
+	position: relative;
+	background-color: #E2EFF2;
+	padding: 220px 0px 130px 0px;
+	.wrapper{
+		@include styleGrid4;
+	}
+	.illu-1{
+		position: absolute;
+		left: 50px;
+		width: 220px;
+	}
+	.illu-2{
+		position: absolute;
+		right: 0px;
+		width: 280px;
+	}
+	.container-text{
+		h1{
+			@include styleH1;
+			text-align: center;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-3.svg);
+				}
+			}
+		}
+		p{
+			max-width: 650px;
+			margin: 32px auto 0px auto;
+			@include styleParagraphMedium;
+			text-align: center;
+		}
+
+		.container-btn{
+			margin-top: 22px;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			.btn{
+				&:nth-child(1){
+					@include styleButton("big", "1");
+					margin-right: 16px;
+				}
+				&:nth-child(2){
+					@include styleButton("big", "2");
+					border-color: $colorMain_5;
+					.btn-text{
+						color: $colorMain_5;
+					}
+				}
+			}
+		}
+	}
+}
+
+.section-solution{
+	padding: 65px 0px 80px 0px;
+	.wrapper{
+		@include styleGrid3;
+	}
+	.container-title{
+		text-align: center;
+		max-width: 650px;
+		margin: auto;
+		margin-bottom: 80px;
+		h2{
+			@include styleH2;
+		}
+		p{
+			margin-top: 24px;
+			@include styleParagraphMedium;
+			em{
+				font-weight: bold;
+			}
+		}
+	}
+	.container-el{
+		.el{
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: space-between;
+			&:not(:last-child){
+				margin-bottom: 90px;
+			}
+			.illu{
+				width: 395px;
+				img{
+					width: 100%;
+				}
+			}
+			.text{
+				width: 385px;
+				.bdg{
+					display: inline-block;
+					background: #E2EFF2;
+					padding: 10px 24px 10px 24px;
+					border-radius: 5px;
+					margin-bottom: 24px;
+					span{
+						@include styleParagraphMedium;
+						font-family: $font_1_bold;
+						color: $colorMain_2;
+					}
+				}
+				h3{
+					@include styleH4;
+					margin-bottom: 16px;
+					em{
+						@include styleUnderline;
+						&:after{
+							content:url(../../img/common/underline/underline-3.svg);
+						}
+					}
+				}
+				p{
+					@include styleParagraphMedium;
+					em{
+						font-weight: bold;
+					}
+				}
+			}
+
+			&:nth-child(odd){
+				.illu{
+					order: 1;
+				}
+				.text{
+					order: 2;
+				}
+			}
+			&:nth-child(even){
+				.illu{
+					order: 2;
+				}
+				.text{
+					order: 1;
+				}
+			}
+		}
+	}
+}
+
+.section-why{
+	background-color: $colorMain_3;
+	padding: 56px 0px 56px 0px;
+	.wrapper{
+		@include styleGrid3;
+	}
+	.container-title{
+		text-align: center;
+		h2{
+			@include styleH2;
+		}
+	}
+	.container-el{
+		display: flex;
+		flex-flow: row wrap;
+		margin-top: 48px;
+		justify-content: space-between;
+		.el{
+			width: 280px;
+			text-align: center;
+			img{
+				height: 130px;
+				margin-bottom: 20px;
+			}
+			h3{
+				@include styleH4;
+			}
+			p{
+				margin-top: 20px;
+				@include styleParagraphMedium;
+			}
+		}
+	}
+}
+
+.section-btn{
+	margin-bottom: 130px;
+	.wrapper{
+		@include styleGrid1;
+	}
+	.container-btn{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		.btn{
+			&:nth-child(1){
+				@include styleButton("big", "1");
+				margin-right: 16px;
+			}
+			&:nth-child(2){
+				@include styleButton("big", "2");
+				border-color: $colorMain_5;
+				.btn-text{
+					color: $colorMain_5;
+				}
+			}
+		}
+	}
+}
+
+/*========================================
+=            END PAGE SOLUTION           =
+========================================*/
