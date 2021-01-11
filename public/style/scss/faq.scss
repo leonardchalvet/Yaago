@@ -1,0 +1,201 @@
+@import 'common.scss';
+
+
+/*===============================
+=            PAGE FAQ           =
+===============================*/
+
+
+.section-title{
+	padding-top: 170px;
+
+	.wrapper{
+		@include styleGrid1;
+		border-bottom: 1px solid $colorMain_9;
+		padding-bottom: 90px;
+	}
+	.container-title{
+		text-align: center;
+		h1{
+			@include styleH1;
+		}
+		p{
+			max-width: 340px;
+			margin: auto;
+			@include styleParagraphMedium;
+		}
+	}
+	ul{
+		margin-top: 64px;
+		list-style: none;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+		li{
+			&:not(:last-child){
+				margin-right: 64px;
+			}
+			a{
+				text-decoration: none;
+				@include styleH4;
+				@include styleUnderline;
+				&.style-active{
+					&:after{
+						content:url(../../img/common/underline/underline-3.svg);
+					}
+				}
+			}
+		}
+	}
+}
+
+.section-faq{
+	margin-top: 80px;
+	.wrapper{
+
+		@include styleGrid4;
+	}
+	ul{
+		list-style: none;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+		li{
+			width: calc(50% - 10px);
+			height: 230px;
+			padding: 0px 60px 0px 60px;
+			border-radius: 16px;
+			border: 1px solid transparent;
+			margin-bottom: 20px;
+			a{
+				height: 100%;
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				text-decoration: none;
+			}
+			.container-text{
+				flex: 1;
+				h3{
+					@include styleH4;
+				}
+				p{
+					margin-top: 8px;
+					@include styleParagraphMedium;
+				}
+			}
+			.arrow{
+				margin-left: 45px;
+				position: relative;
+				height: 34px;
+				width: 34px;
+				border: 1px solid transparent;
+				border-radius: 20px;
+				svg{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					height: 9px;
+					fill: none;
+				}
+			}
+			&:nth-child(6n+1){
+				background-color: $colorMain_2;
+				.container-text{
+					h3{
+						color: #FFF;
+					}
+					p{
+						color: #FFF;
+					}
+				}
+				.arrow{
+					border-color: $colorMain_1;
+				}
+				svg{
+					stroke: $colorMain_1;
+				}
+			}
+			&:nth-child(6n+2){
+				border-color: $colorMain_9;
+				.arrow{
+					border-color: $colorMain_1;
+				}
+				svg{
+					stroke: $colorMain_1;
+				}
+			}
+			&:nth-child(6n+3){
+				background-color: $colorMain_1;
+				.container-text{
+					h3{
+						color: #FFF;
+					}
+					p{
+						color: #FFF;
+					}
+				}
+				.arrow{
+					border-color: #FFF;
+				}
+				svg{
+					stroke: #FFF;
+				}
+			}
+			&:nth-child(6n+4){
+				background-color: #E2EFF2;
+				.arrow{
+					border-color: $colorMain_5;
+				}
+				svg{
+					stroke: $colorMain_5;
+				}
+			}
+			&:nth-child(6n+5){
+				background-color: $colorMain_6;
+				.arrow{
+					border-color: $colorMain_1;
+				}
+				svg{
+					stroke: $colorMain_1;
+				}
+			}
+			&:nth-child(6n+6){
+				background-color: $colorMain_4;
+				.container-text{
+					h3{
+						color: #FFF;
+					}
+					p{
+						color: #FFF;
+					}
+				}
+				.arrow{
+					border-color: #FFF;
+				}
+				svg{
+					stroke: #FFF;
+				}
+			}
+		}
+	}
+	.container-btn{
+		margin-top: 80px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		.btn{
+			@include styleButton("big", "2");
+		}
+	}
+}
+
+
+/*===================================
+=            END PAGE FAQ           =
+===================================*/
+
+
