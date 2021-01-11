@@ -73,20 +73,20 @@
 		"oAP": "/contact.php",
 		"oF": 0
 		},
+	"/faq-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/faq-details.php",
+		"oF": 0
+		},
 	"/faq.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/faq.php",
-		"oF": 0
-		},
-	"/faq_1.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/faq_1.php",
 		"oF": 0
 		},
 	"/fonts/McQueenDisplay-Regular.woff": {
@@ -721,7 +721,7 @@
 		},
 	"/img/home/section-cover/illu-screen-1-img.png": {
 		"ft": 32768,
-		"iS": 770495,
+		"iS": 241096,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-1-img.png",
 		"oF": 0,
@@ -734,7 +734,7 @@
 		},
 	"/img/home/section-cover/illu-screen-1.png": {
 		"ft": 32768,
-		"iS": 770495,
+		"iS": 291562,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-1.png",
 		"oF": 0,
@@ -770,7 +770,7 @@
 		},
 	"/img/home/section-cover/illu-screen-2.png": {
 		"ft": 32768,
-		"iS": 347774,
+		"iS": 104125,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-2.png",
 		"oF": 0,
@@ -793,7 +793,7 @@
 		},
 	"/img/home/section-cover/illu-screen-3-img.png": {
 		"ft": 32768,
-		"iS": 929436,
+		"iS": 441272,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-3-img.png",
 		"oF": 0,
@@ -806,7 +806,7 @@
 		},
 	"/img/home/section-cover/illu-screen-3.png": {
 		"ft": 32768,
-		"iS": 929436,
+		"iS": 305259,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-3.png",
 		"oF": 0,
@@ -842,7 +842,7 @@
 		},
 	"/img/home/section-cover/illu-screen-4.png": {
 		"ft": 32768,
-		"iS": 30958,
+		"iS": 9145,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-4.png",
 		"oF": 0,
@@ -1240,6 +1240,26 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/partners/section-banner/illu-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/partners/section-banner/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/partners/section-cover/icn-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/partners/section-cover/icn-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/partners/section-cover/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1262,7 +1282,7 @@
 		},
 	"/img/partners/section-partners/igloohome.png": {
 		"ft": 32768,
-		"iS": 3063,
+		"iS": 1475,
 		"oA": 0,
 		"oAP": "/img/partners/section-partners/igloohome.png",
 		"oF": 0,
@@ -1275,7 +1295,7 @@
 		},
 	"/img/partners/section-partners/minut.png": {
 		"ft": 32768,
-		"iS": 2553,
+		"iS": 1894,
 		"oA": 0,
 		"oAP": "/img/partners/section-partners/minut.png",
 		"oF": 0,
@@ -1288,7 +1308,7 @@
 		},
 	"/img/partners/section-partners/nannybag.png": {
 		"ft": 32768,
-		"iS": 6151,
+		"iS": 3844,
 		"oA": 0,
 		"oAP": "/img/partners/section-partners/nannybag.png",
 		"oF": 0,
@@ -1299,53 +1319,53 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/img/Solutions/section-cover/illu-1.svg": {
+	"/img/solutions/section-cover/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Solutions/section-cover/illu-1.svg",
-		"oF": 1,
-		"opt": 1,
+		"oA": 2,
+		"oAP": "/img/solutions/section-cover/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/Solutions/section-cover/illu-2.svg": {
+	"/img/solutions/section-cover/illu-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Solutions/section-cover/illu-2.svg",
-		"oF": 1,
-		"opt": 1,
+		"oA": 2,
+		"oAP": "/img/solutions/section-cover/illu-2.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/Solutions/section-list/illu-1.svg": {
+	"/img/solutions/section-list/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Solutions/section-list/illu-1.svg",
-		"oF": 1,
-		"opt": 1,
+		"oA": 2,
+		"oAP": "/img/solutions/section-list/illu-1.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/Solutions/section-list/illu-2.svg": {
+	"/img/solutions/section-list/illu-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Solutions/section-list/illu-2.svg",
-		"oF": 1,
-		"opt": 1,
+		"oA": 2,
+		"oAP": "/img/solutions/section-list/illu-2.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/Solutions/section-list/illu-3.svg": {
+	"/img/solutions/section-list/illu-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Solutions/section-list/illu-3.svg",
-		"oF": 1,
-		"opt": 1,
+		"oA": 2,
+		"oAP": "/img/solutions/section-list/illu-3.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
@@ -1359,13 +1379,13 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/Solutions/section-list/illu-6.svg": {
+	"/img/solutions/section-list/illu-6.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Solutions/section-list/illu-6.svg",
-		"oF": 1,
-		"opt": 1,
+		"oA": 2,
+		"oAP": "/img/solutions/section-list/illu-6.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
@@ -1421,6 +1441,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/offre.php",
+		"oF": 0
+		},
+	"/partners.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/partners.php",
 		"oF": 0
 		},
 	"/script/js/404.js": {
@@ -1485,6 +1513,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/contact-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/js/faq-details.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/faq-details-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1555,6 +1594,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/js/partners.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/partners-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/js/smooth-parallax-scroll.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1562,6 +1612,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/smooth-parallax-scroll-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/js/solution.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/solution-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1632,6 +1693,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/faq-details-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/faq-details-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/faq-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1675,6 +1747,36 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"/script/minify/partners-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/partners-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/minify/solution-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/solution-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/solution.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/solution.php",
+		"oF": 0
 		},
 	"/style/css/404.css": {
 		"aP": 1,
@@ -1726,6 +1828,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style/css/faq-details.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/faq-details-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style/css/faq.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1771,6 +1883,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/offre-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style/css/partners.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/partners-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style/css/solution.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/solution-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1852,6 +1984,19 @@
 		"oS": 3,
 		"sct": 1
 		},
+	"/style/scss/faq-details.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/faq-details.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
 	"/style/scss/faq.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1926,6 +2071,32 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/offre.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/partners.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/partners.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/solution.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/solution.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1
