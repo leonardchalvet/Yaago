@@ -63,6 +63,9 @@
 		align-items: center;
 		justify-content: space-between;
 		li{
+			&.style-hide {
+				display: none;
+			}
 			width: calc(50% - 10px);
 			height: 230px;
 			padding: 0px 60px 0px 60px;
@@ -188,6 +191,9 @@
 		flex-flow: row wrap;
 		justify-content: center;
 		.btn{
+			&.style-hide {
+				display: none;
+			}
 			@include styleButton("big", "2");
 		}
 	}
