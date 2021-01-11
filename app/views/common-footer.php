@@ -77,17 +77,13 @@ $footer = $WPGLOBAL['footer']->data;
 					<div class="text">
 						<?= RichText::asText($footer->foot_alllang[0]->grp_text); ?>
 					</div>
-					<!--
 					<img class="arrow" src="/img/footer/icn-arrow.svg" alt="icon arrow">
-					-->
 				</div>
-				<!--
 				<div class="dropdown">
 					<?php foreach ($footer->foot_alllang as $l) { ?>
-						<div class="el"><?= RichText::asText($l->grp_text); ?></div>
+						<a class="el" href="<?= $l->grp_link->url; ?>"><?= RichText::asText($l->grp_text); ?></a>
 					<?php } ?>
 				</div>
-				-->
 			</div>
 
 			<p class="cpr">

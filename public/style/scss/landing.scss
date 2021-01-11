@@ -246,6 +246,37 @@
 	}
 }
 
+.section-mission{
+	.wrapper{
+		border-top: 1px solid $colorMain_6;
+		padding-top: 83px;
+		padding-bottom: 83px;
+		@include styleGrid4;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.container-text{
+		h2{
+			@include styleH3;
+			em{
+				@include styleUnderline;
+				&:after{
+					content:url(../../img/common/underline/underline-3.svg);
+				}
+			}
+		}
+		p{
+			margin-top: 5px;
+			@include styleParagraphBig;
+		}
+	}
+	.btn{
+		@include styleButton("big", "2");
+	}
+}
+
 /*=======================================
 =            END PAGE LANDING           =
 =======================================*/
