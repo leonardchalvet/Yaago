@@ -156,7 +156,7 @@ $app->get('/{uid}/', function ($request, $response, $args) use ($app, $prismic) 
         
         //PART 5 - Render the page
         render($app, 'home', array('document' => $document, 'header' => $header, 'footer' => $footer ));
-    }    
+    }
 });
 
 // Call page with language and name => https://url.com/language/namepage
@@ -194,8 +194,8 @@ function renderPage($request, $response, $args, $app, $prismic) {
     //PART 4 - Call current page
     $document = NULL;
     $nType = 0;
-    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
-    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
+    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing', 'faq_1', 'faq_2', 'legal_mention', 'partners', 'solution' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
+    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing', 'faq_1', 'faq_2', 'legal_mention', 'partners', 'solution' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
     foreach ($arrayTypes as $type) {
         $document = $api->getByUID($type, $args['uid'], $options);
 
@@ -212,15 +212,13 @@ function renderPage($request, $response, $args, $app, $prismic) {
     //PART 5 - Call good view
     if($document != NULL) {
         if($arrayView[$nType-1] == 'articles') {
+          $author = $api->getByUID('author', $document->data->author->uid, $options);
+          $authors = $api->query(Predicates::at('document.type', 'author'), $options);
+          $options['pageSize'] = 4;
+          $options['orderings'] = '[document.first_publication_date desc]';
+          $articles = $api->query(Predicates::at('document.type', 'articles'), $options);
 
-            $author = $api->getByUID('author', $document->data->author->uid, $options);
-            $authors = $api->query(Predicates::at('document.type', 'author'), $options);
-
-            $options['pageSize'] = 4;
-            $options['orderings'] = '[document.first_publication_date desc]';
-            $articles = $api->query(Predicates::at('document.type', 'articles'), $options);
-
-            render($app, $arrayView[$nType-1], array('document' => $document, 'articles' => $articles, 'author' => $author, 'authors' => $authors, 'header' => $header, 'footer' => $footer));
+          render($app, $arrayView[$nType-1], array('document' => $document, 'articles' => $articles, 'author' => $author, 'authors' => $authors, 'header' => $header, 'footer' => $footer));
         }
         else if($arrayView[$nType-1] == 'blog') {
           $authors = $api->query(Predicates::at('document.type', 'author'), $options);
