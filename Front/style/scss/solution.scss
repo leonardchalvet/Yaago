@@ -63,6 +63,41 @@
 	}
 }
 
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+	.section-cover{
+		.illu-1,
+		.illu-2{
+			display: none;
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-cover{
+		padding: 140px 0px 40px 0px;
+		.illu-1,
+		.illu-2{
+			display: none;
+		}
+		.container-text{
+			h1{
+				text-align: left;
+			}
+			.container-btn{
+				.btn{
+					width: 100%;
+					&:nth-child(1){
+						margin-bottom: 16px;
+						margin-right: initial;
+					}
+					&:nth-child(2){
+						
+					}
+				}
+			}
+		}
+	}
+}
+
 
 .section-solution{
 	padding: 65px 0px 80px 0px;
@@ -151,6 +186,58 @@
 		}
 	}
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+	.section-solution{
+		.container-el{
+			.el{
+				.illu{
+					width: 300px;
+				}
+				.text{
+					flex: 1;
+				}
+				&:nth-child(odd){
+					.illu{
+						margin-right: 30px;
+					}
+				}
+				&:nth-child(even){
+					.illu{
+					}
+					.text{
+						margin-right: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-solution{
+		padding-bottom: 56px;
+		.container-title{
+			text-align: left;
+			margin-bottom: 40px;
+		}
+		.container-el{
+			.el{
+				&:not(:last-child){
+					margin-bottom: 40px;
+				}
+				&:nth-child(odd),
+				&:nth-child(even){
+					.illu{
+						order: 2;
+						margin-top: 40px;
+					}
+					.text{
+						order: 1;
+					}
+				}
+			}
+		}
+	}
+}
 
 .section-why{
 	background-color: $colorMain_3;
@@ -186,6 +273,42 @@
 		}
 	}
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+	.section-why{
+		.container-el{
+			.el{
+				width: calc((100% / 3) - 30px);
+			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-why{
+		.wrapper{
+			padding: 0px;
+		}
+		.container-el{
+			width: 100%;
+			padding: 0px 50px 0px 50px;
+			overflow: auto;
+			-webkit-overflow-scrolling: touch;
+			flex-flow: initial;
+			display: inline-flex;
+			flex-wrap: nowrap;
+			&:after{
+				content:'';
+				width: 25px;
+				display: block;
+				flex: 0 0 auto;
+			}
+			.el{
+				display: block;
+				flex: 0 0 auto;
+				margin-right: 25px;
+			}
+		}
+	}
+}
 
 .section-btn{
 	margin-bottom: 130px;
@@ -206,6 +329,24 @@
 				border-color: $colorMain_5;
 				.btn-text{
 					color: $colorMain_5;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-btn{
+		margin-bottom: 60px;
+		.container-btn{
+			width: 100%;
+			.btn{
+				width: 100%;
+				&:nth-child(1){
+					margin-bottom: 16px;
+					margin-right: initial;
+				}
+				&:nth-child(2){
+					
 				}
 			}
 		}
