@@ -102,9 +102,10 @@
 				©2020 Yaago. All rights Reserved
 			</p>
 
-			<p class="pld">
-				Privacy & Legal Documentation
-			</p>
+			<div class="links">
+				<a href="">Link 1</a>
+				<a href="">Link 2</a>
+			</div>
 		</div>
 	</div>
 
