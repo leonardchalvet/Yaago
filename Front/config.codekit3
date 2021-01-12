@@ -1435,6 +1435,14 @@
 		"oAP": "/landing.php",
 		"oF": 0
 		},
+	"/mentions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mentions.php",
+		"oF": 0
+		},
 	"/offre.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1579,6 +1587,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/script/minify/landing-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/script/js/mentions.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/mentions-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -2058,6 +2077,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/landing.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 1
+		},
+	"/style/scss/mentions.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/mentions.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 1

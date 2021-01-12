@@ -78,6 +78,7 @@
 			.dropdown{
 				display: none;
 				position: absolute;
+				z-index: 10;
 				top: calc(100% + 5px);
 				left: 0px;
 				width: 100%;

@@ -25,24 +25,27 @@
 						<h1>FAQ</h1>
 						<p>Besoin d’aide ? Une question ?<br>On vous guide pas à pas</p>
 					</div>
-					<ul>
-						<li>
-							<a class="style-active" data-filter=".">All
-							</a>
-						</li>
-						<li>
-							<a data-filter="Login / Register">Login / Register 
-							</a>
-						</li>
-						<li>
-							<a data-filter="Recommendations">Recommendations 
-							</a>
-						</li>
-						<li>
-							<a data-filter="General / Settings">General / Settings 
-							</a>
-						</li>
-					</ul>
+					<div class="container-filter">
+						<ul>
+							<li>
+								<a class="style-active" data-filter=".">All
+								</a>
+							</li>
+							<li>
+								<a data-filter="Login / Register">Login / Register 
+								</a>
+							</li>
+							<li>
+								<a data-filter="Recommendations">Recommendations 
+								</a>
+							</li>
+							<li>
+								<a data-filter="General / Settings">General / Settings 
+								</a>
+							</li>
+						</ul>
+					</div>
+					
 				</div>
 			</section>
 
