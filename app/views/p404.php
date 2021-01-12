@@ -51,6 +51,6 @@ $document = $WPGLOBAL['document']->data;
 
 		<?php include('common-footer.php') ?>
 
-		<script type="text/javascript" src="script/minify/404-min.js"></script>
+		<script type="text/javascript" src="/script/minify/404-min.js"></script>
 	</body>
 </html>
