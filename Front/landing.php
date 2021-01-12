@@ -20,21 +20,32 @@
 		<main>
 
 			<section class="section-cover">
+				<div class="container-send">
+					<img src="img/contact/check.svg" alt="">
+					<div class="text">Message Envoyé</div>
+				</div>
 				<div class="wrapper">
-					<div class="container-illu">
-						<img src="img/landing/section-cover/illu.svg" alt="">
-					</div>
+					
 					<div class="container-title">
 						<h1>
 							<span>Les propriétaires qui font la</span>
 							<span>différence</span>
 						</h1>
 						<div class="container-input">
-							<input type="text" placeholder="Entrez votre Email">
-							<a href="" class="btn">
-								<span class="btn-text">Je découvre </span>
-							</a>
+							<div class="input">
+								<input type="text" placeholder="Entrez votre Email">
+								<a href="" class="btn">
+									<span class="btn-text">Je découvre </span>
+								</a>
+							</div>
+							<div class="error">
+								 Ce champ comporte une erreur 
+							</div>
+							
 						</div>
+					</div>
+					<div class="container-illu">
+						<img src="img/landing/section-cover/illu.svg" alt="">
 					</div>
 				</div>
 			</section>
@@ -86,9 +97,7 @@
 
 			<section class="section-tarif">
 				<div class="wrapper">
-					<div class="illu">
-						<img src="img/landing/section-tarif/illu-1.svg" alt="">
-					</div>
+					
 					<div class="container-text">
 						<h2>
 							Enfin une tarification simple et <em>transparente</em>
@@ -102,6 +111,9 @@
 								<use xlink:href="img/common/arrow-1.svg#content"></use>
 							</svg>
 						</a>
+					</div>
+					<div class="illu">
+						<img src="img/landing/section-tarif/illu-1.svg" alt="">
 					</div>
 				</div>
 			</section>

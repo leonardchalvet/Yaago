@@ -1756,6 +1756,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/script/minify/mentions-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/script/minify/mentions-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/script/minify/offre-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1892,6 +1903,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style/css/landing-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style/css/mentions.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style/css/mentions-min.css",
 		"oF": 0,
 		"oS": 3
 		},
