@@ -1,0 +1,228 @@
+@import 'common.scss';
+
+
+/*====================================
+=            PAGE PARTNERS           =
+====================================*/
+
+
+.section-cover{
+	padding: 190px 0px 260px 0px;
+	background-color: $colorMain_3;
+	.illu-1{
+		position: absolute;
+		width: 290px;
+		left: 0px;
+	}
+	.illu-2{
+		position: absolute;
+		height: 250px;
+		right: 130px;
+	}
+	.wrapper{
+		@include styleGrid1;
+		position: relative;
+	}
+	.container-title{
+		text-align: center;
+		max-width: 780px;
+		margin: auto;
+		h1{
+			@include styleH1;
+		}
+		p{
+			@include styleParagraphBig;
+		}
+	}
+	.container-filter{
+		width: 500px;
+		margin: 80px auto 0px auto;
+		text-align: center;
+		h2{
+			@include styleH4;
+		}
+		.filter{
+			position: relative;
+			width: 390px;
+			margin: auto;
+			.input{
+				cursor: pointer;
+				width: 100%;
+				height: 52px;
+				background-color: #FFF;
+				margin-top: 37px;
+				border-radius: 10px;
+				box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+				display: flex;
+				flex-flow: row wrap;
+				align-items: center;
+				padding: 0px 24px 0px 24px;
+				input{
+					cursor: pointer;
+					outline: none;
+					border: none;
+					flex: 1;
+					@include styleParagraphMedium;
+					&::placeholder{
+						color: $colorMain_5;
+						opacity: 0.7;
+					}
+				}
+				.arrow{
+					width: 16px;
+					img{
+						width: 100%;
+					}
+				}
+			}
+			.dropdown{
+				display: none;
+				position: absolute;
+				z-index: 10;
+				top: calc(100% + 5px);
+				left: 0px;
+				width: 100%;
+				background-color: #FFF;
+				border-radius: 10px;
+				max-height: 250px;
+				overflow: auto;
+				box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+				.container-el{
+					padding: 10px 0px 10px;
+					.el{
+						text-align: left;
+						padding: 10px 20px 10px 20px;
+						@include styleParagraphMedium;
+						cursor: pointer;
+						transition: all 0.25s ease;
+						&:hover{
+							opacity: 0.8;
+						}
+					}
+				}
+				&.style-open{
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.section-partners{
+	margin-top: -220px;
+	.wrapper{
+		@include styleGrid1;
+		position: relative;
+	}
+	.container-el{
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+		.el{
+			border-radius: 16px;
+			padding: 0px 0px 56px 0px;
+			width: 390px;
+			height: 490px;
+			background-color: #FFF;
+			box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.15);
+			display: flex;
+			flex-flow: row wrap;
+			flex-direction: column;
+			margin-bottom: 17px;
+			.logo{
+				height: 140px;
+				position: relative;
+				text-align: center;
+				img{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 190px;
+					max-height: 45px;
+				}
+			}
+			.text{
+				text-align: center;
+				h3{
+					@include styleParagraphBig;
+					color: $colorMain_5;
+					padding: 0px 45px 0px 45px;
+					margin-bottom: 17px;
+					text-align: left;
+				}
+				p{
+					@include styleParagraphMedium;
+					padding: 0px 45px 0px 45px;
+					margin-bottom: 28px;
+					text-align: left;
+				}
+				.soon{
+					margin-top: 100px;
+					text-align: center;
+					@include styleParagraphSmall;
+					font-weight: bold;
+					color: $colorMain_2;
+				}
+				.bdg{
+					padding: 15px;
+					width: 100%;
+					background: #E2EFF2;
+					span{
+						@include styleParagraphSmall;
+						font-weight: bold;
+						color: $colorMain_2;
+					}
+				}
+				.btn{
+					margin-top: 32px;
+					@include styleButton("big", "2");
+					border-color: $colorMain_2;
+					.btn-text{
+						color: $colorMain_2;
+					}
+				}
+			}
+		}
+	}
+}
+
+.section-banner{
+	background-color: $colorMain_2;
+	padding: 34px 0px 34px 0px;
+	margin-top: 123px;
+	margin-bottom: 110px;
+	.wrapper{
+		@include styleGrid3;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+	}
+	.illu{
+		width: 190px;
+		height: 165px;
+		img{
+			width: 100%;
+		}
+	}
+	.text{
+		margin: 0px 32px 0px 32px;
+		flex: 1;
+		h2{
+			@include styleH3;
+			color: #FFF;
+		}
+		p{
+			margin-top: 16px;
+			@include styleParagraphMedium;
+			color: #FFF;
+		}
+	}
+	.btn{
+		@include styleButton("big", "1");
+	}
+}
+/*========================================
+=            END PAGE PARTNERS           =
+========================================*/
