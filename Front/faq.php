@@ -52,8 +52,8 @@
 			<section class="section-faq">
 				<div class="wrapper">
 					<ul>
-						<li>
-							<a href="https://#" data-filter="Login / Register">
+						<li data-filter="Login / Register">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Registration desktop 
 									</h3>
@@ -68,8 +68,8 @@
 								</div>
 							</a>
 						</li>
-						<li>
-							<a href="https://#" data-filter="Login / Register">
+						<li data-filter="Login / Register">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Registration mobile 
 									</h3>
@@ -84,8 +84,8 @@
 								</div>
 							</a>
 						</li>
-						<li>
-							<a href="https://#" data-filter="Recommendations">
+						<li data-filter="Recommendations">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Lorem ipsum dolor sit amet
 									</h3>
@@ -100,8 +100,8 @@
 								</div>
 							</a>
 						</li>
-						<li>
-							<a href="https://#" data-filter="Recommendations">
+						<li data-filter="Recommendations">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Lorem ipsum dolor sit amet
 									</h3>
@@ -116,8 +116,8 @@
 								</div>
 							</a>
 						</li>
-						<li>
-							<a href="https://#" data-filter="General / Settings">
+						<li data-filter="General / Settings">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Lorem ipsum dolor sit amet
 									</h3>
@@ -132,8 +132,8 @@
 								</div>
 							</a>
 						</li>
-						<li>
-							<a href="https://#" data-filter="General / Settings">
+						<li data-filter="General / Settings">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Lorem ipsum dolor sit amet
 									</h3>
@@ -148,8 +148,8 @@
 								</div>
 							</a>
 						</li>
-						<li class="style-hide">
-							<a href="https://#" data-filter="Recommendations">
+						<li class="style-hide" data-filter="Recommendations">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Lorem ipsum non dolor
 									</h3>
@@ -165,8 +165,8 @@
 							</a>
 						</li>
 						<?php for($i=0;$i<10;$i++) { ?>
-						<li class="style-hide">
-							<a href="https://#" data-filter="General / Settings">
+						<li class="style-hide" data-filter="General / Settings">
+							<a href="https://#">
 								<div class="container-text">
 									<h3>Lorem ipsum non dolor
 									</h3>
