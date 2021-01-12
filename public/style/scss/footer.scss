@@ -253,9 +253,18 @@ footer{
 			color: #FFF;
 		}
 
+		.links{
+			a{
+				text-decoration: none;
+				@include styleParagraphTiny;
+				color: #FFF;
+				&:not(:last-child){
+					margin-right: 12px;
+				}
+			}
+		}
 		.pld{
-			@include styleParagraphTiny;
-			color: #FFF;
+			
 		}
 	}
 }
@@ -298,14 +307,20 @@ footer{
 
 		}
 		.foot{
-			.pld,
+			.container-lg{
+
+			}
 			.cpr{
+				order: 3;
 				width: 100%;
 				text-align: center;
+				margin-top: 20px;
 			}
-			.pld{
-				margin-top: 30px;
+			.links{
+				text-align: right;
+				flex: 1;
 			}
+			
 		}
 	}
 }
