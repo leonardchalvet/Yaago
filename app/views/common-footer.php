@@ -90,9 +90,11 @@ $footer = $WPGLOBAL['footer']->data;
 				<?= RichText::asText($footer->foot_textc); ?>
 			</p>
 
-			<p class="pld">
-				<?= RichText::asText($footer->foot_textr); ?>
-			</p>
+			<div class="links">
+				<?php foreach ($footer->foot_links as $l) { ?>
+					<a href="<?php checkUrl($l->link); ?>"><?= RichText::asText($l->text); ?></a>
+				<?php } ?>
+			</div>
 		</div>
 	</div>
 
