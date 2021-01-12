@@ -87,6 +87,7 @@
 				max-height: 250px;
 				overflow: auto;
 				box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+				-webkit-overflow-scrolling: touch;
 				.container-el{
 					padding: 10px 0px 10px;
 					.el{
@@ -102,6 +103,40 @@
 				}
 				&.style-open{
 					display: block;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+	.section-cover{
+		.illu-1,
+		.illu-2{
+			display: none;
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-cover{
+		padding-top: 140px;
+		.illu-1,
+		.illu-2{
+			display: none;
+		}
+		.container-title{
+			text-align: left;
+			p{
+				margin-top: 24px;
+			}
+		}
+		.container-filter{
+			margin-top: 32px;
+			width: 100%;
+			text-align: left;
+			.filter{
+				width: 100%;
+				.input{
+					margin-top: 24px;
 				}
 			}
 		}
@@ -187,6 +222,42 @@
 		}
 	}
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
+	.section-partners{
+		.container-el{
+			.el{
+				width: calc(50% - 10px);
+				height: initial;
+				.logo{
+					height: 100px;
+				}
+				.text{
+					.soon{
+						margin-top: 50px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-partners{
+		.container-el{
+			.el{
+				width: 100%;
+				height: initial;
+				.logo{
+					height: 100px;
+				}
+				.text{
+					.soon{
+						margin-top: 50px;
+					}
+				}
+			}
+		}
+	}
+}
 
 .section-banner{
 	background-color: $colorMain_2;
@@ -221,6 +292,40 @@
 	}
 	.btn{
 		@include styleButton("big", "1");
+	}
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+	.section-banner{
+		.illu{
+			width: 100px;
+			height: initial;
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.section-banner{
+		margin-top: 48px;
+		margin-bottom: 32px;
+		.wrapper{
+			position: relative;
+		}
+		.illu{
+			width: 60px;
+			position: absolute;
+			right: 25px;
+			top: 0px;
+		}
+		.text{
+			margin-left: 0px;
+			margin-right: 0px;
+			h2{
+				padding-right: 60px;
+			}
+		}
+		.btn{
+			margin-top: 32px;
+			width: 100%;
+		}
 	}
 }
 /*========================================
