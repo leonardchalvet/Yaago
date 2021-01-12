@@ -30,7 +30,11 @@
 		}
 	}
 }
-
+@media screen and (max-width: $breakPoint_mobile){
+	.section-cover{
+		padding: 120px 0px 70px 0px;
+	}
+}
 .section-details{
 	padding-top: 80px;
 	.wrapper{
@@ -77,6 +81,27 @@
 				width: 410px;
 				height: 290px;
 				object-fit: cover;
+			}
+		}
+	}
+}
+@media screen and (max-width: $breakPoint_tablet){
+	.section-details{
+		padding-top: 40px;
+		.container-title{
+			max-width: 100%;
+		}
+		.container-el{
+			margin-top: 40px;
+			.el{
+				.text{
+					width: 100%;
+				}
+				img{
+					margin-top: 23px;
+					width: 100%;
+					height: 220px;
+				}
 			}
 		}
 	}
