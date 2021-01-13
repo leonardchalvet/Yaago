@@ -153,10 +153,12 @@
 		display: flex;
 		flex-flow: row wrap;
 		align-items: flex-start;
-		justify-content: space-between;
 		.el{
 			&.style-hide {
 				display: none;
+			}
+			&:not(:nth-child(3n + 3)) {
+				margin-right: 15px;
 			}
 			border-radius: 16px;
 			padding: 0px 0px 56px 0px;
@@ -227,7 +229,11 @@
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet){
 	.section-partners{
 		.container-el{
+			justify-content: space-between;
 			.el{
+				&:not(:nth-child(3n + 3)) {
+					margin-right: 0;
+				}
 				width: calc(50% - 10px);
 				height: initial;
 				.logo{
@@ -246,6 +252,9 @@
 	.section-partners{
 		.container-el{
 			.el{
+				&:not(:nth-child(3n + 3)) {
+					margin-right: 0;
+				}
 				width: 100%;
 				height: initial;
 				.logo{
@@ -306,8 +315,8 @@
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-banner{
-		margin-top: 48px;
-		margin-bottom: 32px;
+		margin-top: 30px;
+		margin-bottom: 42px;
 		.wrapper{
 			position: relative;
 		}
