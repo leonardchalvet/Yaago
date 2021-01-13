@@ -48,9 +48,12 @@ $document = $WPGLOBAL['document']->data;
                 <?= RichText::asText($document->cover_title2); ?>
               </span>
             </h1>
-            <form class="container-input">
+            <form class="container-input" onsubmit="return false">
               <div class="input">
-                <input name="goto" type="text" style="display: none;" value="<?= RichText::asText($document->cover_goto); ?>">
+                <input name="goto" type="text" style="display: none;" value="<?php checkUrl($document->cover_goto); ?>">
+                <input name="object" type="text" style="display: none;" value="<?= RichText::asText
+                ($document->cover_object); ?>">
+                <input name="sendto" type="text" style="display: none;" value="<?= RichText::asText($document->cover_sendto); ?>">
                 <input name="email" type="text" placeholder="<?= RichText::asText($document->cover_inputtext); ?>">
                 <button class="btn">
                   <span class="btn-text"><?= RichText::asText($document->cover_inputbtn); ?></span>
