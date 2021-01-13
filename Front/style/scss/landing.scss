@@ -48,8 +48,8 @@
 	.container-illu{
 		position: absolute;
 		right: 450px;
-		width: 900px;
-		top: -30px;
+		width: 950px;
+		top: -60px;
 		img{
 			width: 100%;
 		}
@@ -156,6 +156,7 @@
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
+		overflow: hidden;
 		padding-top: 85px;
 		.container-title{
 			width: 100%;
@@ -172,7 +173,8 @@
 			position: initial;
 			width: 100%;
 			img{
-				width: 100%;
+				transform: translate(-30%);
+				width: 130%;
 			}
 		}
 	}
@@ -249,6 +251,13 @@
 		margin-top: 80px;
 		.container-title{
 			text-align: left;
+			h2{
+				em{
+					&:after{
+						transform: scaleY(3);
+					}
+				}
+			}
 		}
 		.container-el{
 			margin-top: 50px;
@@ -258,7 +267,9 @@
 					margin-bottom: 75px;
 				}
 				.illu{
+					height: initial;
 					width: 100%;
+					margin-bottom: 20px;
 					img{
 						height: initial;
 						max-width: 100%;
@@ -286,7 +297,7 @@
 		bottom: 0px;
 	}
 	.container-text{
-		margin-left: auto;
+		margin-left: 50%;
 		width: 490px;
 		h2{
 			@include styleH2;
@@ -314,6 +325,7 @@
 		.container-text{
 			position: relative;
 			z-index: 1;
+			margin-left: auto;
 		}
 		.illu{
 			left: -30%;
@@ -330,6 +342,7 @@
 		margin-top: 80px;
 		.container-text{
 			width: 100%;
+			margin-left: auto;
 			.btn{
 				margin-top: 23px;
 			}
@@ -482,6 +495,7 @@
 				&:nth-child(2){
 					margin-top: -40px;
 					margin-left: auto;
+					margin-right: 35px;
 					.pp{
 						margin-left: auto;
 					}
