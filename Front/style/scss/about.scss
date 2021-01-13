@@ -459,25 +459,25 @@
 			}
 
 			&:nth-child(4){
-				width: 294px;
+				width: 260px;
 				margin-right: 80px;
 				margin-top: 80px;
-				.pp{
-					height: 294px;
-				}
-			}
-
-			&:nth-child(5){
-				margin-right: 120px;
-				width: 260px;
 				.pp{
 					height: 260px;
 				}
 			}
 
+			&:nth-child(5){
+				margin-right: 120px;
+				width: 294px;
+				.pp{
+					height: 294px;
+				}
+			}
+
 			
 			&:nth-child(6){
-				margin-right: 180px;
+				
 				width: 260px;
 				margin-top: 60px;
 				.pp{
@@ -486,17 +486,18 @@
 			}
 
 			&:nth-child(7){
-				width: 294px;
+				width: 260px;
 				margin-right: 0px;
+				margin-left: 120px;
 				
 				.pp{
-					height: 294px;
+					height: 260px;
 				}
 			}
 		}
 	}
 	.container-btn{
-		margin-top: 18px;
+		margin-top: 50px;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
@@ -519,6 +520,59 @@
 		.link{
 			@include styleLink;
 		}
+	}
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: landscape){
+	.section-team{
+		.container-team{
+			margin-top: 80px;
+			.team{
+				
+				&:nth-child(1){
+					width: 220px;
+					.pp{
+						height: 220px;
+					}
+				}
+				&:nth-child(2){
+					width: 280px;
+					.pp{
+						height: 280px;
+					}
+				}
+				&:nth-child(3){
+					width: 220px;
+					.pp{
+						height: 220px;
+					}
+				}
+				&:nth-child(4){
+					width: 220px;
+					margin-right: 130px;
+					.pp{
+						height: 220px;
+					}
+				}
+				&:nth-child(5){
+					width: 280px;
+					.pp{
+						height: 280px;
+					}
+				}
+				&:nth-child(6){
+					width: 220px;
+					.pp{
+						height: 220px;
+					}
+				}
+				&:nth-child(7){
+					
+				}
+
+				
+			}
+		}
+
 	}
 }
 @media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
@@ -554,8 +608,8 @@
 					width: 50%;
 					.pp{
 						margin: auto;
-						width: 190px;
-						height: 190px;
+						width: 220px;
+						height: 220px;
 					}
 				}
 				&:nth-child(1){
@@ -568,8 +622,8 @@
 					margin-right: 0px;
 					width: 50%;
 					.pp{
-						width: 130px;
-						height: 130px;
+						width: 170px;
+						height: 170px;
 					}
 				}
 
