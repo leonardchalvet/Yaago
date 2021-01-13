@@ -104,7 +104,7 @@ $document = $WPGLOBAL['document']->data;
       <section class="section-solution">
         <div class="wrapper">
           <div class="container-el">
-            <?php foreach ($document->list_elements1 as $e) { ?>
+            <?php foreach ($document->list_elements2 as $e) { ?>
             <div class="el">
               <div class="illu">
                 <img src="<?= $e->img->url; ?>" alt="<?= $e->img->alt; ?>">
