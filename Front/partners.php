@@ -1,7 +1,7 @@
 <html>
 	<head>
 
-		<title>Solution</title>
+		<title>Partners</title>
 
 		<meta name="description" content="" />
 
@@ -31,34 +31,20 @@
 						</p>
 					</div>
 					<div class="container-filter">
-						<h2>Découvrez nos partenaires et bénéficiez de nombreuses réductions.</h2>
+						<h2>Découvrez nos partenaires et bénéficiez de nombreuses réductions.
+						</h2>
 						<div class="filter">
 							<div class="input">
-								<input type="text" readonly placeholder="Trier par catégorie">
+								<input type="text" readonly="" placeholder="Trier par catégorie">
 								<div class="arrow">
 									<img src="img/partners/section-cover/icn-arrow.svg" alt="">
 								</div>
 							</div>
 							<div class="dropdown">
 								<div class="container-el">
-									<div class="el">
-										Option 1
-									</div>
-									<div class="el">
-										Option 1
-									</div>
-									<div class="el">
-										Option 1
-									</div>
-									<div class="el">
-										Option 1
-									</div>
-									<div class="el">
-										Option 1
-									</div>
-									<div class="el">
-										Option 1
-									</div>
+									<div class="el" data-filter="Serrure connectée">Serrure connectée</div>
+									<div class="el" data-filter="Surveillance sonore">Surveillance sonore</div>
+									<div class="el" data-filter="Conciergerie à bagages">Conciergerie à bagages</div>
 								</div>
 							</div>
 						</div>
@@ -71,12 +57,12 @@
 					<div class="container-el">
 						<div class="el">
 							<div class="logo">
-								<img src="img/partners/section-partners/igloohome.png" alt="">
+								<img src="https://images.prismic.io/yaago/12d3bb69-fbe9-42d3-9bb7-2a26dcaac154_igloohome.png?auto=compress,format" alt="">
 							</div>
 							<div class="text">
 								<h3>Serrure connectée</h3>
 								<p>
-									Avec Igloohome gérez l’ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
+									Avec Igloohome gérez l'ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
 								</p>
 								<div class="bdg">
 									<span>
@@ -84,18 +70,59 @@
 									</span>
 								</div>
 								<div class="btn">
-									<div class="btn-text">Profitez de la réduction</div>
+									<div class="btn-text">Profitez de la réduction
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="el">
 							<div class="logo">
-								<img src="img/partners/section-partners/igloohome.png" alt="">
+								<img src="https://images.prismic.io/yaago/78093daf-d20e-4c90-8e12-6a1071edda17_minut.png?auto=compress,format" alt="">
+							</div>
+							<div class="text">
+								<h3>Surveillance sonore</h3>
+								<p>
+									Mînut est un boitier de surveillance du niveau sonore du mouvement et de la température. Tranquillité pour vos voisins...
+								</p>
+								<div class="bdg">
+									<span>
+										-20% avec le code promo : MINUT2020
+									</span>
+								</div>
+								<div class="btn">
+									<div class="btn-text">Profitez de la réduction
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="el">
+							<div class="logo">
+								<img src="https://images.prismic.io/yaago/aaaf1a80-9d8c-4459-8270-6e3ec176932f_nannybag.png?auto=compress,format" alt="">
+							</div>
+							<div class="text">
+								<h3>Conciergerie à bagages</h3>
+								<p>
+									Trouvez une solution pour que vos voyageurs puissent stocker leurs bagages.
+								</p>
+								<div class="bdg">
+									<span>
+										-10% de réduction en cliquant ci-dessous
+									</span>
+								</div>
+								<div class="btn">
+									<div class="btn-text">Profitez de la réduction
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="el">
+							<div class="logo">
+								<img src="https://images.prismic.io/yaago/12d3bb69-fbe9-42d3-9bb7-2a26dcaac154_igloohome.png?auto=compress,format" alt="">
 							</div>
 							<div class="text">
 								<h3>Serrure connectée</h3>
 								<p>
-									Avec Igloohome gérez l’ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
+									Avec Igloohome gérez l'ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
 								</p>
 								<div class="bdg">
 									<span>
@@ -103,57 +130,19 @@
 									</span>
 								</div>
 								<div class="btn">
-									<div class="btn-text">Profitez de la réduction</div>
+									<div class="btn-text">Profitez de la réduction
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="el">
 							<div class="logo">
-								<img src="img/partners/section-partners/igloohome.png" alt="">
+								<img src="https://images.prismic.io/yaago/78093daf-d20e-4c90-8e12-6a1071edda17_minut.png?auto=compress,format" alt="">
 							</div>
 							<div class="text">
-								<h3>Serrure connectée</h3>
+								<h3>Surveillance sonore</h3>
 								<p>
-									Avec Igloohome gérez l’ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
-								</p>
-								<div class="bdg">
-									<span>
-										-30% de réduction en cliquant ci-dessous
-									</span>
-								</div>
-								<div class="btn">
-									<div class="btn-text">Profitez de la réduction</div>
-								</div>
-							</div>
-						</div>
-						<div class="el">
-							<div class="logo">
-								<img src="img/partners/section-partners/igloohome.png" alt="">
-							</div>
-							<div class="text">
-								<h3>Serrure connectée</h3>
-								<p>
-									Avec Igloohome gérez l’ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
-								</p>
-								<div class="bdg">
-									<span>
-										-30% de réduction en cliquant ci-dessous
-									</span>
-								</div>
-								<div class="btn">
-									<div class="btn-text">Profitez de la réduction</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="el">
-							<div class="logo">
-								<img src="img/partners/section-partners/igloohome.png" alt="">
-							</div>
-							<div class="text">
-								<h3>Serrure connectée</h3>
-								<p>
-									Avec Igloohome gérez l’ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
+									Mînut est un boitier de surveillance du niveau sonore du mouvement et de la température. Tranquillité pour vos voisins...
 								</p>
 								<div class="soon">
 									Réduction bientôt disponible
@@ -162,12 +151,12 @@
 						</div>
 						<div class="el">
 							<div class="logo">
-								<img src="img/partners/section-partners/igloohome.png" alt="">
+								<img src="https://images.prismic.io/yaago/aaaf1a80-9d8c-4459-8270-6e3ec176932f_nannybag.png?auto=compress,format" alt="">
 							</div>
 							<div class="text">
-								<h3>Serrure connectée</h3>
+								<h3>Conciergerie à bagages</h3>
 								<p>
-									Avec Igloohome gérez l’ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
+									Trouvez une solution pour que vos voyageurs puissent stocker leurs bagages.
 								</p>
 								<div class="soon">
 									Réduction bientôt disponible
