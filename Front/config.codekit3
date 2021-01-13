@@ -731,7 +731,7 @@
 		},
 	"/img/home/section-cover/illu-screen-1-img.png": {
 		"ft": 32768,
-		"iS": 241096,
+		"iS": 770495,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-1-img.png",
 		"oF": 0,
@@ -744,7 +744,7 @@
 		},
 	"/img/home/section-cover/illu-screen-1.png": {
 		"ft": 32768,
-		"iS": 291562,
+		"iS": 770495,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-1.png",
 		"oF": 0,
@@ -780,7 +780,7 @@
 		},
 	"/img/home/section-cover/illu-screen-2.png": {
 		"ft": 32768,
-		"iS": 104125,
+		"iS": 347774,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-2.png",
 		"oF": 0,
@@ -803,7 +803,7 @@
 		},
 	"/img/home/section-cover/illu-screen-3-img.png": {
 		"ft": 32768,
-		"iS": 441272,
+		"iS": 929436,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-3-img.png",
 		"oF": 0,
@@ -816,7 +816,7 @@
 		},
 	"/img/home/section-cover/illu-screen-3.png": {
 		"ft": 32768,
-		"iS": 305259,
+		"iS": 929436,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-3.png",
 		"oF": 0,
@@ -852,7 +852,7 @@
 		},
 	"/img/home/section-cover/illu-screen-4.png": {
 		"ft": 32768,
-		"iS": 9145,
+		"iS": 30958,
 		"oA": 0,
 		"oAP": "/img/home/section-cover/illu-screen-4.png",
 		"oF": 0,
@@ -1164,16 +1164,16 @@
 	"/img/landing/section-cover/illu.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/img/landing/section-cover/illu.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
 	"/img/landing/section-solutions/illu-1.png": {
 		"ft": 32768,
-		"iS": 89581,
+		"iS": 64241,
 		"oA": 0,
 		"oAP": "/img/landing/section-solutions/illu-1.png",
 		"oF": 0,
@@ -1213,10 +1213,10 @@
 	"/img/landing/section-tarif/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/img/landing/section-tarif/illu-1.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 4010962575359,
 		"prP": 0
 		},
@@ -1292,7 +1292,7 @@
 		},
 	"/img/partners/section-partners/igloohome.png": {
 		"ft": 32768,
-		"iS": 1475,
+		"iS": 3063,
 		"oA": 0,
 		"oAP": "/img/partners/section-partners/igloohome.png",
 		"oF": 0,
@@ -1305,7 +1305,7 @@
 		},
 	"/img/partners/section-partners/minut.png": {
 		"ft": 32768,
-		"iS": 1894,
+		"iS": 2553,
 		"oA": 0,
 		"oAP": "/img/partners/section-partners/minut.png",
 		"oF": 0,
@@ -1318,7 +1318,7 @@
 		},
 	"/img/partners/section-partners/nannybag.png": {
 		"ft": 32768,
-		"iS": 3844,
+		"iS": 6151,
 		"oA": 0,
 		"oAP": "/img/partners/section-partners/nannybag.png",
 		"oF": 0,
@@ -1329,53 +1329,53 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/img/solutions/section-cover/illu-1.svg": {
+	"/img/Solutions/section-cover/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/solutions/section-cover/illu-1.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "/img/Solutions/section-cover/illu-1.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/solutions/section-cover/illu-2.svg": {
+	"/img/Solutions/section-cover/illu-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/solutions/section-cover/illu-2.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "/img/Solutions/section-cover/illu-2.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/solutions/section-list/illu-1.svg": {
+	"/img/Solutions/section-list/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/solutions/section-list/illu-1.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "/img/Solutions/section-list/illu-1.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/solutions/section-list/illu-2.svg": {
+	"/img/Solutions/section-list/illu-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/solutions/section-list/illu-2.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "/img/Solutions/section-list/illu-2.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/solutions/section-list/illu-3.svg": {
+	"/img/Solutions/section-list/illu-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/solutions/section-list/illu-3.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "/img/Solutions/section-list/illu-3.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
@@ -1389,13 +1389,13 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
-	"/img/solutions/section-list/illu-6.svg": {
+	"/img/Solutions/section-list/illu-6.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/solutions/section-list/illu-6.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "/img/Solutions/section-list/illu-6.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
 		},
