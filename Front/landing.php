@@ -31,9 +31,10 @@
 							<span>Les propriétaires qui font la</span>
 							<span>différence</span>
 						</h1>
-						<form class="container-input">
+						<form class="container-input" onsubmit="return false">
 							<div class="input">
-								<input type="text" placeholder="Entrez votre Email">
+								<input name="goto" type="text" style="display: none;" value="Oui j'ai le droit de tester">
+								<input name="email" type="text" placeholder="Entrez votre Email">
 								<button href="" class="btn">
 									<span class="btn-text">Je découvre </span>
 								</button>
