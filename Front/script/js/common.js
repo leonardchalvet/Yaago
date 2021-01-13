@@ -62,6 +62,7 @@ $('footer form button').on('click', function() {
 				$('footer .container-send').addClass('style-active');
 				setTimeout(function(){
 					$('footer .container-send').removeClass('style-active');
+					window.location.href = $('footer .content .container-newsletter input[name=goto]').val();
 				}, 3000);
 			}
 		});
