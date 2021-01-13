@@ -10,7 +10,7 @@ $('.section-cover .container-filter .filter .dropdown .el').click(function(){
 	$('.section-partners .container-el .el').removeClass('style-hide');
 	let data = $(this).attr('data-filter');
 	$('.section-partners .container-el .el').each(function(){
-		if($(this).find('h3').text() != data) {
+		if($(this).attr('data-filter') != data) {
 			$(this).addClass('style-hide');
 		}
 	});

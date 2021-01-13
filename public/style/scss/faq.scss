@@ -42,11 +42,30 @@
 					text-decoration: none;
 					@include styleH4;
 					@include styleUnderline;
-					&.style-active{
-						&:after{
-							content:url(../../img/common/underline/underline-3.svg);
+					
+
+				}
+				&:not(:nth-child(1)){
+					a{
+						&.style-active{
+							&:after{
+								content:url(../../img/common/underline/underline-3.svg);
+							}
+						}
+						
+					}
+					
+				}
+				&:nth-child(1){
+					a{
+						&.style-active{
+							&:after{
+								content:url(../../img/common/underline/underline-small-1.svg);
+								
+							}
 						}
 					}
+					
 				}
 			}
 		}
@@ -147,15 +166,17 @@
 		align-items: center;
 		justify-content: space-between;
 		li{
-			&.style-hide {
-				display: none;
-			}
 			width: calc(50% - 10px);
 			height: 230px;
 			padding: 0px 60px 0px 60px;
 			border-radius: 16px;
 			border: 1px solid transparent;
 			margin-bottom: 20px;
+			transition: all 0.25s ease;
+			&.style-hide {
+				display: none;
+			}
+
 			a{
 				height: 100%;
 				display: flex;
@@ -180,6 +201,7 @@
 				width: 34px;
 				border: 1px solid transparent;
 				border-radius: 20px;
+				transition: all 0.25s ease;
 				svg{
 					position: absolute;
 					top: 50%;
@@ -265,6 +287,13 @@
 				}
 				svg{
 					stroke: #FFF;
+				}
+			}
+
+			&:hover{
+				opacity: 0.9;
+				.arrow{
+					transform: translateX(10px);
 				}
 			}
 		}
