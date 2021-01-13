@@ -97,9 +97,6 @@ $document = $WPGLOBAL['document']->data;
 
       <section class="section-tarif">
         <div class="wrapper">
-          <div class="illu">
-            <img src="<?= $document->features_img->url; ?>" alt="<?= $document->features_img->url; ?>">
-          </div>
           <div class="container-text">
             <?= RichText::asHtml($document->features_title); ?>
             <?= RichText::asHtml($document->features_text); ?>
@@ -109,6 +106,9 @@ $document = $WPGLOBAL['document']->data;
                 <use xlink:href="/img/common/arrow-1.svg#content"></use>
               </svg>
             </a>
+          </div>
+          <div class="illu">
+            <img src="<?= $document->features_img->url; ?>" alt="<?= $document->features_img->url; ?>">
           </div>
         </div>
       </section>
