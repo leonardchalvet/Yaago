@@ -92,6 +92,7 @@
 				}
 				.btn{
 					@include styleButton("medium", "1");
+					border: none;
 				}
 			}
 

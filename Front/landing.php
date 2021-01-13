@@ -31,18 +31,18 @@
 							<span>Les propriétaires qui font la</span>
 							<span>différence</span>
 						</h1>
-						<div class="container-input">
+						<form class="container-input">
 							<div class="input">
 								<input type="text" placeholder="Entrez votre Email">
-								<a href="" class="btn">
+								<button href="" class="btn">
 									<span class="btn-text">Je découvre </span>
-								</a>
+								</button>
 							</div>
 							<div class="error">
 								 Ce champ comporte une erreur 
 							</div>
 							
-						</div>
+						</form>
 					</div>
 					<div class="container-illu">
 						<img src="img/landing/section-cover/illu.svg" alt="">
