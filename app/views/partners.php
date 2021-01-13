@@ -54,7 +54,7 @@ $document = $WPGLOBAL['document']->data;
                 <div class="container-el">
                   <?php foreach ($document->partners_select as $s) { ?>
                     <div class="el" data-filter="<?= $s->select; ?>">
-                      <?= $s->select; ?>
+                      <?= RichText::asText($s->text); ?>
                     </div>
                   <?php } ?>
                 </div>
