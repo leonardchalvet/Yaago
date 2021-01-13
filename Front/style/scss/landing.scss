@@ -284,6 +284,7 @@
 }
 
 .section-tarif{
+	overflow: hidden;
 	margin-top: 110px;
 	background-color: $colorMain_2;
 	padding: 180px 0px 180px 0px;
@@ -295,6 +296,10 @@
 		position: absolute;
 		left: 0px;
 		bottom: 0px;
+		width: 765px;
+		img{
+			width: 100%;
+		}
 	}
 	.container-text{
 		margin-left: 50%;
@@ -328,9 +333,11 @@
 			margin-left: auto;
 		}
 		.illu{
-			left: -30%;
+			left: -40%;
 			height: 90%;
+			width: initial;
 			img{
+				width: initial;
 				height: 100%;
 			}
 		}
@@ -348,6 +355,7 @@
 			}
 		}
 		.illu{
+			width: initial;
 			margin-left: -25px;
 			margin-top: 40px;
 			position: initial;
