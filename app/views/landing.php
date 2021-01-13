@@ -88,7 +88,7 @@ $document = $WPGLOBAL['document']->data;
             <?php } ?>
           </div>
           <div class="container-btn">
-            <a href="<?= $document->solutions_btnlink->url; ?>" class="btn" >
+            <a href="<?php checkUrl($document->solutions_btnlink); ?>" class="btn" >
               <div class="btn-text"><?= RichText::asText($document->solutions_btntext); ?></div>
             </a>
           </div>
@@ -100,7 +100,7 @@ $document = $WPGLOBAL['document']->data;
           <div class="container-text">
             <?= RichText::asHtml($document->features_title); ?>
             <?= RichText::asHtml($document->features_text); ?>
-            <a href="<?= $document->features_btnlink->url; ?>" class="btn">
+            <a href="<?php checkUrl($document->features_btnlink); ?>" class="btn">
               <span class="btn-text"><?= RichText::asText($document->features_btntext); ?></span>
               <svg class="btn-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
                 <use xlink:href="/img/common/arrow-1.svg#content"></use>
@@ -145,7 +145,7 @@ $document = $WPGLOBAL['document']->data;
             <?= RichText::asHtml($document->mission_title); ?>
             <?= RichText::asHtml($document->mission_text); ?>
           </div>
-          <a href="<?= $document->mission_btnlink->url; ?>" class="btn">
+          <a href="<?php checkUrl($document->mission_btnlink); ?>" class="btn">
             <span class="btn-text">
               <?= RichText::asText($document->mission_btntext); ?>
             </span>
