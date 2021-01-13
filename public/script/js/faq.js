@@ -1,12 +1,8 @@
 // @codekit-prepend 'common.js'
 
-let url = window.location.href;
-
 let data = '.';
-let divs;
-$('.section-faq ul li').each(function(i){
-    $(this).data('initial-index', i);
-});
+let url = window.location.href;
+let allEl = $('.section-faq ul li');
 
 function regexp(s) {
     let r=s.toLowerCase();
@@ -54,6 +50,10 @@ function updateButton(data) {
 updateButton(data);
 
 $('.section-title ul li a').click(function(){
+
+	$('.section-faq ul li').remove();
+	$('.section-faq ul').append(allEl);
+
 	$('.section-title ul li a').removeClass('style-active');
 	$(this).addClass('style-active');
 
@@ -78,6 +78,9 @@ $('.section-title ul li a').click(function(){
 					$(this).removeClass('style-hide');
 				}
 				nb++;
+			}
+			else {
+				$(this).remove();
 			}
 		});
 		
