@@ -51,6 +51,8 @@
 		margin-bottom: 24px;
 	}
 	p{
+		margin-top: 24px;
+		margin-bottom: 24px;
 		@include styleParagraphBig;
 		a{
 			color: inherit;
