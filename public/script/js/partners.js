@@ -9,11 +9,13 @@ $('.section-cover .container-filter .filter .dropdown .el').click(function(){
 
 	$('.section-partners .container-el .el').removeClass('style-hide');
 	let data = $(this).attr('data-filter');
-	$('.section-partners .container-el .el').each(function(){
-		if($(this).attr('data-filter') != data) {
-			$(this).addClass('style-hide');
-		}
-	});
+	if(data != ".") {
+		$('.section-partners .container-el .el').each(function(){
+			if($(this).attr('data-filter') != data) {
+				$(this).addClass('style-hide');
+			}
+		});
+	}
 });
 
 $('body').click(function(event){
