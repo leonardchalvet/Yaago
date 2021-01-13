@@ -34,10 +34,11 @@ $document = $WPGLOBAL['document']->data;
     <main>
 
       <section class="section-cover">
+        <div class="container-send">
+          <img src="/img/contact/check.svg" alt="">
+          <div class="text"><?= RichText::asText($document->cover_send); ?></div>
+        </div>
         <div class="wrapper">
-          <div class="container-illu">
-            <img src="<?= $document->cover_img->url; ?>" alt="<?= $document->cover_img->alt; ?>">
-          </div>
           <div class="container-title">
             <h1>
               <span>
@@ -47,12 +48,21 @@ $document = $WPGLOBAL['document']->data;
                 <?= RichText::asText($document->cover_title2); ?>
               </span>
             </h1>
-            <div class="container-input">
-              <input type="text" placeholder="<?= RichText::asText($document->cover_inputtext); ?>">
-              <a class="btn">
-                <span class="btn-text"><?= RichText::asText($document->cover_inputbtn); ?></span>
-              </a>
+            <form class="container-input">
+              <div class="input">
+                <input name="goto" type="text" style="display: none;" value="<?= RichText::asText($document->cover_goto); ?>">
+                <input name="email" type="text" placeholder="<?= RichText::asText($document->cover_inputtext); ?>">
+                <button class="btn">
+                  <span class="btn-text"><?= RichText::asText($document->cover_inputbtn); ?></span>
+                </button>
+              </div>
+              <div class="error">
+                 <?= RichText::asText($document->cover_error); ?>
+              </div>
             </div>
+          </form>
+          <div class="container-illu">
+            <img src="<?= $document->cover_img->url; ?>" alt="<?= $document->cover_img->alt; ?>">
           </div>
         </div>
       </section>
