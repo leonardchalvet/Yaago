@@ -45,18 +45,18 @@ $document = $WPGLOBAL['document']->data;
             <h2><?= RichText::asText($document->patners_text); ?></h2>
             <div class="filter">
               <div class="input">
-                <input type="text" readonly placeholder="<?= $document->partners_select[0]->select; ?>">
+                <input type="text" readonly placeholder="<?= RichText::asText($document->partners_placeholder); ?>">
                 <div class="arrow">
                   <img src="/img/partners/section-cover/icn-arrow.svg" alt="">
                 </div>
               </div>
               <div class="dropdown">
                 <div class="container-el">
-                  <?php $i=0; foreach ($document->partners_select as $s) { if($i!=0) { ?>
+                  <?php foreach ($document->partners_select as $s) { ?>
                     <div class="el" data-filter="<?= $s->select; ?>">
                       <?= $s->select; ?>
                     </div>
-                  <?php } $i++; } ?>
+                  <?php } ?>
                 </div>
               </div>
             </div>
@@ -68,12 +68,12 @@ $document = $WPGLOBAL['document']->data;
         <div class="wrapper">
           <div class="container-el">
             <?php foreach ($document->partners_partners as $p) { ?>
-              <div class="el">
+              <div class="el" data-filter="<?= $p->filter; ?>">
                 <div class="logo">
                   <img src="<?= $p->img->url; ?>" alt="<?= $p->img->alt; ?>">
                 </div>
                 <div class="text">
-                  <h3><?= $p->filter; ?></h3>
+                  <h3><?= RichText::asText($p->title); ?></h3>
                   <p>
                     <?= RichText::asText($p->text); ?>
                   </p>
