@@ -204,6 +204,7 @@ footer{
 			align-items: center;
 
 			.lg{
+				cursor: pointer;
 				display: flex;
 				flex-flow: row wrap;
 				align-items: center;
@@ -211,7 +212,6 @@ footer{
 					width: 16px;
 				}
 				.text{
-					cursor: pointer;
 					margin: 0px 15px 0px 15px;
 					@include styleParagraphSmall;
 					color: #FFF;
