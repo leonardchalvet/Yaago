@@ -217,6 +217,14 @@
 		"oAP": "/fonts/Shellana-Regular.ttf",
 		"oF": 0
 		},
+	"/home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/home.php",
+		"oF": 0
+		},
 	"/img/404/illu-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1428,14 +1436,6 @@
 		"opt": 1,
 		"plM": 4010962575359,
 		"prP": 0
-		},
-	"/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.php",
-		"oF": 0
 		},
 	"/landing.php": {
 		"cB": 0,

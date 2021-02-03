@@ -74,9 +74,16 @@
 			<div class="container-sponsors">
 				<h2>Ils nous soutiennent</h2>
 				<div class="container-img">
-					<img src="img/footer/logo-vca.png" alt="">
-					<img src="img/footer/logo-normandie.png" alt="">
-					<img src="img/footer/logo-ft.png" alt="">
+					<a href="" target="_blank">
+						<img src="img/footer/logo-vca.png" alt="">
+					</a>
+					<a href="" target="_blank">
+						<img src="img/footer/logo-normandie.png" alt="">
+					</a>
+					<a href="" target="_blank">
+						<img src="img/footer/logo-ft.png" alt="">
+					</a>
+					
 				</div>
 			</div>
 		</div>

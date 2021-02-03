@@ -177,12 +177,20 @@ footer{
 				display: flex;
 				flex-flow: row wrap;
 				height: 50px;
-				img{	
+				a{
+					text-decoration: none;
+					display: block;
 					height: 100%;
+					img{	
+						display: block;
+						height: 100%;
+						
+					}
 					&:not(:last-child){
-						margin-right: 56px;
+						margin-right: 40px;
 					}
 				}
+				
 			}
 		}
 	}
@@ -297,7 +305,7 @@ footer{
 				margin-top: 30px;
 				.container-img{
 					justify-content: space-between;
-					img{
+					a{
 						&:not(:last-child){
 							margin-right: 0px;
 						}

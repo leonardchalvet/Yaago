@@ -23,12 +23,83 @@
 			}
 		}
 	}
+
+	.container-filter{
+		ul{
+			margin-top: 64px;
+			list-style: none;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: center;
+			li{
+				&:not(:last-child){
+					margin-right: 64px;
+				}
+				a{
+					cursor: pointer;
+					text-decoration: none;
+					@include styleH4;
+					@include styleUnderline;
+					&.style-active{
+						&:after{
+							content:url(../../img/common/underline/underline-3.svg);
+							
+						}
+					}
+				}
+				
+			}
+		}
+	}
 	
+}
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+	.section-cover{
+		.container-filter{
+			overflow: auto;
+			width: calc(100% + 50px);
+			margin-left: -25px;
+			padding: 0px 25px 30px 25px;
+			ul{
+				flex-flow: initial;
+				display: inline-flex;
+				flex-wrap: nowrap;
+				li{
+					display: block;
+					flex: 0 0 auto;
+					a{
+						display: block;
+						white-space: nowrap;
+					}
+				}
+			}
+		}
+	}
 }
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
 		padding-top: 120px;
 		padding-bottom: 80px;
+		.container-filter{
+			overflow: auto;
+			width: calc(100% + 50px);
+			margin-left: -25px;
+			padding: 0px 25px 30px 25px;
+			ul{
+				flex-flow: initial;
+				display: inline-flex;
+				flex-wrap: nowrap;
+				li{
+					display: block;
+					flex: 0 0 auto;
+					a{
+						display: block;
+						white-space: nowrap;
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -104,6 +175,49 @@
 			}
 			&:not(:last-child){
 				margin-bottom: 18px;
+			}
+		}
+	}
+
+	.container-el{
+		.el{
+			.head{
+				cursor: pointer;
+				display: flex;
+				flex-flow: row wrap;
+				h4{
+					@include styleH4;
+					flex: 1;
+					margin-bottom: 0px;
+					margin-right: 15px;
+				}
+				.arrow{
+					margin-top: 13px;
+					img{
+						width: 15px;
+						transform: rotate(180deg);
+						transition: all 0.25s ease;
+					}
+				}
+			}
+			p{
+				margin-top: 24px;
+				display: none;	
+			}
+			&:not(:last-child){
+				margin-bottom: 60px;
+			}
+			&.style-active{
+				.head{
+					.arrow{
+						img{
+							transform: rotate(0deg);
+						}
+					}
+				}
+				p{
+					display: block;
+				}
 			}
 		}
 	}

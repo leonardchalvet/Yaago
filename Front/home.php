@@ -208,9 +208,9 @@
 					<div class="container-partners">
 						<div class="raw">
 							<div class="partners">
-								<div class="img">
+								<a href="" class="img">
 									<img src="img/home/section-partners/partners-1.png" alt="">
-								</div>
+								</a>
 								
 								<div class="text">
 									<h3>Igloohome</h3>
@@ -223,9 +223,9 @@
 						</div>
 						<div class="raw">
 							<div class="partners">
-								<div class="img">
+								<a href="" class="img">
 									<img src="img/home/section-partners/partners-2.png" alt="">
-								</div>
+								</a>
 								<div class="text">
 									<h3>Mînut</h3>
 									<p>
@@ -236,9 +236,9 @@
 							</div>
 
 							<div class="partners">
-								<div class="img">
+								<a href="" class="img">
 									<img src="img/home/section-partners/partners-3.png" alt="">
-								</div>
+								</a>
 								<div class="text">
 									<h3>Mînut</h3>
 									<p>
