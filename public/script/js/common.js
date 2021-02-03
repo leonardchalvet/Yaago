@@ -11,7 +11,7 @@ function verifEmail(c) {
 }
 
 /* FOOTER */
-$('footer .foot .container-lg .lg .text').click(function(){
+$('footer .foot .container-lg .lg').click(function(){
 	$('footer .foot .container-lg .dropdown').toggleClass('style-show');
 })
 

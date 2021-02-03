@@ -1,6 +1,9 @@
 <?php 
 use Prismic\Dom\RichText;
 $footer = $WPGLOBAL['footer']->data;
+
+$urlt = explode('/',(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+$url = $urlt[0].'//'.$urlt[2].'/';
 ?>
 
 <footer>
@@ -80,9 +83,20 @@ $footer = $WPGLOBAL['footer']->data;
 					<img class="arrow" src="/img/footer/icn-arrow.svg" alt="icon arrow">
 				</div>
 				<div class="dropdown">
-					<?php foreach ($footer->foot_alllang as $l) { ?>
-						<a class="el" href="<?= $l->grp_link->url; ?>"><?= RichText::asText($l->grp_text); ?></a>
-					<?php } ?>
+					<?php $i=-1; foreach ($footer->foot_alllang as $l) {
+						if($i==-1) { ?>
+							<a class="el" 
+							   href="<?php if($WPGLOBAL['document']->type == "home") { echo(getUrl());
+										   } else { echo($url.getLang()."/".$WPGLOBAL['document']->uid); } ?>">
+								<?= RichText::asText($l->grp_text); ?>
+							</a>
+						<?php } else { ?>
+							<a class="el" 
+							   href="<?php if($WPGLOBAL['document']->type == "home") { echo($url.substr($WPGLOBAL['document']->alternate_languages[$i]->lang, 0, 2)."/");
+										   } else { echo($url.substr($WPGLOBAL['document']->alternate_languages[$i]->lang, 0, 2)."/".$WPGLOBAL['document']->alternate_languages[$i]->uid); } ?>">
+								<?= RichText::asText($l->grp_text); ?>
+							</a>
+					<?php } $i++; } ?>
 				</div>
 			</div>
 
