@@ -43,8 +43,7 @@
 					@include styleUnderline;
 					&.style-active{
 						&:after{
-							content:url(../../img/common/underline/underline-3.svg);
-							
+							content:url(../../img/common/underline/underline-2.svg);
 						}
 					}
 				}
@@ -60,7 +59,7 @@
 			overflow: auto;
 			width: calc(100% + 50px);
 			margin-left: -25px;
-			padding: 0px 25px 30px 25px;
+			padding: 0px 25px 30px 50px;
 			ul{
 				flex-flow: initial;
 				display: inline-flex;
@@ -85,7 +84,7 @@
 			overflow: auto;
 			width: calc(100% + 50px);
 			margin-left: -25px;
-			padding: 0px 25px 30px 25px;
+			padding: 0px 25px 30px 50px;
 			ul{
 				flex-flow: initial;
 				display: inline-flex;
@@ -105,6 +104,11 @@
 
 
 .section-mentions{
+
+	&:not(.style-active) {
+		display: none;
+	}
+
 	.wrapper{
 		width: 600px;
 		margin: auto;
