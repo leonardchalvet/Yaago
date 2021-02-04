@@ -239,6 +239,7 @@ footer{
 				border-radius: 10px;
 				box-shadow: 0px 0px 22px 4px rgba(91,91,91,0.53);
 				.el{
+					display: block;
 					cursor: pointer;
 					text-decoration: none;
 					@include styleParagraphSmall;
