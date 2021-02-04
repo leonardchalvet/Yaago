@@ -142,7 +142,7 @@
 							<div class="text">
 								<h3>Surveillance sonore</h3>
 								<p>
-									Mînut est un boitier de surveillance du niveau sonore du mouvement et de la température. Tranquillité pour vos voisins...
+									Mînut est un boitier de surveillance du niveau sonore du mouvement et de la température. Tranquillité pour vos voisins...dsadasdsadadas Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora cum minus, placeat voluptatem eos dicta? Assumenda voluptatibus 
 								</p>
 								<div class="soon">
 									Réduction bientôt disponible
