@@ -100,8 +100,8 @@
 					<img class="arrow" src="img/footer/icn-arrow.svg" alt="">
 				</div>
 				<div class="dropdown">
-					<div class="el">French</div>
-					<div class="el">English</div>
+					<a class="el">French</a>
+					<a class="el">English</a>
 				</div>
 			</div>
 
