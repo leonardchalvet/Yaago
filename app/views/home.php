@@ -153,11 +153,11 @@ $document = $WPGLOBAL['document']->data;
             <?php $i=1; 
 
             function returnPatern($p) { ?>
-              <div class="img">
-                <?php if($p->grp_img->url) { ?>
-                <img src="<?= $p->grp_img->url ?>" alt="<?= $p->grp_img->alt; ?>">
-                <?php } ?>
-              </div>
+              <?php if($p->grp_img->url) { ?>
+                <a href="<?= checkUrl($p->link); ?>" target="_blank" class="img">
+                  <img src="<?= $p->grp_img->url ?>" alt="<?= $p->grp_img->alt; ?>">
+                </a>
+              <?php } ?>
               <div class="text">
                 <?= RichText::asHtml($p->grp_title); ?>
                 <?= RichText::asHtml($p->grp_text); ?>
