@@ -72,7 +72,7 @@ $document = $WPGLOBAL['document']->data;
                 <div class="logo">
                   <img src="<?= $p->img->url; ?>" alt="<?= $p->img->alt; ?>">
                 </div>
-                <div class="text">
+                <div class="text <?php if( strlen($p->pourcent[0]->text) > 0 ) { echo('small'); } elseif ($p->soon || strlen($p->btntext[0]->text) > 0) { echo('medium'); } ?>">
                   <h3><?= RichText::asText($p->title); ?></h3>
                   <p>
                     <?= RichText::asText($p->text); ?>
@@ -81,16 +81,18 @@ $document = $WPGLOBAL['document']->data;
                     <div class="soon">
                       <?= RichText::asText($document->partners_soon); ?>
                     </div>
-                  <?php } else { ?>
+                  <?php } else { 
+                    if( strlen($p->pourcent[0]->text) > 0 ) { ?>
                     <div class="bdg">
                       <span>
                         <?= RichText::asText($p->pourcent); ?>
                       </span>
                     </div>
-                    <div class="btn">
-                      <div class="btn-text"><?= RichText::asText($document->partners_btntext); ?></div>
-                    </div>
-                  <?php } ?>
+                    <?php } if( strlen($p->btntext[0]->text) > 0 ) { ?>
+                    <a href="<?= checkUrl($p->btnlink); ?>" target="_blank" class="btn">
+                      <div class="btn-text"><?= RichText::asText($p->btntext); ?></div>
+                    </a>
+                  <?php } } ?>
                 </div>
               </div>
             <?php } ?>
