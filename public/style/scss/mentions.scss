@@ -5,6 +5,51 @@
 =            PAGE MENTIONS           =
 ====================================*/
 
+.btn-top {
+	position: fixed;
+	z-index: 10;
+	right: 50px;
+	bottom: 150px;
+	@include styleButton("small","2");
+	background-color: #FFF;
+	.btn-arrow-2 {
+		margin-left: 9px;
+		fill: none;
+		width: 17px;
+		height: 12px;
+	}
+	transition: all .5s ease;
+	&:not(.style-scroll) {
+		opacity: 0;
+	}
+	&.style-scroll {
+		opacity: 1;
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.btn-top {
+		padding: 0;
+		display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		right: 20px;
+		.btn-text {
+			display: none;
+		}
+		.btn-arrow-2 {
+			margin-left: 0px;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 5px;
+			left: 11.5px;
+		}
+	}
+
+}
 
 .section-cover{
 	padding: 170px 0px 80px 0px;
@@ -18,22 +63,93 @@
 			em{
 				@include styleUnderline;
 				&:after{
-					content:url(../../img/common/underline/underline-1.svg);
+					content:url(../../img/mentions/underline.svg);
 				}
+			}
+		}
+	}
+
+	.container-filter{
+		ul{
+			margin-top: 64px;
+			list-style: none;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: center;
+			li{
+				&:not(:last-child){
+					margin-right: 64px;
+				}
+				a{
+					cursor: pointer;
+					text-decoration: none;
+					@include styleH4;
+					@include styleUnderline;
+					&.style-active{
+						&:after{
+							content:url(../../img/common/underline/underline-2.svg);
+						}
+					}
+				}
+				
 			}
 		}
 	}
 	
 }
+@media screen and (min-width: $breakPoint_mobile) and (max-width: $breakPoint_tablet) and (orientation: portrait){
+	.section-cover{
+		.container-filter{
+			overflow: auto;
+			padding: 0px 25px 30px 25px;
+			ul{
+				flex-flow: initial;
+				display: inline-flex;
+				flex-wrap: nowrap;
+				li{
+					display: block;
+					flex: 0 0 auto;
+					a{
+						display: block;
+						white-space: nowrap;
+					}
+				}
+			}
+		}
+	}
+}
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
 		padding-top: 120px;
-		padding-bottom: 80px;
+		padding-bottom: 30px;
+		.container-filter{
+			overflow: auto;
+			padding: 0px 25px 30px 25px;
+			ul{
+				flex-flow: initial;
+				display: inline-flex;
+				flex-wrap: nowrap;
+				li{
+					display: block;
+					flex: 0 0 auto;
+					a{
+						display: block;
+						white-space: nowrap;
+					}
+				}
+			}
+		}
 	}
 }
 
 
 .section-mentions{
+
+	&:not(.style-active) {
+		display: none;
+	}
+
 	.wrapper{
 		width: 600px;
 		margin: auto;
@@ -104,6 +220,52 @@
 			}
 			&:not(:last-child){
 				margin-bottom: 18px;
+			}
+		}
+	}
+
+	.container-el{
+		.el{
+			.head{
+				cursor: pointer;
+				display: flex;
+				flex-flow: row wrap;
+				h4{
+					@include styleH4;
+					flex: 1;
+					margin-bottom: 0px;
+					margin-right: 15px;
+				}
+				.arrow{
+					margin-top: 13px;
+					img{
+						width: 15px;
+						transform: rotate(0deg);
+						transition: all 0.25s ease;
+					}
+				}
+			}
+			p{
+				margin-top: 24px;
+				display: none;	
+			}
+			&:first-child {
+				margin-top: 60px;
+			}
+			&:not(:last-child){
+				margin-bottom: 60px;
+			}
+			&.style-active{
+				.head{
+					.arrow{
+						img{
+							transform: rotate(180deg);
+						}
+					}
+				}
+				p{
+					display: block;
+				}
 			}
 		}
 	}
