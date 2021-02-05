@@ -5,6 +5,51 @@
 =            PAGE MENTIONS           =
 ====================================*/
 
+.btn-top {
+	position: fixed;
+	z-index: 10;
+	right: 50px;
+	bottom: 150px;
+	@include styleButton("small","2");
+	background-color: #FFF;
+	.btn-arrow-2 {
+		margin-left: 9px;
+		fill: none;
+		width: 17px;
+		height: 12px;
+	}
+	transition: all .5s ease;
+	&:not(.style-scroll) {
+		opacity: 0;
+	}
+	&.style-scroll {
+		opacity: 1;
+	}
+}
+@media screen and (max-width: $breakPoint_mobile){
+	.btn-top {
+		padding: 0;
+		display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		right: 20px;
+		.btn-text {
+			display: none;
+		}
+		.btn-arrow-2 {
+			margin-left: 0px;
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 5px;
+			left: 11.5px;
+		}
+	}
+
+}
 
 .section-cover{
 	padding: 170px 0px 80px 0px;
@@ -18,7 +63,7 @@
 			em{
 				@include styleUnderline;
 				&:after{
-					content:url(../../img/common/underline/underline-1.svg);
+					content:url(../../img/mentions/underline.svg);
 				}
 			}
 		}
@@ -57,9 +102,7 @@
 	.section-cover{
 		.container-filter{
 			overflow: auto;
-			width: calc(100% + 50px);
-			margin-left: -25px;
-			padding: 0px 25px 30px 50px;
+			padding: 0px 25px 30px 25px;
 			ul{
 				flex-flow: initial;
 				display: inline-flex;
@@ -79,12 +122,10 @@
 @media screen and (max-width: $breakPoint_mobile){
 	.section-cover{
 		padding-top: 120px;
-		padding-bottom: 80px;
+		padding-bottom: 30px;
 		.container-filter{
 			overflow: auto;
-			width: calc(100% + 50px);
-			margin-left: -25px;
-			padding: 0px 25px 30px 50px;
+			padding: 0px 25px 30px 25px;
 			ul{
 				flex-flow: initial;
 				display: inline-flex;
@@ -199,7 +240,7 @@
 					margin-top: 13px;
 					img{
 						width: 15px;
-						transform: rotate(180deg);
+						transform: rotate(0deg);
 						transition: all 0.25s ease;
 					}
 				}
@@ -208,6 +249,9 @@
 				margin-top: 24px;
 				display: none;	
 			}
+			&:first-child {
+				margin-top: 60px;
+			}
 			&:not(:last-child){
 				margin-bottom: 60px;
 			}
@@ -215,7 +259,7 @@
 				.head{
 					.arrow{
 						img{
-							transform: rotate(0deg);
+							transform: rotate(180deg);
 						}
 					}
 				}

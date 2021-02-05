@@ -1228,6 +1228,26 @@
 		"plM": 4010962575359,
 		"prP": 0
 		},
+	"/img/mentions/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/mentions/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
+	"/img/mentions/underline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/mentions/underline.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 4010962575359,
+		"prP": 0
+		},
 	"/img/offre/section-cover/icn-check.svg": {
 		"ft": 2097152,
 		"miP": 0,

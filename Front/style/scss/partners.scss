@@ -189,6 +189,8 @@
 					padding: 0px 45px 0px 45px;
 					margin-bottom: 17px;
 					text-align: left;
+					overflow: hidden;
+					text-overflow: clip;
 				}
 				p{
 					@include styleParagraphMedium;
@@ -196,6 +198,17 @@
 					margin-bottom: 28px;
 					text-align: left;
 					bottom: 56px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				&:not(.small):not(.medium) p {
+					height: 237px;
+				}
+				&.small p {
+					height: 65px;
+				}
+				&.medium p {
+					height: 170px;
 				}
 				.soon{
 					text-align: center;
@@ -217,9 +230,15 @@
 					width: 100%;
 					background: #E2EFF2;
 					span{
+						display: block;
 						@include styleParagraphSmall;
 						font-weight: bold;
 						color: $colorMain_2;
+						white-space: nowrap;
+						max-width: calc(100% - 40px);
+						overflow: hidden;
+  						text-overflow: clip;
+  						margin: auto;
 					}
 				}
 				.btn{
@@ -230,9 +249,12 @@
 					margin-top: 32px;
 					@include styleButton("big", "2");
 					border-color: $colorMain_2;
+					max-width: calc(100% - 100px);
 					.btn-text{
 						white-space: nowrap;
 						color: $colorMain_2;
+						overflow: hidden;
+  						text-overflow: clip;
 					}
 				}
 			}
@@ -248,13 +270,12 @@
 					margin-left: 0;
 				}
 				width: calc(50% - 10px);
-				height: initial;
 				.logo{
 					height: 100px;
 				}
 				.text{
 					.soon{
-						margin-top: 50px;
+						bottom: 40px;
 					}
 				}
 			}
@@ -269,7 +290,6 @@
 					margin-right: 0;
 				}
 				width: 100%;
-				height: initial;
 				.logo{
 					height: 100px;
 				}

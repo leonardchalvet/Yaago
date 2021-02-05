@@ -4,7 +4,7 @@ $('.section-cover .container-filter .filter .input').click(function(){
 });
 
 $('.section-cover .container-filter .filter .dropdown .el').click(function(){
-	$('.section-cover .container-filter .filter .input input').val($(this).text());
+	$('.section-cover .container-filter .filter .input input').val($(this).text().trim());
 	$('.section-cover .container-filter .filter .dropdown').removeClass('style-open');
 
 	$('.section-partners .container-el .el').removeClass('style-hide');

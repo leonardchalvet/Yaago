@@ -19,12 +19,19 @@
 
 		<main>
 
+			<div class="btn-top">
+				<span class="btn-text">Back to top</span>
+				<svg class="btn-arrow-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12" >
+					<use xlink:href="img/mentions/arrow.svg#content"></use>
+				</svg>
+			</div>
+
 
 			<section class="section-cover">
 				<div class="wrapper">
 					<div class="container-text">
 						<h1>
-							Conditions <em>d’utilisation</em>
+							Documentation <em>légale</em>
 						</h1>
 					</div>
 				</div>

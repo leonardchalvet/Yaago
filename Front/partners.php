@@ -119,18 +119,15 @@
 							<div class="logo">
 								<img src="https://images.prismic.io/yaago/12d3bb69-fbe9-42d3-9bb7-2a26dcaac154_igloohome.png?auto=compress,format" alt="">
 							</div>
-							<div class="text">
-								<h3>Serrure connectée</h3>
+							<div class="text small">
+								<h3>43fdwgjhvldsfwcghvidjsfbwcgbsjvdfkxwnghjvdlskfbxcwgjisdknfxbgjidsklfhxcgnbiusjdflkxchbnjsdfklbgjkdsfxcjdsfxcbjkv</h3>
 								<p>
-									Avec Igloohome gérez l'ouverture de votre porte à distance. Facilitez vos check-in et votre quotidien de façon autonome.
+									La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...
+
+
 								</p>
-								<div class="bdg">
-									<span>
-										-30% de réduction en cliquant ci-dessous
-									</span>
-								</div>
 								<div class="btn">
-									<div class="btn-text">Profitez de la réduction
+									<div class="btn-text">43fdwgjhvldsfwcghvidjsfbwcgbsjvdfkxwnghjvdlskfbxcwgjisdknfxbgjidsklfhxcgnbiusjdflkxchbnjsdfklbgjkdsfxcjdsfxcbjkv
 									</div>
 								</div>
 							</div>

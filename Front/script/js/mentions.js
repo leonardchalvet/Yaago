@@ -18,3 +18,15 @@ $('.section-cover .container-filter ul li a').click(function(){
 		$('.container-section .section-mentions:nth-child(' + index + ')').addClass('style-active');
 	}
 });
+
+$('.btn-top').click(function(){
+	$('body').animate({scrollTop:0}, '500', 'swing');
+})
+
+$window.scroll(function() {
+	if ( $window.scrollTop() >= 100 ) {
+        $('.btn-top').addClass('style-scroll');
+    } else {
+    	$('.btn-top').removeClass('style-scroll');
+    };
+});
