@@ -65,7 +65,9 @@ $url = $urlt[0].'//'.$urlt[2].'/';
 				<h2><?= RichText::asText($footer->sponsors_text); ?></h2>
 				<div class="container-img">
 					<?php foreach ($footer->sponsors_alllogos as $l) { ?>
-						<img src="<?= $l->grp_img->url; ?>" alt="<?= $l->grp_img->alt; ?>">
+						<a href="<?= checkUrl($l->link); ?>" target="_blank">
+							<img src="<?= $l->grp_img->url; ?>" alt="<?= $l->grp_img->alt; ?>">
+						</a>
 					<?php } ?>
 				</div>
 			</div>
