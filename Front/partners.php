@@ -122,12 +122,13 @@
 							<div class="text small">
 								<h3>43fdwgjhvldsfwcghvidjsfbwcgbsjvdfkxwnghjvdlskfbxcwgjisdknfxbgjidsklfhxcgnbiusjdflkxchbnjsdfklbgjkdsfxcjdsfxcbjkv</h3>
 								<p>
-									La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...
+									La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont cqnfrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont confrontés ...La fédération Hôtes de France permet de répondre collectivement aux enjeux communs auxquels les acteurs de « l’accueil en location de courte durée » sont cqnfrontés ...
 
 
 								</p>
 								<div class="btn">
-									<div class="btn-text">43fdwgjhvldsfwcghvidjsfbwcgbsjvdfkxwnghjvdlskfbxcwgjisdknfxbgjidsklfhxcgnbiusjdflkxchbnjsdfklbgjkdsfxcjdsfxcbjkv
+									<div class="btn-text">
+										Take advantage of the discours
 									</div>
 								</div>
 							</div>
