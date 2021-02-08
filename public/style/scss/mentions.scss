@@ -85,11 +85,8 @@
 					cursor: pointer;
 					text-decoration: none;
 					@include styleH4;
-					@include styleUnderline;
 					&.style-active{
-						&:after{
-							content:url(../../img/common/underline/underline-2.svg);
-						}
+						font-family: $font_1_bold;
 					}
 				}
 				

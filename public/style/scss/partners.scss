@@ -202,10 +202,10 @@
 					text-overflow: ellipsis;
 				}
 				&:not(.small):not(.medium) p {
-					height: 237px;
+					height: 240px;
 				}
 				&.small p {
-					height: 65px;
+					height: 75px;
 				}
 				&.medium p {
 					height: 170px;
@@ -249,7 +249,7 @@
 					margin-top: 32px;
 					@include styleButton("big", "2");
 					border-color: $colorMain_2;
-					max-width: calc(100% - 100px);
+					max-width: calc(100% - 80px);
 					.btn-text{
 						white-space: nowrap;
 						color: $colorMain_2;
