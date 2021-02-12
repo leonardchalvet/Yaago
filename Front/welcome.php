@@ -15,13 +15,27 @@
 	
 	<body>
 
-		<?php include('common-header.php') ?>
-
 		<main>
 
 
+			<div class="container-logo">
+				<a href="">
+					<img src="img/common/logo.svg" alt="">
+				</a>
+			</div>
+				
+			
+
 			<section class="section-features">
 				<div class="wrapper">
+					<div class="container-head">
+						<a href="">
+							<span class="arrow">
+								<img src="img/welcome/icn-arrow.svg" alt="">
+							</span>
+							<span class="text">Retour au site</span>
+						</a>
+					</div>
 					<div class="container-features">
 						<div class="container-text">
 							<h1>
