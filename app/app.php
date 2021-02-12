@@ -194,8 +194,8 @@ function renderPage($request, $response, $args, $app, $prismic) {
     //PART 4 - Call current page
     $document = NULL;
     $nType = 0;
-    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing', 'faq_1', 'faq_2', 'legal_mention', 'legal_mention_v2', 'partners', 'solution' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
-    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing', 'faq_1', 'faq_2', 'legal_mention', 'legal_mention_v2', 'partners', 'solution' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
+    $arrayTypes = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing', 'faq_1', 'faq_2', 'legal_mention', 'legal_mention_v2', 'partners', 'solution', 'welcome' ]; // UPDATE NAME OF CUSTOM TYPE HERE (only if exist in CONTENT)
+    $arrayView  = [ 'home', 'p404', 'contact', 'about', 'articles', 'offers', 'blog', 'landing', 'faq_1', 'faq_2', 'legal_mention', 'legal_mention_v2', 'partners', 'solution', 'welcome' ]; // NAME IN "VIEWS" FOLDER, ALWAYS SAME POSITION BETWEEN "arrayTypes" & "arrayView"
     foreach ($arrayTypes as $type) {
         $document = $api->getByUID($type, $args['uid'], $options);
 
