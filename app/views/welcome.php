@@ -113,8 +113,6 @@ $document = $WPGLOBAL['document']->data;
       
     </main>
 
-    <?php include('common-footer.php') ?>
-
     <script type="text/javascript" src="/script/minify/welcome-min.js"></script>
   </body>
 </html>

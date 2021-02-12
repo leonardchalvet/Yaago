@@ -28,6 +28,7 @@ main{
 			flex-flow: row wrap;
 			align-items: center;
 			text-decoration: none;
+			transition: all 0.25s ease;
 			.arrow{
 				height: 10px;
 				display: block;
@@ -40,6 +41,9 @@ main{
 				@include styleParagraphBig;
 				font-family: $font_1_bold;
 				color: $colorMain_2;
+			}
+			&:hover{
+				opacity: 0.7;
 			}
 		}
 	}
