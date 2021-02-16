@@ -73,11 +73,11 @@
 			margin-top: 40px;
 			
 			.input{
-				border: 1px solid $colorMain_9;
 				display: flex;
 				flex-flow: row wrap;
 				justify-content: space-between;
-				border-radius: 60px;
+				border: 1px solid $colorMain_9;
+				border-radius: 60px;	
 				input{
 					flex: 1;
 					border: none;
@@ -115,6 +115,12 @@
 				}
 			}
 			
+		}
+
+		a{
+			margin-top: 40px;
+			@include styleButton("medium", "1");
+			border: none;
 		}
 	}
 }

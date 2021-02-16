@@ -42,8 +42,10 @@
 							<div class="error">
 								 Ce champ comporte une erreur 
 							</div>
-							
 						</form>
+						<a href="" class="btn">
+							<span class="btn-text">Je découvre </span>
+						</a>
 					</div>
 					<div class="container-illu">
 						<img src="img/landing/section-cover/illu.svg" alt="">
