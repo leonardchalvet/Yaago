@@ -48,6 +48,7 @@ $document = $WPGLOBAL['document']->data;
                 <?= RichText::asText($document->cover_title2); ?>
               </span>
             </h1>
+            <?php if(!$document->cover_isbtn) { ?>
             <form class="container-input" onsubmit="return false">
               <div class="input">
                 <input name="goto" type="text" style="display: none;" value="<?php checkUrl($document->cover_goto); ?>">
@@ -64,6 +65,11 @@ $document = $WPGLOBAL['document']->data;
               </div>
             </div>
           </form>
+          <?php } else { ?>
+            <a href="<?php checkUrl($document->cover_inputbtnlink); ?>" class="btn">
+              <span class="btn-text"><?= RichText::asText($document->cover_inputbtn); ?></span>
+            </a>
+          <?php } ?>
           <div class="container-illu">
             <img src="<?= $document->cover_img->url; ?>" alt="<?= $document->cover_img->alt; ?>">
           </div>
