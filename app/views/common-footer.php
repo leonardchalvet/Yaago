@@ -114,6 +114,17 @@ $url = $urlt[0].'//'.$urlt[2].'/';
 		</div>
 	</div>
 
+
+<!-- ActiveCampaign Code -->
+<script type=“text/javascript”>
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement(“script”);r.src=o;r.async=true;i=t.getElementsByTagName(“script”)[0];i.parentNode.insertBefore(r,i)})(window,document,“https://diffuser-cdn.app-us1.com/diffuser/diffuser.js”,“vgo”);
+    vgo(‘setAccount’, ‘649935505’);
+    vgo(‘setTrackByDefault’, true);
+    vgo(‘process’);
+</script>
+<!-- End ActiveCampaign Code -->
+
+
 </footer>
 
 <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=yaago"></script>
@@ -123,6 +134,8 @@ $url = $urlt[0].'//'.$urlt[2].'/';
     app_id: "yifgplim"
   };
 </script>
+
+
 <script>
 // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/yifgplim'
 (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/yifgplim';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
