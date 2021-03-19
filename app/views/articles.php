@@ -9,8 +9,9 @@ $uid = $WPGLOBAL['document']->uid;
 $firstpublish = date_create($WPGLOBAL['document']->first_publication_date);
 $lastpublish  = date_create($WPGLOBAL['document']->last_publication_date);
 
-if( getLang() == 'fr' ) {
-  setlocale(LC_TIME, "fr_FR");
+$urlt = explode('/',(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+if( $urlt[3] === 'fr' ) {
+  setlocale(LC_ALL, "fr_FR.UTF-8");
   $firstpublish = strftime("%d %B %G", strtotime(date_format($firstpublish, 'j F Y')));
   $lastpublish = strftime("%d %B %G", strtotime(date_format($lastpublish, 'j F Y')));
 }
