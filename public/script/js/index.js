@@ -150,3 +150,106 @@ $window.scroll(function() {
     
 });
 
+/* LIGHTBOX */
+
+let download = $('.container-lightbox .lightbox-1 .download').text();
+$('.container-lightbox .lightbox-1 .download').remove();
+
+setTimeout(function(){
+	$('body').addClass('no-scroll');
+	$('.container-lightbox').addClass('style-block');
+	$('.container-lightbox .lightbox-1').addClass('style-block');
+	setTimeout(function(){
+		$('.container-lightbox').addClass('style-show');
+		$('.container-lightbox .lightbox-1').addClass('style-show');
+	}, 100);
+}, 5000);
+
+$('.container-lightbox .lightbox .cross').click(function(){
+	$('.container-lightbox').removeClass('style-show');
+	$('.container-lightbox .lightbox-1').removeClass('style-show');
+	$('.container-lightbox .lightbox-2').removeClass('style-show');
+	setTimeout(function(){
+		$('body').removeClass('no-scroll');
+		$('.container-lightbox').removeClass('style-block');
+		$('.container-lightbox .lightbox-1').removeClass('style-block');
+		$('.container-lightbox .lightbox-2').removeClass('style-block');
+	}, 500);
+});
+
+$('.container-lightbox .lightbox-2 button').click(function(){
+	$('.container-lightbox').removeClass('style-show');
+	$('.container-lightbox .lightbox-1').removeClass('style-show');
+	$('.container-lightbox .lightbox-2').removeClass('style-show');
+	setTimeout(function(){
+		$('body').removeClass('no-scroll');
+		$('.container-lightbox').removeClass('style-block');
+		$('.container-lightbox .lightbox-1').removeClass('style-block');
+		$('.container-lightbox .lightbox-2').removeClass('style-block');
+	}, 500);
+});
+
+$('body').click(function(event){
+	if ($(event.target).closest(".container-lightbox .lightbox").length === 0) {
+		$('.container-lightbox').removeClass('style-show');
+		$('.container-lightbox .lightbox-1').removeClass('style-show');
+		$('.container-lightbox .lightbox-2').removeClass('style-show');
+		setTimeout(function(){
+			$('body').removeClass('no-scroll');
+			$('.container-lightbox').removeClass('style-block');
+			$('.container-lightbox .lightbox-1').removeClass('style-block');
+			$('.container-lightbox .lightbox-2').removeClass('style-block');
+		}, 500);
+	}
+});
+
+$('.container-lightbox .lightbox-1 form button').on('click', function() {
+	let returnF = true;
+	$(this).parent().parent().find('input').each(function(){
+		
+		if( isEmpty($(this)) ) {
+			returnF = false;
+			$(this).parent().addClass('style-error');
+		}
+		else {
+			$(this).parent().removeClass('style-error');
+		}
+
+		if($(this).attr("name") == 'email') {
+			let returnV = verifEmail($(this));
+			if(!returnV) {
+				returnF = false;
+				$(this).parent().addClass('style-error');
+			}
+		}
+		if($(this).attr("name") == 'phone') {
+			let returnV = verifNumber($(this));
+			if(!returnV) {
+				returnF = false;
+				$(this).parent().addClass('style-error');
+			}
+		}
+	});
+
+	if(returnF) {
+
+		window.open(download, '_blank');
+
+		let form = $(this).parent();
+		$.ajax({
+			url : '/sendMail/home.php',
+			type : 'POST',
+			data : form.serialize(),
+			success : function(code, statut){
+				$('.container-lightbox .lightbox-1').removeClass('style-show');
+				setTimeout(function(){
+					$('.container-lightbox .lightbox-1').removeClass('style-block');
+					$('.container-lightbox .lightbox-2').addClass('style-block');
+					setTimeout(function(){
+						$('.container-lightbox .lightbox-2').addClass('style-show');
+					}, 100);
+				}, 500);
+			}
+		});
+	}
+});
