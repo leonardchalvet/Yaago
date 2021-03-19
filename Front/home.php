@@ -12,6 +12,61 @@
 	<body>
 		<?php include('common-header.php') ?>
 
+		<div class="container-lightbox">
+	      	<div class="lightbox lightbox-1">
+		      	<div class="download">img/home/lightbox/img.png</div>
+		        <div class="cross">
+		          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+		            <use xlink:href="img/home/lightbox/cross.svg#content"></use>
+		          </svg>
+		        </div>
+		        <div class="row">
+		          	<div class="col">
+		            	<img src="img/home/lightbox/logo.svg" alt="logo">
+		            	<img src="img/home/lightbox/img.png" alt="img">
+		          	</div>
+		          	<div class="col">
+			            <div class="container-title">
+			              <h3>Les fondamentaux pour faire la différence</h3>
+			              <p>Vous êtes propriétaire et vous souhaitez toujours plus améliorer votre expérience ? Retrouvez dans le livre blanc Yaago les clés pour rendre heureux vos voyageurs !</p>
+			            </div>
+			            <form onSubmit="return false;">
+			              <div class="container-input">
+			              	<div class="input">
+			                	<input type="text" name="lastname" placeholder="Votre nom">
+			                </div>
+			                <div class="input">
+			                	<input type="text" name="firstname" placeholder="Votre prénom">
+			                </div>
+			                <div class="input">
+			                	<input type="email" name="email" placeholder="Votre adresse e-mail">
+			                </div>
+			                <div class="input">
+			                	<input type="text" name="phone" placeholder="Votre numéro de téléphone">
+			                </div>
+			              </div>
+			              <button>
+			              	<span class="btn-text">Télécharger le pdf</span>
+			              </button>
+			            </form>
+		          	</div>      
+		        </div>
+	      	</div>
+	      	<div class="lightbox lightbox-2">
+		      	<div class="cross">
+		          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+		            <use xlink:href="img/home/lightbox/cross.svg#content"></use>
+		          </svg>
+		        </div>
+	      		<img src="img/home/lightbox/illu.svg" alt="">
+	      		<h3>Merci pour votre téléchargement</h3>
+	      		<p>Surveillez votre boite e-mail, vous allez prochainement recevoir votre livre blanc Yaago.</p>
+				<button>
+					<span class="btn-text">Retour au site</span>
+				</button>
+	      	</div>
+	    </div>
+
 		<main>
 
 			<div class="container">
