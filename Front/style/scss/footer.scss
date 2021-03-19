@@ -281,6 +281,11 @@ footer{
 	footer{
 		margin-top: 45px;
 		padding-top: 45px;
+		.container-send {
+			padding: 5px 30px;
+			height: auto;
+			width: calc(100% - 100px);
+		}
 		.content{
 			.container-logo{
 				width: 100%;

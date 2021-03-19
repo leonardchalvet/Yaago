@@ -2,7 +2,7 @@
 
 	<div class="container-send">
 		<img src="img/contact/check.svg" alt="">
-		<div class="text">Message Envoyé</div>
+		<div class="text">Votre inscription à la newsletter est bien prise en compte.</div>
 	</div>
 	
 	<div class="content">

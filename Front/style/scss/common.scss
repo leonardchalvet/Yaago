@@ -451,6 +451,14 @@ h1, h2, h3, h4, h5, h6, i, em
 				.btn-arrow{
 					stroke: $colorMain_1;
 				}
+			} @else if $style == "4" {
+				border: 1px solid $colorMain_11;
+				.btn-text{
+					color: $colorMain_11;
+				}
+				.btn-arrow{
+					stroke: $colorMain_11;
+				}
 			};
 
 			transition: all 0.25s ease;
