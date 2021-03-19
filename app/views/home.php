@@ -31,6 +31,63 @@ $document = $WPGLOBAL['document']->data;
 
     <?php include('common-header.php') ?>
 
+    <div class="container-lightbox">
+        <div class="lightbox lightbox-1">
+          <div class="download"><?= $document->lbf_download->url; ?></div>
+          <div class="cross">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="/img/home/lightbox/cross.svg#content"></use>
+            </svg>
+          </div>
+          <div class="row">
+              <div class="col">
+                <img src="<?= $document->lbf_logo->url; ?>" alt="logo">
+                <img src="<?= $document->lbf_img->url; ?>" alt="img">
+              </div>
+              <div class="col">
+                <div class="container-title">
+                  <h3><?= RichText::asText($document->lbf_title); ?></h3>
+                  <p><?= RichText::asText($document->lbf_text); ?></p>
+                </div>
+                <form onSubmit="return false;">
+                  <div class="container-input">
+                    <input type="text" name="sendto" value="<?= RichText::asText($document->lbf_sendto); ?>" style="display: none;">
+                    <input type="text" name="object" value="<?= RichText::asText($document->lbf_object); ?>" style="display: none;">
+                    <div class="input">
+                      <input type="text" name="lastname" placeholder="<?= RichText::asText($document->lbf__lastname); ?>">
+                    </div>
+                    <div class="input">
+                      <input type="text" name="firstname" placeholder="<?= RichText::asText($document->lbf_firstname); ?>">
+                    </div>
+                    <div class="input">
+                      <input type="email" name="email" placeholder="<?= RichText::asText($document->lbf_email); ?>">
+                    </div>
+                    <div class="input">
+                      <input type="text" name="phone" placeholder="<?= RichText::asText($document->lbf_phone); ?>">
+                    </div>
+                  </div>
+                  <button>
+                    <span class="btn-text"><?= RichText::asText($document->lbf_btntext); ?></span>
+                  </button>
+                </form>
+              </div>      
+          </div>
+        </div>
+        <div class="lightbox lightbox-2">
+          <div class="cross">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="/img/home/lightbox/cross.svg#content"></use>
+            </svg>
+          </div>
+          <img src="<?= $document->lbc_illu->url; ?>" alt="">
+          <h3><?= RichText::asText($document->lbc_title); ?></h3>
+          <p><?= RichText::asText($document->lbc_text); ?></p>
+          <button>
+            <span class="btn-text"><?= RichText::asText($document->lbc_btntext); ?></span>
+          </button>
+        </div>
+    </div>
+
     <main>
 
       <div class="container">
@@ -143,62 +200,81 @@ $document = $WPGLOBAL['document']->data;
         </div>
       </section>
 
-      <section class="section-partners">
-        <div class="wrapper">
-          <div class="container-title">
-            <?= RichText::asHtml($document->partners_title); ?>
-            <?= RichText::asHtml($document->partners_text); ?>
-          </div>
-          <div class="container-partners">
-            <?php $i=1; 
+      <?php if(!$document->partners_choice) { ?>
+        <section class="section-partners">
+          <div class="wrapper">
+            <div class="container-title">
+              <?= RichText::asHtml($document->partners_title); ?>
+              <?= RichText::asHtml($document->partners_text); ?>
+            </div>
+            <div class="container-partners">
+              <?php $i=1; 
 
-            function returnPatern($p) { ?>
-              <?php if($p->grp_img->url) { ?>
-                <a href="<?= checkUrl($p->link); ?>" target="_blank" class="img">
-                  <img src="<?= $p->grp_img->url ?>" alt="<?= $p->grp_img->alt; ?>">
-                </a>
-              <?php } ?>
-              <div class="text">
-                <?= RichText::asHtml($p->grp_title); ?>
-                <?= RichText::asHtml($p->grp_text); ?>
-              </div>
-            <?php }
-
-            foreach ($document->partners_grp as $p) { ?>
-              <?php if($i == 1) { ?>
-              <div class="raw">
-                <div class="partners">
-                  <?php echo(returnPatern($p)); ?>
-                </div>
-              </div>
-              <div class="raw">
-              <?php } else if( $i == count($document->partners_grp)) { ?>
-              </div>
-              <div class="raw">
-                <div class="partners">
-                  <?php echo(returnPatern($p)); ?>
-                  <a href="<?php checkUrl($document->partners_btnlinkuc); ?>">
-                    <span class="link-text"><?= RichText::asText($document->partners_btntextuc); ?></span>
+              function returnPatern($p) { ?>
+                <?php if($p->grp_img->url) { ?>
+                  <a href="<?= checkUrl($p->link); ?>" target="_blank" class="img">
+                    <img src="<?= $p->grp_img->url ?>" alt="<?= $p->grp_img->alt; ?>">
                   </a>
+                <?php } ?>
+                <div class="text">
+                  <?= RichText::asHtml($p->grp_title); ?>
+                  <?= RichText::asHtml($p->grp_text); ?>
                 </div>
-              </div>
-              <?php } else { ?>
-              <div class="partners">
-                <?php echo(returnPatern($p)); ?>
+              <?php }
+
+              foreach ($document->partners_grp as $p) { ?>
+                <?php if($i == 1) { ?>
+                <div class="raw">
+                  <div class="partners">
+                    <?php echo(returnPatern($p)); ?>
+                  </div>
+                </div>
+                <div class="raw">
+                <?php } else if( $i == count($document->partners_grp)) { ?>
+                </div>
+                <div class="raw">
+                  <div class="partners">
+                    <?php echo(returnPatern($p)); ?>
+                    <a href="<?php checkUrl($document->partners_btnlinkuc); ?>">
+                      <span class="link-text"><?= RichText::asText($document->partners_btntextuc); ?></span>
+                    </a>
+                  </div>
+                </div>
+                <?php } else { ?>
+                <div class="partners">
+                  <?php echo(returnPatern($p)); ?>
+                </div>
+                <?php } ?>
+              <?php $i++; } ?>
+            </div> 
+            <div class="banner">
+              <?= RichText::asHtml($document->partners_question); ?>
+              <a href="<?php checkUrl($document->partners_btnlink); ?>" class="btn">
+                <span class="btn-text">
+                  <?= RichText::asText($document->partners_btntext); ?>
+                </span>
+              </a>
+            </div>
+          </div>
+        </section>
+      <?php } else { ?>
+        <section class="section-why">
+          <div class="wrapper">
+            <div class="container-title">
+              <?= RichText::asHtml($document->why_title); ?>
+            </div>
+            <div class="container-el">
+              <?php foreach ($document->why_elements as $e) { ?>
+              <div class="el">
+                <img src="<?= $e->img->url; ?>" alt="<?= $e->img->alt; ?>">
+                <h3><?= RichText::asText($e->title); ?></h3>
+                <?= RichText::asHtml($e->text); ?>
               </div>
               <?php } ?>
-            <?php $i++; } ?>
-          </div> 
-          <div class="banner">
-            <?= RichText::asHtml($document->partners_question); ?>
-            <a href="<?php checkUrl($document->partners_btnlink); ?>" class="btn">
-              <span class="btn-text">
-                <?= RichText::asText($document->partners_btntext); ?>
-              </span>
-            </a>
-          </div>
-        </div>
-      </section>
+            </div>
+          </div>        
+        </section>
+      <?php } ?>
 
       <section class="section-quotes">
         <div class="wrapper">
