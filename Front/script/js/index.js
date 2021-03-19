@@ -163,7 +163,7 @@ setTimeout(function(){
 		$('.container-lightbox').addClass('style-show');
 		$('.container-lightbox .lightbox-1').addClass('style-show');
 	}, 100);
-}, 5000);
+}, 3000);
 
 $('.container-lightbox .lightbox .cross').click(function(){
 	$('.container-lightbox').removeClass('style-show');
