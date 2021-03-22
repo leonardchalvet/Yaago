@@ -14,7 +14,6 @@
 
 		<div class="container-lightbox">
 	      	<div class="lightbox lightbox-1">
-		      	<div class="download">img/home/lightbox/img.png</div>
 		        <div class="cross">
 		          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 		            <use xlink:href="img/home/lightbox/cross.svg#content"></use>
@@ -33,16 +32,20 @@
 			            <form onSubmit="return false;">
 			              <div class="container-input">
 			              	<div class="input">
-			                	<input type="text" name="lastname" placeholder="Votre nom">
+			              		<label for="lastname">Votre nom</label>
+			                	<input type="text" name="lastname">
 			                </div>
 			                <div class="input">
-			                	<input type="text" name="firstname" placeholder="Votre prénom">
+			                	<label for="firstname">Votre prénom</label>
+			                	<input type="text" name="firstname">
 			                </div>
 			                <div class="input">
-			                	<input type="email" name="email" placeholder="Votre adresse e-mail">
+			                	<label for="email">Votre adresse e-mail</label>
+			                	<input type="email" name="email">
 			                </div>
 			                <div class="input">
-			                	<input type="text" name="phone" placeholder="Votre numéro de téléphone">
+			                	<label for="phone">Votre numéro de téléphone</label>
+			                	<input type="text" name="phone">
 			                </div>
 			              </div>
 			              <button>

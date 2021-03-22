@@ -88,19 +88,31 @@
 						}
 					}
 					form {
-						margin-top: 38.5px;
+						margin-top: 42px;
 						.container-input {
 							display: flex;
 							flex-wrap: wrap;
 							justify-content: space-between;
 							.input {
+								position: relative;
 								padding-bottom: 13.5px;
 								width: calc(50% - 12.5px);
 								border-bottom: 1px solid $colorMain_11;
 								&:nth-last-child(1n + 3) {
 									margin-bottom: 46.5px;
 								}
+								label {
+									position: absolute;
+									z-index: 0;
+									top: 0px;
+									left: 0;
+									@include styleParagraphSmall;
+									color: $colorMain_11;
+									transition: all .5s ease;
+								}
 								input {
+									position: relative;
+									z-index: 1;
 									width: 100%;
 									@include styleParagraphSmall;
 									color: $colorMain_11;
@@ -111,8 +123,23 @@
 										color: $colorMain_11;
 									}
 								}
+								input:-webkit-autofill,
+								input:-webkit-autofill:hover, 
+								input:-webkit-autofill:focus {
+								  -webkit-text-fill-color: $colorMain_11;
+								  -webkit-box-shadow: 0 0 0px 1000px #01204B inset;
+								}
+								&.style-focus,
+								&.style-fill {
+									label {
+										top: -25px;
+									}
+								}
 								&.style-error {
 									border-color: $colorMain_1;
+									label {
+										color: $colorMain_1;
+									}
 									input {
 										color: $colorMain_1;
 										&::placeholder {
