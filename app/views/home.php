@@ -31,9 +31,9 @@ $document = $WPGLOBAL['document']->data;
 
     <?php include('common-header.php') ?>
 
+    <?php if($document->lgf_show) { ?>
     <div class="container-lightbox">
         <div class="lightbox lightbox-1">
-          <div class="download"><?= $document->lbf_download->url; ?></div>
           <div class="cross">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <use xlink:href="/img/home/lightbox/cross.svg#content"></use>
@@ -54,16 +54,20 @@ $document = $WPGLOBAL['document']->data;
                     <input type="text" name="sendto" value="<?= RichText::asText($document->lbf_sendto); ?>" style="display: none;">
                     <input type="text" name="object" value="<?= RichText::asText($document->lbf_object); ?>" style="display: none;">
                     <div class="input">
-                      <input type="text" name="lastname" placeholder="<?= RichText::asText($document->lbf__lastname); ?>">
+                      <label for="lastname"><?= RichText::asText($document->lbf__lastname); ?></label>
+                      <input type="text" name="lastname">
                     </div>
                     <div class="input">
-                      <input type="text" name="firstname" placeholder="<?= RichText::asText($document->lbf_firstname); ?>">
+                      <label for="firstname"><?= RichText::asText($document->lbf_firstname); ?></label>
+                      <input type="text" name="firstname">
                     </div>
                     <div class="input">
-                      <input type="email" name="email" placeholder="<?= RichText::asText($document->lbf_email); ?>">
+                      <label for="email"><?= RichText::asText($document->lbf_email); ?></label>
+                      <input type="email" name="email">
                     </div>
                     <div class="input">
-                      <input type="text" name="phone" placeholder="<?= RichText::asText($document->lbf_phone); ?>">
+                      <label for="phone"><?= RichText::asText($document->lbf_phone); ?></label>
+                      <input type="text" name="phone">
                     </div>
                   </div>
                   <button>
@@ -87,6 +91,7 @@ $document = $WPGLOBAL['document']->data;
           </button>
         </div>
     </div>
+    <?php } ?>
 
     <main>
 
