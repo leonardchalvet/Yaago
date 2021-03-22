@@ -108,7 +108,7 @@
 									left: 0;
 									@include styleParagraphSmall;
 									color: $colorMain_11;
-									transition: all .5s ease;
+									transition: all .25s ease;
 								}
 								input {
 									position: relative;
@@ -133,6 +133,8 @@
 								&.style-fill {
 									label {
 										top: -25px;
+										left: -6px;
+										transform: scale(.9);
 									}
 								}
 								&.style-error {
