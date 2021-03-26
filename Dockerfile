@@ -1,4 +1,4 @@
-FROM php:7
+FROM php:7.3
 
 RUN apt-get update && apt-get install -q -y msmtp mailutils && rm -rf /var/lib/apt/lists/*
 
