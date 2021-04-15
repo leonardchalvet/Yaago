@@ -163,7 +163,7 @@ if($('.container-lightbox')) {
 		}, 100);
 	}, 3000);
 
-	$('.container-lightbox .lightbox-1 .input').click(function(){
+	$('.container-lightbox .lightbox-1 .input').focusin(function(){
 		$('.container-lightbox .lightbox-1 .input').each(function(){
 			$(this).removeClass('style-focus');
 			if($(this).find('input').val().length > 0) {

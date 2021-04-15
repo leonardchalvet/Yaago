@@ -7,7 +7,7 @@
       "uuidString" : "630F0CCA-450C-45BD-9CC2-71A131CB134E"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/404.php" : {
       "cB" : 0,
@@ -4475,6 +4475,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -4509,6 +4512,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
