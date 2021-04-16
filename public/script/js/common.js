@@ -73,6 +73,6 @@ $('footer form button').on('click', function() {
 					}, 3000);
 				}
 			});
-		}
+		} else doClickOnForm = false;
 	}
 })
