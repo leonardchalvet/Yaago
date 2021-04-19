@@ -1,4 +1,5 @@
 <?php
+require_once '../vendor/autoload.php';
 
 $firstname = isset($_POST['firstname'])  ?  $_POST['firstname'] : null ;
 $lastname  = isset($_POST['lastname'])   ?  $_POST['lastname']  : null ;
@@ -16,7 +17,7 @@ if($firstname != null && $lastname != null && $email != null && $phone != null &
 				"Phone : "     . "\n" . $phone     . "\n" . "\n";
 	mail($sendto, $object, $content, $header);
 	*/
-	require_once("includes/ActiveCampaign.class.php");
+	
 	$ac = new ActiveCampaign("https://infine.api-us1.com", "7a7919c41e38f8b803424bcf45b7262855f74bca27ec9be62e232ad2d3784ffe5877264a");
 	$contact = array(
 		"email"              => $email,
