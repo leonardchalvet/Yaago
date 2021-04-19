@@ -1,5 +1,5 @@
 <?php
-require_once '../vendor/autoload.php';
+require_once '../../vendor/autoload.php';
 
 $firstname = isset($_POST['firstname'])  ?  $_POST['firstname'] : null ;
 $lastname  = isset($_POST['lastname'])   ?  $_POST['lastname']  : null ;
