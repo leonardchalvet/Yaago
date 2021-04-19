@@ -23,6 +23,7 @@ if($firstname != null && $lastname != null && $email != null && $phone != null &
 		"email"              => $email,
 		"first_name"         => $firstname,
 		"last_name"          => $lastname,
+		"phone"          => $phone,
 		"tags"      => "livre-blanc"
 	);
 
