@@ -4,7 +4,8 @@
   "description": "Yaago Website using Prismic.io",
   "require": {
     "slim/slim": "3.*",
-    "prismic/php-sdk": "^5.1"
+    "prismic/php-sdk": "^5.1",
+    "activecampaign/api-php": "1.0.0"
   },
   "require-dev": {
     "there4/slim-test-helpers": "dev-master",
